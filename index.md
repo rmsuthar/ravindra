@@ -1,9 +1,9 @@
 # Hi, I'm Ravindra!
 User-centered design & development Certified Scrum master
-m: +91-8380099988
-m: +91-7722044011
-e: ravindra.suthar@me.com 
-e: rsuthar@outlook.com
+- m: +91-8380099988
+- m: +91-7722044011
+- e: ravindra.suthar@me.com 
+- e: rsuthar@outlook.com
 
 As a highly skilled UI developer and experienced leader with over 17 years of experience in UI development and 6 years in leadership and team management, I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
 
