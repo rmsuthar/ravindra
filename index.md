@@ -5,6 +5,8 @@
 - e: ravindra.suthar@me.com 
 - e: rsuthar@outlook.com
 
+## Summary
+
 As a highly skilled UI developer and experienced leader with over 17 years of experience in UI development and 6 years in leadership and team management, I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
 
 In addition to my technical expertise, I also have extensive experience with agile development methodologies and am a certified Scrum Master. I have led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and have worked closely with product owners to prioritize and deliver features on time and within budget.
@@ -23,11 +25,12 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 - Git, Jenkins, and JIRA
 - iOS and Android compatible web development
 - Node.js, Java, and Python
-- Accessibility (ADA) standards
+- Accessibility (ADA) standards including WCAG 2.0 and 2.1 guidelines
 - SEO strategies for Google and Adobe technologies
 - Application performance optimization
 - Micro frontends
 - Responsive web design and layouting with CSS frameworks such as Bootstrap
+- Styling Concepts using SCSS, SASS
 
 ## Management and Leadership Skills
 
@@ -41,11 +44,18 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 ## Achievements
 
 - Successfully led a team of developers in the creation of a responsive and accessible web application for a large financial institution.
-- Implemented SEO strategies that resulted in a 20% increase in organic traffic and a 15% increase in revenue for a major e-commerce site.
-- Developed and launched a mobile app for a healthcare provider that received a 4.5-star rating on the App Store and increased patient engagement by 30%.
+- Implemented SEO strategies that resulted in a 20% increase in organic traffic and increased performance of website by improving caching and restructured code to increase 30% increase traffic
+- Developed custom tagging library for custom datalayer to capture custom events and CTA. Its increased 15% analytical recoreds
 
-## Education
+## Licenses & certifications
+- **Scrum Alliance Certifications** 
+- - Certified ScrumMaster® (CSM®)
+- **Amazon (AWS) Certifications** 
+- - Amazon Web Services Cloud Practitioner
+- **IBM Certifications** 
+- - Enterprise Design Thinking Practitioner
+- - Enterprise Design Thinking Co-Creator
+- - Blockchain Essentials 
+- - SQL and Relational Databases 101
 
-- Bachelor's degree in Computer Science from XYZ University
 
-Thanks for visiting my page! Feel free to connect with me on LinkedIn or email me at [email protected] if you have any questions or would like to chat. 
