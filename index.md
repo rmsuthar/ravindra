@@ -1,7 +1,7 @@
 # Hi, I'm Ravindra!
 
 ### Ravindra M. Suthar
-**User-centered design & development Certified Scrum master**
+**Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
 - m: +91-8380099988
 - m: +91-7722044011
 - e: [ravindra.suthar@me.com](ravindra.suthar@me.com "Send email")
