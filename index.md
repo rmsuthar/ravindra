@@ -82,3 +82,53 @@ I am a results-oriented professional who is dedicated to delivering excellence i
   - 1996 – 2000
 
 ## Professional Experience
+### Assistant Vice President (Sr. program analyst)
+**Citicorp Service (I) Ltd.** | May 2013 - Present (Over 9 years)
+- Manage a team of 10 UI developers in the design, development, and deployment of complex web applications for clients in various industries
+- Implement Agile methodologies and Scrum framework to ensure timely delivery of projects and efficient use of resources
+- Collaborate with cross-functional teams, including UX designers, project managers, and QA engineers, to ensure the success of projects
+- Develop and maintain UI development standards, including code quality, accessibility, and performance
+- Conduct performance evaluations and provide feedback to team members to improve skills and increase productivity
+
+### Sr. Consultant CRM
+**Cognizant Technology Solutions** | 2010 - 2013 (About 2 years)
+- Enterprise mobile web development
+- Oracle CRM API SOAP based development
+- Performed and analyze usability
+- Testing, competitive analysis Heuristic/expert evaluating
+- Enterprise application development for CRM.
+
+### Module Lead UI Developer 
+**Impetus InfoTech India Pvt. Ltd.** | 2007 - 2010 (Over 3 years)
+- Visualize concept and implementations
+- Usability analyst
+- Working on application usability and web client
+- Perform and analyze usability studies: usability testing, competitive analysis,
+- heuristic/expert evaluating
+- Interact with their key organizational leads, collaboratively driving necessary discussing, decisions, and outcomes Development, design standards, and industry best practices
+
+### Lead Web specialist
+**Gate six technologies India Pvt. Ltd.** | 2004 - 2007 (Almost 3 years)
+- Setting strategy for design, development, and SEO as well W3C Standard of web sites and web-based applications.
+- UI design
+- Concept visualization and flow of application. R&D on new technologies and implementation
+
+
+## Project Details
+
+### Project: Web Application for Financial Institution
+**Citicorp Service (I) Ltd.** 
+- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for a large financial institution
+- Developed UI components using React and Bootstrap, and integrated them with backend APIs
+- Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines
+- Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
+- Coordinated with project manager and Scrum master to ensure timely delivery and successful deployment of the application
+
+### Project: Mobile CRM for Sales
+**Cognizant Technology Solutions** 
+- Worked on a Mobile CRM application, where I integrated the Siebel SOAP web service.
+- Application will communicate with Oracle Siebel Server. Application is performing CRUD
+- Operations on different modules.
+- Played major role in End-to-End application development and delivery management.
+- Local Storage Data encryption GPS Location Dashboard with Charts
+- Calendar with event management with Month, Week and Day view
