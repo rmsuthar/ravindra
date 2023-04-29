@@ -1,6 +1,6 @@
+[Print this page](javascript:window.print())
 # Ravindra M. Suthar
 **Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
-[Print this page](javascript:window.print())
 - m: +91-8380099988
 - m: +91-7722044011
 - e: [ravindra.suthar@me.com](ravindra.suthar@me.com "Send email")
