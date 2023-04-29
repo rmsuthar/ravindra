@@ -1,5 +1,5 @@
 # Hi, I'm Ravindra!
-User-centered design & development Certified Scrum master
+**User-centered design & development Certified Scrum master**
 - m: +91-8380099988
 - m: +91-7722044011
 - e: ravindra.suthar@me.com 
