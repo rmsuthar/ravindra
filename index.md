@@ -47,7 +47,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 - Implemented SEO strategies that resulted in a 20% increase in organic traffic and increased performance of website by improving caching and restructured code to increase 30% increase traffic
 - Developed custom tagging library for custom datalayer to capture custom events and CTA. Its increased 15% analytical recoreds
 
-## Licenses & certifications
+## Licenses & Certifications
 - **Scrum Alliance Certifications** 
   - Certified ScrumMaster® (CSM®)
 - **Amazon (AWS) Certifications** 
@@ -73,7 +73,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
   - Jodi Glickman on Pitching Yourself Learning
   - Regular Expressions
 
-## Educational qualifications
+## Educational Qualifications
 - Post Graduate Diploma in INFORMATION TECHNOLOGY Sikkim Manipal University - Distance Education
   - 2000 - 2001
 - Higher Diploma Software Eng. (HDSE) Aptech Computer Educational
@@ -81,4 +81,4 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 - Bachelor of Science, CHEMISTRY AND MATHEMATICS - Gujarat University
   - 1996 – 2000
 
-## Professional experience
+## Professional Experience
