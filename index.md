@@ -49,9 +49,9 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 ## Licenses & certifications
 - **Scrum Alliance Certifications** 
-- - Certified ScrumMaster® (CSM®)
+  - Certified ScrumMaster® (CSM®)
 - **Amazon (AWS) Certifications** 
-- - Amazon Web Services Cloud Practitioner
+  - Amazon Web Services Cloud Practitioner
 - **IBM Certifications** 
 - - Enterprise Design Thinking Practitioner
 - - Enterprise Design Thinking Co-Creator
