@@ -5,7 +5,7 @@
 - m: +91-7722044011
 - e: [ravindra.suthar@me.com](ravindra.suthar@me.com "Send email")
 - e: [rsuthar@outlook.com](rsuthar@outlook.com "Send email")
-- w: https://rmsuthar.github.io/ravindra/
+- w: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/ "Portfolio")
 
 ## Summary
 
