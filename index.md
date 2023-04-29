@@ -1,4 +1,7 @@
 # Hi, I'm Ravindra!
+
+- [Blog](/blog)
+
 ### Ravindra M. Suthar
 **User-centered design & development Certified Scrum master**
 - m: +91-8380099988
