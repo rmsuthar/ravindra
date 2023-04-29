@@ -1,5 +1,7 @@
 # Hi, I'm Ravindra!
 
+[Print this page](javascript:window.print())
+
 ### Ravindra M. Suthar
 **Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
 - m: +91-8380099988
