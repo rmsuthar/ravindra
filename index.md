@@ -1,7 +1,5 @@
 # Hi, I'm Ravindra!
 
-- [Blog](/blog)
-
 ### Ravindra M. Suthar
 **User-centered design & development Certified Scrum master**
 - m: +91-8380099988
@@ -137,3 +135,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 - Played major role in End-to-End application development and delivery management.
 - Local Storage Data encryption GPS Location Dashboard with Charts
 - Calendar with event management with Month, Week and Day view
+
+
+## Blog
+Check out my latest blog posts [here](/blog.md)!
