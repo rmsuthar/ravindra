@@ -3,8 +3,8 @@
 **User-centered design & development Certified Scrum master**
 - m: +91-8380099988
 - m: +91-7722044011
-- e: ravindra.suthar@me.com 
-- e: rsuthar@outlook.com
+- e: [ravindra.suthar@me.com](ravindra.suthar@me.com "Send email")
+- e: [rsuthar@outlook.com](rsuthar@outlook.com "Send email")
 - w: https://rmsuthar.github.io/ravindra/
 
 ## Summary
