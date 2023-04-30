@@ -17,7 +17,7 @@
   }
 }
 </style>
-[Print this page](javascript:window.print()) {.print}
+[Print this page](javascript:window.print()){.print}
 # Ravindra M. Suthar
 **Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
 
