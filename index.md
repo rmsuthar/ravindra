@@ -11,8 +11,13 @@
 .markdown-body h1:first-child{
     display:none;
 }
+@media print {
+  .print {
+    display: none;
+  }
+}
 </style>
-[Print this page](javascript:window.print())
+[Print this page](javascript:window.print()) {.print}
 # Ravindra M. Suthar
 **Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
 
