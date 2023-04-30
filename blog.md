@@ -152,3 +152,35 @@ fetch('events.json')
 In this code, we use the forEach() method to iterate over the events and functions arrays in the JSON data. For each event or function, we create a new function using the Function constructor and assign it to a property on the window object with the same name as the event or function. We can then call the event or function using the **window\[event.name\]\(\)** syntax.
 
 ---
+
+# Identify selector is visible or not
+
+## Problem: identify selecotry is visible or not.
+
+```javascript
+function isElementVisible(elem) {
+  // Check if element is null or undefined
+  if (!elem) {
+    return false;
+  }
+
+  // Check if element is hidden
+  if (elem.offsetParent === null) {
+    return false;
+  }
+
+  // Check if any of the parent elements are hidden
+  var parent = elem.parentElement;
+  while (parent) {
+    if (parent.offsetParent === null) {
+      return false;
+    }
+    parent = parent.parentElement;
+  }
+
+  // If element and all its parents are visible, return true
+  return true;
+}
+```
+
+---
