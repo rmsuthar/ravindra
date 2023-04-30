@@ -3,29 +3,15 @@
 h1 {
   font-size: 2.5rem;
   margin: 2rem 0;
+  color: #333; /* dark grey */
 }
 
 h2 {
   font-size: 2rem;
   margin: 1.5rem 0;
+  color: #555; /* grey */
 }
 
-/* Styles for code blocks */
-pre {
-  background-color: #f5f5f5;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 14px;
-  line-height: 1.4;
-  overflow-x: auto;
-  padding: 1rem;
-  white-space: pre-wrap;
-}
-
-code {
-  font-family: 'Courier New', Courier, monospace;
-}
 </style>
 
 
