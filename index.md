@@ -8,6 +8,9 @@
   padding: 0.5rem;
   white-space: pre-wrap;
 }
+.markdown-body h1:first-child{
+    display:none;
+}
 </style>
 [Print this page](javascript:window.print())
 # Ravindra M. Suthar
