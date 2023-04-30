@@ -1,13 +1,23 @@
+<style>
+    h2 {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 0.5rem;
+  white-space: pre-wrap;
+}
+</style>
 [Print this page](javascript:window.print())
 # Ravindra M. Suthar
 **Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
-```
+
 - m: +91-8380099988
 - m: +91-7722044011
 - e: [ravindra.suthar@me.com](ravindra.suthar@me.com "Send email")
 - e: [rsuthar@outlook.com](rsuthar@outlook.com "Send email")
 - w: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/ "Portfolio")
-```
 
 ## Summary
 
