@@ -149,6 +149,6 @@ fetch('events.json')
 
 ```
 
-In this code, we use the forEach() method to iterate over the events and functions arrays in the JSON data. For each event or function, we create a new function using the Function constructor and assign it to a property on the window object with the same name as the event or function. We can then call the event or function using the window\[event.name\]\(\) syntax.
+In this code, we use the forEach() method to iterate over the events and functions arrays in the JSON data. For each event or function, we create a new function using the Function constructor and assign it to a property on the window object with the same name as the event or function. We can then call the event or function using the **window\[event.name\]\(\)** syntax.
 
 ---
