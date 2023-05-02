@@ -51,7 +51,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 - SEO strategies for Google and Adobe technologies
 - Application performance optimization
 - Micro frontends
-- Responsive web design and layouting with CSS frameworks such as Bootstrap
+- Responsive web design and layout with CSS frameworks such as Bootstrap
 - Styling Concepts using SCSS, SASS
 
 ## Management and Leadership Skills
@@ -67,7 +67,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 - Successfully led a team of developers in the creation of a responsive and accessible web application for a large financial institution.
 - Implemented SEO strategies that resulted in a 20% increase in organic traffic and increased performance of website by improving caching and restructured code to increase 30% increase traffic
-- Developed custom tagging library for custom datalayer to capture custom events and CTA. Its increased 15% analytical recoreds
+- Developed custom tagging library for custom data layer to capture custom events and CTA. Its increased 15% analytical records
 
 ## Licenses & Certifications
 - **Scrum Alliance Certifications** 
