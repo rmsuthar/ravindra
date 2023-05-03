@@ -25,6 +25,39 @@ h2 {
 
 </style>
 
+# wildcard search in array list and check exist in list
+## Problem: Search in Array list using wildcard (*) and also check if such text exist in it. 
+
+```javascript
+const list = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+
+class Dict {
+  constructor(list) {
+    this.dict = list;
+  }
+  inRegEx(word) {
+    const regTemplate = word.replaceAll("*", "(.*)");
+    return new RegExp(`^${regTemplate}$`, "g");
+  }
+  isInDict(word) {
+    return this.dict.some((exp) => {
+      return this.inRegEx(word).test(exp);
+    });
+  }
+  inAll(word) {
+    return this.dict.filter((el) => {
+      return el.match(this.inRegEx(word));
+    });
+  }
+}
+
+const ls = new Dict(list);
+
+console.log(ls.isInDict("m*n")); // true
+console.log(ls.inAll("t*")); // ["tue","thu"]
+
+```
+
 
 # Add two strings with numbers
 
