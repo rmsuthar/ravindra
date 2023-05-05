@@ -107,6 +107,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 ## Professional Experience
 ### Assistant Vice President (Sr. program analyst)
 **Citicorp Service (I) Ltd.** | May 2013 - Present (Over 9 years)
+**Location: Pune**
 - Manage a team of 10 UI developers in the design, development, and deployment of complex web applications for clients in various industries
 - Implement Agile methodologies and Scrum framework to ensure timely delivery of projects and efficient use of resources
 - Collaborate with cross-functional teams, including UX designers, project managers, and QA engineers, to ensure the success of projects
@@ -115,6 +116,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 ### Sr. Consultant CRM
 **Cognizant Technology Solutions** | 2010 - 2013 (About 2 years)
+**Location: Hydrabad**
 - Enterprise mobile web development
 - Oracle CRM API SOAP based development
 - Performed and analyze usability
@@ -123,6 +125,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 ### Module Lead UI Developer 
 **Impetus InfoTech India Pvt. Ltd.** | 2007 - 2010 (Over 3 years)
+**Location: Indore**
 - Visualize concept and implementations
 - Usability analyst
 - Working on application usability and web client
@@ -132,6 +135,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 ### Lead Web specialist
 **Gate six technologies India Pvt. Ltd.** | 2004 - 2007 (Almost 3 years)
+**Location: Indore**
 - Setting strategy for design, development, and SEO as well W3C Standard of web sites and web-based applications.
 - UI design
 - Concept visualization and flow of application. R&D on new technologies and implementation
