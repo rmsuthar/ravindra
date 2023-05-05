@@ -160,5 +160,5 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 ## Blog
 Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog)!
 
-## Tools
-Check out tools [here](https://rmsuthar.github.io/tools/index.html)!
+## Utitlity 
+Check out some utility [here](https://rmsuthar.github.io/tools/index.html)!
