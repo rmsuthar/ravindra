@@ -104,7 +104,7 @@ console.log(ls.isInDict("m*n")); // true
 console.log(ls.inAll("t*")); // ["tue","thu"]
 
 ```
-
+---
 
 # Add two strings with numbers
 
