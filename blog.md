@@ -49,7 +49,7 @@ const weekdays = getWeekdays(lang);
 console.log(weekdays); // Output: ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 ```
 
-I have defined a getMonths function that takes a language code as a parameter and returns an array of month names in the specified language. The function creates an empty array months, then initializes a Date object to the current date. We then use a for loop to iterate over the 12 months of the year and add the localized month name to the months array using the toLocaleDateString method. This method formats the date according to the user's locale and options specified in the options object.
+Also I have defined a getMonths function that takes a language code as a parameter and returns an array of month names in the specified language. The function creates an empty array months, then initializes a Date object to the current date. We then use a for loop to iterate over the 12 months of the year and add the localized month name to the months array using the toLocaleDateString method. This method formats the date according to the user's locale and options specified in the options object.
 
 ```javascript
 function getMonths(lang) {
