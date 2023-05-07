@@ -25,7 +25,54 @@ h2 {
 
 </style>
 
-# wildcard search in array list and check exist in list
+# Locale weekdays and months accodingly language code
+## Problem: weekdays and months in the user's language using JavaScript
+
+I have defined a getWeekdays function that takes a language code as a parameter and returns an array of weekday names in the specified language. The function creates an empty array weekdays, then initializes a Date object to the current date. We then use a for loop to iterate over the next 7 days and add the localized weekday name to the weekdays array using the toLocaleDateString method. This method formats the date according to the user's locale and options specified in the options object.
+
+
+```javascript
+function getWeekdays(lang) {
+  const weekdays = [];
+  const date = new Date();
+  const options = { weekday: 'long' };
+  for (let i = 0; i < 7; i++) {
+    date.setDate(date.getDate() + 1);
+    weekdays.push(date.toLocaleDateString(lang, options));
+  }
+  return weekdays;
+}
+
+// Example usage
+const lang = 'fr-FR'; // Pass the user's language code here
+const weekdays = getWeekdays(lang);
+console.log(weekdays); // Output: ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+```
+
+I have defined a getMonths function that takes a language code as a parameter and returns an array of month names in the specified language. The function creates an empty array months, then initializes a Date object to the current date. We then use a for loop to iterate over the 12 months of the year and add the localized month name to the months array using the toLocaleDateString method. This method formats the date according to the user's locale and options specified in the options object.
+
+```javascript
+function getMonths(lang) {
+  const months = [];
+  const date = new Date();
+  const options = { month: 'long' };
+  for (let i = 0; i < 12; i++) {
+    date.setMonth(i);
+    months.push(date.toLocaleDateString(lang, options));
+  }
+  return months;
+}
+
+// Example usage
+const lang = 'fr-FR'; // Pass the user's language code here
+const months = getMonths(lang);
+console.log(months); // Output: ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+```
+
+---
+
+
+# Wildcard search in array list and check exist in list
 ## Problem: Search in Array list using wildcard (*) and also check if such text exist in it. 
 
 ```javascript
