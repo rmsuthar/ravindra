@@ -147,8 +147,8 @@ console.log(result); // Output: "103"
 
 ## Problem: create custom resource loaders for scripts and stylesheets. with feature of cache busting.
 
-```htm
 
+```htm
 <!DOCTYPE html>
 <html>
   <head>
@@ -193,7 +193,6 @@ console.log(result); // Output: "103"
 </html>
 
 ```
-
 In this version of the component, we've added a private _addCacheBuster() method that appends a cache-busting query parameter to the end of the URL to force the browser to fetch a fresh version of the resource each time. We've also added an async attribute to the script tag if the async attribute is present on the custom element.
 
 ---
