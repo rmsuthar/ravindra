@@ -262,7 +262,9 @@ In this code, we use the forEach() method to iterate over the events and functio
 
 # Identify selector is visible or not
 
-## Problem: selector is used to identify whether an HTML element is currently visible on the webpage or not..
+## Problem: selector is used to identify whether an HTML element is currently visible on the webpage or not.
+
+Check HTML element's visibility including parent visibility.
 
 ```javascript
 function isElementVisible(elem) {
