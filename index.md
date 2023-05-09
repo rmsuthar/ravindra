@@ -29,7 +29,7 @@
 
 ## Summary
 
-As a highly skilled UI developer and experienced leader with over 17 years of experience in UI development and 6 years in leadership and team management, I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
+As a highly skilled UI developer, experienced leader with over 17 years of experience in UI development and 6 years in leadership and team management, I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
 
 In addition to my technical expertise, I also have extensive experience with agile development methodologies and am a certified Scrum Master. I have led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and have worked closely with product owners to prioritize and deliver features on time and within budget.
 
