@@ -7,7 +7,7 @@ h1 {
 }
 
 .markdown-body h1:first-child{
-    display:none;
+   text-transform: capitalize;
 }
 
 /* Styles for code blocks */
