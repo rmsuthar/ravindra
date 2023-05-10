@@ -52,7 +52,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 - Accessibility (ADA) standards including WCAG 2.0 and 2.1 guidelines
 - SEO strategies for Google and Adobe technologies
 - Application performance optimization
-- Micro-frontends
+- Concepts of Micro-frontends
 - Responsive web design and layout with CSS frameworks such as Bootstrap
 - Styling Concepts using SCSS, SASS
 
