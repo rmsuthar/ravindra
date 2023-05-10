@@ -6,10 +6,8 @@ h1 {
   color: #333; /* dark grey */
 }
 
-h2 {
-  font-size: 2rem;
-  margin: 1.5rem 0;
-  color: #555; /* grey */
+.markdown-body h1:first-child{
+    display:none;
 }
 
 /* Styles for code blocks */
@@ -21,6 +19,9 @@ h2 {
   overflow-x: auto;
   padding: 0.5rem;
   white-space: pre-wrap;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  color: #555; /* grey */
 }
 
 </style>
