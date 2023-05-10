@@ -17,7 +17,7 @@
   }
 }
 </style>
-[Print this page](javascript:window.print()){: .print}
+[Print this page](javascript:window.print()){: .print} 
 # Ravindra M. Suthar
 **Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
 
@@ -44,13 +44,15 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 - HTML, CSS, JavaScript and TypeScript
 - Angular and React
 - Agile and Scrum methodologies
-- Git, Jenkins, and JIRA
+- Build tool Webpack, grunt, gulp and esbuild
+- Git, Bitbucket, Jenkins, and JIRA
 - iOS and Android compatible web development
-- Node.js, Java, and Python
+- Web components and shadow components
+- Knowledge of Node.js, Java, and Python 
 - Accessibility (ADA) standards including WCAG 2.0 and 2.1 guidelines
 - SEO strategies for Google and Adobe technologies
 - Application performance optimization
-- Micro frontends
+- Micro-frontends
 - Responsive web design and layout with CSS frameworks such as Bootstrap
 - Styling Concepts using SCSS, SASS
 
