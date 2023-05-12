@@ -102,11 +102,11 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 ## Educational Qualifications
 - Post Graduate Diploma in INFORMATION TECHNOLOGY Sikkim Manipal University - Distance Education
- - 2000 - 2001
-- Higher Diploma Software Eng. (HDSE) Aptech Computer Educational
- - 2000 - 2001
+ - 1999 - 2001
+- Higher Diploma Software Eng. (HDSE) Aptech Computer Education
+ - 1999 - 2001
 - Bachelor of Science, CHEMISTRY AND MATHEMATICS - Gujarat University
- - 1996 – 2000
+ - 1996 – 1999
 
 ## Professional Experience
 ### Assistant Vice President (Sr. program analyst)
