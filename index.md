@@ -76,29 +76,29 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 ## Licenses & Certifications
 - **Scrum Alliance Certifications** 
- - Certified ScrumMaster® (CSM®)
+  - Certified ScrumMaster® (CSM®)
 - **Amazon (AWS) Certifications** 
  - Amazon Web Services Cloud Practitioner
 - **IBM Certifications** 
- - Enterprise Design Thinking Practitioner
- - Enterprise Design Thinking Co-Creator
- - Blockchain Essentials 
- - SQL and Relational Databases 101
+  - Enterprise Design Thinking Practitioner
+  - Enterprise Design Thinking Co-Creator
+  - Blockchain Essentials 
+  - SQL and Relational Databases 101
 - **Atlassian Certifications**
- - Jira Fundamentals Assessment
- - Get Started with Jira Service Management
- - Writing Complex JQL Queries in Jira Software
- - How to Run Effective Meetings 
+  - Jira Fundamentals Assessment
+  - Get Started with Jira Service Management
+  - Writing Complex JQL Queries in Jira Software
+  - How to Run Effective Meetings 
 - **LinkedIn Certifications**
- - Agile Development Practices
- - Strategic Thinking
- - Developing Executive Presence
- - Critical Thinking for Better Judgment and Decision-Making
- - Ken Blanchard on Servant Leadership 
- - Building Relationships While Working from Home 
- - The Key to Good Communication: Your Audience
- - Jodi Glickman on Pitching Yourself Learning
- - Regular Expressions
+  - Agile Development Practices
+  - Strategic Thinking
+  - Developing Executive Presence
+  - Critical Thinking for Better Judgment and Decision-Making
+  - Ken Blanchard on Servant Leadership 
+  - Building Relationships While Working from Home 
+  - The Key to Good Communication: Your Audience
+  - Jodi Glickman on Pitching Yourself Learning
+  - Regular Expressions
 
 ## Educational Qualifications
 - Post Graduate Diploma in INFORMATION TECHNOLOGY Sikkim Manipal University - Distance Education
