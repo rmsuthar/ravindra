@@ -18,9 +18,9 @@
 }
 </style>
 
-- [Print this page](javascript:window.print()){: .print}
-- [Blog](https://rmsuthar.github.io/ravindra/blog){: .print}
-- [Utilities](https://rmsuthar.github.io/tools/index.html){: .print}
+[Print this page](javascript:window.print()){: .print}
+[Blog](https://rmsuthar.github.io/ravindra/blog){: .print}
+[Utilities](https://rmsuthar.github.io/tools/index.html){: .print}
 
 # Ravindra M. Suthar
 **Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
