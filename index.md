@@ -11,9 +11,15 @@
 .markdown-body h1:first-child{
     display:none;
 }
+.onlyprint{
+    display:none
+}
 @media print {
   .print {
     display: none;
+  }
+  .onlyprint{
+    display:block
   }
 }
 </style>
@@ -164,7 +170,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 
 ## Blog
-Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog)!
+Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog) [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog){: .onlyprint}!
 
 ## Utilities 
-Check out some utilities [here](https://rmsuthar.github.io/tools/index.html)!
+Check out some utilities [here](https://rmsuthar.github.io/tools/index.html) [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}!
