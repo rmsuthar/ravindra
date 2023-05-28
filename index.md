@@ -132,7 +132,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 ## Professional Experience
 ### Assistant Vice President (Sr. program analyst)
-**Citicorp Service (I) Ltd.** | **Pune** | May 2013 - Present (Over 9 years)
+**Citicorp Service (I) Ltd.** | **Pune** | May 2013 - Present (Over 10 years)
 
 
 - Manage a team of 10 UI developers in the design, development, and deployment of complex web applications for clients in various industries
