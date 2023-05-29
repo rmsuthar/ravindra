@@ -318,7 +318,7 @@ Check HTML element's visibility including parent visibility.
 
 
 ```javascript
-function isElementVisible(elem) {
+function isElementVisible(selector) {
  const element = document.querySelector(selector);
 
   if (!element) {
