@@ -319,30 +319,38 @@ Check HTML element's visibility including parent visibility.
 
 ```javascript
 function isElementVisible(elem) {
- // Check if element is null or undefined
- if (!elem) {
-   return false;
- }
+ const element = document.querySelector(selector);
 
+  if (!element) {
+    // Element not found in the document
+    return false;
+  }
 
- // Check if element is hidden
- if (elem.offsetParent === null) {
-   return false;
- }
+  const rect = element.getBoundingClientRect();
 
+  if (rect.width === 0 && rect.height === 0) {
+    // Element has no width or height (hidden)
+    return false;
+  }
 
- // Check if any of the parent elements are hidden
- var parent = elem.parentElement;
- while (parent) {
-   if (parent.offsetParent === null) {
-     return false;
-   }
-   parent = parent.parentElement;
- }
+  const style = window.getComputedStyle(element);
+  if (style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0') {
+    // Element is hidden by CSS properties
+    return false;
+  }
 
+  if (rect.top >= window.innerHeight || rect.bottom <= 0) {
+    // Element is outside the viewport vertically
+    return false;
+  }
 
- // If element and all its parents are visible, return true
- return true;
+  if (rect.left >= window.innerWidth || rect.right <= 0) {
+    // Element is outside the viewport horizontally
+    return false;
+  }
+
+  // Element is visible on the screen
+  return true;
 }
 ```
 
