@@ -1,5 +1,7 @@
 ---
 title: Ravindra Suthar
+description: Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience
+tags: [UI Developer, Frontend technologies, Scrum master, Agile Development, Agile Development, Agile]
 ---
 
 <style>
