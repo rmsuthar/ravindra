@@ -53,19 +53,19 @@ p strong {
 ## Summary
 
 
-As a highly skilled UI developer and experienced leader and team management with over **17 years of experience**. I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
+As a highly skilled UI developer and experienced leader and team management with over __17 years of experience__. I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
 
 
-In addition to my technical expertise, I also have extensive experience with **agile development** methodologies and am a **certified Scrum Master**. I have led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and worked closely with product owners to prioritise and deliver features on time and within budget.
+In addition to my technical expertise, I also have extensive experience with __agile development__ methodologies and am a __certified Scrum Master__. I have led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and worked closely with product owners to prioritise and deliver features on time and within budget.
 
 
-As a leader, I have demonstrated my **ability to inspire and motivate teams**, foster a culture of collaboration and innovation, and drive projects to successful completion using agile methodologies. I have a talent for identifying and developing top talent, and my ability to communicate clearly and effectively has been critical to my success as a Scrum Master.
+As a leader, I have demonstrated my __ability to inspire and motivate teams__, foster a culture of collaboration and innovation, and drive projects to successful completion using agile methodologies. I have a talent for identifying and developing top talent, and my ability to communicate clearly and effectively has been critical to my success as a Scrum Master.
 
 
-Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including **HTML, CSS, TypeScript, JavaScript, Angular, and React**, and I have a proven ability to **deliver high-quality projects** on time and within budget using agile methodologies.
+Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including __HTML, CSS, TypeScript, JavaScript, Angular, and React__, and I have a proven ability to __deliver high-quality projects__ on time and within budget using agile methodologies.
 
 
-I am a **results-oriented professional** who is dedicated to delivering excellence in all that I do. With my expertise and experience in agile development and as a Scrum Master, I am confident that I would be an invaluable asset to any organisation, and I look forward to the opportunity to contribute my skills and experience to a new and exciting project.
+I am a __results-oriented professional__ who is dedicated to delivering excellence in all that I do. With my expertise and experience in agile development and as a Scrum Master, I am confident that I would be an invaluable asset to any organisation, and I look forward to the opportunity to contribute my skills and experience to a new and exciting project.
 
 
 ## Technical Skills
@@ -79,19 +79,19 @@ I am a **results-oriented professional** who is dedicated to delivering excellen
 - iOS and Android-compatible web development
 - Web components and shadow components
 - Knowledge of Node.js, Java, and Python
-- **Accessibility** (ADA) standards including **WCAG 2.0 and 2.1** guidelines
+- __Accessibility__ (ADA) standards including __WCAG 2.0 and 2.1__ guidelines
 - SEO strategies for Google and Adobe technologies
 - Application performance optimization
-- **Concepts of Micro-frontends**
-- **Responsive web design** and layout with **CSS framework**s such as Bootstrap
+- __Concepts of Micro-frontends__
+- __Responsive web design__ and layout with __CSS framework__s such as Bootstrap
 - Styling Concepts using SCSS, SASS
 
 
 ## Management and Leadership Skills
 
 
-- **Project management** and planning
-- **Team leadership** and motivation
+- __Project management__ and planning
+- __Team leadership__ and motivation
 - Performance evaluation and feedback
 - Hiring and onboarding new team members
 - Cross-functional collaboration
