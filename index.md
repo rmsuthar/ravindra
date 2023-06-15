@@ -145,7 +145,7 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 ## Educational Qualifications
 - Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University** - Distance Education
   - 1999 - 2001
-- Higher Diploma Software Eng. (HDSE) Aptech Computer Education
+- Higher Diploma Software Eng. (HDSE) **Aptech Computer Education**
   - 1999 - 2001
 - Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
   - 1996 – 1999
