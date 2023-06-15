@@ -27,6 +27,14 @@ p strong {
     box-shadow: rgb(0 0 0 / 11%) 2px 3px 4px 1px;
     color: #ffffff;
 }
+em {
+    font-weight: normal;
+    background-color: #ffffe4;
+    padding: 3px 5px;
+    box-shadow: rgb(66 65 65 / 32%) 0px 2px 4px 0px;
+    color: #000000;
+    font-style: normal;
+}
 @media print {
   .print {
     display: none;
@@ -62,7 +70,7 @@ In addition to my technical expertise, I also have extensive experience with _ag
 As a leader, I have demonstrated my _ability to inspire and motivate teams_, foster a culture of collaboration and innovation, and drive projects to successful completion using agile methodologies. I have a talent for identifying and developing top talent, and my ability to communicate clearly and effectively has been critical to my success as a Scrum Master.
 
 
-Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including _HTML, CSS, TypeScript, JavaScript, Angular, and React_, and I have a proven ability to _deliver high-quality projects_ on time and within budget using agile methodologies.
+Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including _HTML_, _CSS_, _TypeScript_, _JavaScript_, _Angular_, and _React_, and I have a proven ability to _deliver high-quality projects_ on time and within budget using agile methodologies.
 
 
 I am a _results-oriented professional_ who is dedicated to delivering excellence in all that I do. With my expertise and experience in agile development and as a Scrum Master, I am confident that I would be an invaluable asset to any organisation, and I look forward to the opportunity to contribute my skills and experience to a new and exciting project.
@@ -79,19 +87,19 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 - iOS and Android-compatible web development
 - Web components and shadow components
 - Knowledge of Node.js, Java, and Python
-- _Accessibility_ (ADA) standards including _WCAG 2.0 and 2.1_ guidelines
+- Accessibility (ADA) standards including WCAG 2.0 and 2.1 guidelines
 - SEO strategies for Google and Adobe technologies
 - Application performance optimization
-- _Concepts of Micro-frontends_
-- _Responsive web design_ and layout with _CSS framework_s such as Bootstrap
+- Concepts of Micro-frontends
+- Responsive web design and layout with CSS frameworks such as Bootstrap
 - Styling Concepts using SCSS, SASS
 
 
 ## Management and Leadership Skills
 
 
-- _Project management_ and planning
-- _Team leadership_ and motivation
+- Project management and planning
+- Team leadership and motivation
 - Performance evaluation and feedback
 - Hiring and onboarding new team members
 - Cross-functional collaboration
@@ -102,8 +110,8 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 
 
 - Successfully led a team of developers in the creation of a responsive and accessible web application for a large financial institution.
-- Implemented **SEO strategies** that resulted in a 20% increase in organic traffic and increased performance of the website by improving caching and restructured code to increase 30% increase traffic
-- Developed a **custom tagging library** for a custom data layer to capture custom events and CTA. Its increased 15% analytical records
+- Implemented SEO strategies that resulted in a 20% increase in organic traffic and increased performance of the website by improving caching and restructured code to increase 30% increase traffic
+- Developed a custom tagging library for a custom data layer to capture custom events and CTA. Its increased 15% analytical records
 - Enhanced application with Strings comparisons with a percentage of matching with increased more accurate results to reduce manual efforts.
 
 
