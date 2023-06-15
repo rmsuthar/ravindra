@@ -20,6 +20,12 @@ tags: [UI Developer, Frontend technologies, Scrum master, Agile Development, Agi
 .onlyprint{
     display:none
 }
+:has(p,li) b{
+    font-weight: normal;
+    background-color: #00e7ff57;
+    padding: 3px 5px;
+    box-shadow: rgba(0,0,0,.2) 2px 3px 4px 1px;
+}
 @media print {
   .print {
     display: none;
@@ -46,19 +52,19 @@ tags: [UI Developer, Frontend technologies, Scrum master, Agile Development, Agi
 ## Summary
 
 
-As a highly skilled UI developer and experienced leader and team management with over 17 years of experience. I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
+As a highly skilled UI developer and experienced leader and team management with over **17 years of experience**. I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
 
 
-In addition to my technical expertise, I also have extensive experience with agile development methodologies and am a certified Scrum Master. I have led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and worked closely with product owners to prioritise and deliver features on time and within budget.
+In addition to my technical expertise, I also have extensive experience with **agile development** methodologies and am a **certified Scrum Master**. I have led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and worked closely with product owners to prioritise and deliver features on time and within budget.
 
 
-As a leader, I have demonstrated my ability to inspire and motivate teams, foster a culture of collaboration and innovation, and drive projects to successful completion using agile methodologies. I have a talent for identifying and developing top talent, and my ability to communicate clearly and effectively has been critical to my success as a Scrum Master.
+As a leader, I have demonstrated my **ability to inspire and motivate teams**, foster a culture of collaboration and innovation, and drive projects to successful completion using agile methodologies. I have a talent for identifying and developing top talent, and my ability to communicate clearly and effectively has been critical to my success as a Scrum Master.
 
 
-Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including HTML, CSS, TypeScript, JavaScript, Angular, and React, and I have a proven ability to deliver high-quality projects on time and within budget using agile methodologies.
+Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including **HTML, CSS, TypeScript, JavaScript, Angular, and React**, and I have a proven ability to **deliver high-quality projects** on time and within budget using agile methodologies.
 
 
-I am a results-oriented professional who is dedicated to delivering excellence in all that I do. With my expertise and experience in agile development and as a Scrum Master, I am confident that I would be an invaluable asset to any organisation, and I look forward to the opportunity to contribute my skills and experience to a new and exciting project.
+I am a **results-oriented professional** who is dedicated to delivering excellence in all that I do. With my expertise and experience in agile development and as a Scrum Master, I am confident that I would be an invaluable asset to any organisation, and I look forward to the opportunity to contribute my skills and experience to a new and exciting project.
 
 
 ## Technical Skills
@@ -72,19 +78,19 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 - iOS and Android-compatible web development
 - Web components and shadow components
 - Knowledge of Node.js, Java, and Python
-- Accessibility (ADA) standards including WCAG 2.0 and 2.1 guidelines
+- **Accessibility** (ADA) standards including **WCAG 2.0 and 2.1** guidelines
 - SEO strategies for Google and Adobe technologies
 - Application performance optimization
-- Concepts of Micro-frontends
-- Responsive web design and layout with CSS frameworks such as Bootstrap
+- **Concepts of Micro-frontends**
+- **Responsive web design** and layout with **CSS framework**s such as Bootstrap
 - Styling Concepts using SCSS, SASS
 
 
 ## Management and Leadership Skills
 
 
-- Project management and planning
-- Team leadership and motivation
+- **Project management** and planning
+- **Team leadership** and motivation
 - Performance evaluation and feedback
 - Hiring and onboarding new team members
 - Cross-functional collaboration
@@ -95,8 +101,8 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 
 - Successfully led a team of developers in the creation of a responsive and accessible web application for a large financial institution.
-- Implemented SEO strategies that resulted in a 20% increase in organic traffic and increased performance of the website by improving caching and restructured code to increase 30% increase traffic
-- Developed a custom tagging library for a custom data layer to capture custom events and CTA. Its increased 15% analytical records
+- Implemented **SEO strategies** that resulted in a 20% increase in organic traffic and increased performance of the website by improving caching and restructured code to increase 30% increase traffic
+- Developed a **custom tagging library** for a custom data layer to capture custom events and CTA. Its increased 15% analytical records
 - Enhanced application with Strings comparisons with a percentage of matching with increased more accurate results to reduce manual efforts.
 
 
@@ -128,11 +134,11 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 
 ## Educational Qualifications
-- Post Graduate Diploma in INFORMATION TECHNOLOGY Sikkim Manipal University - Distance Education
+- Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University** - Distance Education
   - 1999 - 2001
 - Higher Diploma Software Eng. (HDSE) Aptech Computer Education
   - 1999 - 2001
-- Bachelor of Science, CHEMISTRY AND MATHEMATICS - Gujarat University
+- Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
   - 1996 – 1999
 
 
@@ -183,7 +189,7 @@ I am a results-oriented professional who is dedicated to delivering excellence i
 
 ### Project: Web Application for Financial Institution
 **Citicorp Service (I) Ltd.**
-- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for a large financial institution
+- Collaborated with **UX** designers and backend developers to develop a responsive and accessible web application for a large financial institution
 - Developed UI components using React and Bootstrap, and integrated them with backend APIs
 - Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines
 - Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
