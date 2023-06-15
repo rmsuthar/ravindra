@@ -20,11 +20,11 @@ tags: [UI Developer, Frontend technologies, Scrum master, Agile Development, Agi
 .onlyprint{
     display:none
 }
-p strong{
+p strong {
     font-weight: normal;
-    background-color: #00e7ff57;
+    background-color: #f7ff002e;
     padding: 3px 5px;
-    box-shadow: rgba(0,0,0,.2) 2px 3px 4px 1px;
+    box-shadow: rgb(0 0 0 / 11%) 2px 3px 4px 1px;
 }
 @media print {
   .print {
@@ -39,7 +39,7 @@ p strong{
 [Print this page](javascript:window.print()){: .print}
 
 # Ravindra M. Suthar
-**Senior UI Developer | Agile Scrum Master with Leadership | Team Management Experience**
+**Senior UI Developer** | **Agile Scrum Master with Leadership** | **Team Management Experience**
 
 
 - m: +91-8380099988
