@@ -153,7 +153,7 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 
 ## Professional Experience
 ### Assistant Vice President (Sr. program analyst)
-**Citicorp Service (I) Ltd.** | **Pune** | May 2013 - Present (Over 10 years)
+**Citicorp Service (I) Ltd.** | **Pune** | _May 2013 - Present (Over 10 years)_
 
 
 - Manage a team of 10 UI developers in the design, development, and deployment of complex web applications for clients in various industries
@@ -164,7 +164,7 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 
 
 ### Sr. Consultant CRM
-**Cognizant Technology Solutions** | **Hyderabad** | 2010 - 2013 (About 2 years)
+**Cognizant Technology Solutions** | **Hyderabad** | _2010 - 2013 (About 2 years)_
 - Enterprise mobile web development
 - Oracle CRM API SOAP-based development
 - Performed and analyse usability
@@ -173,7 +173,7 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 
 
 ### Module Lead UI Developer
-**Impetus InfoTech India Pvt. Ltd.** | **Indore** | 2007 - 2010 (Over 3 years)
+**Impetus InfoTech India Pvt. Ltd.** | **Indore** | _2007 - 2010 (Over 3 years)_
 - Visualise concepts and implementations
 - Usability analyst
 - Working on application usability and web client
@@ -183,7 +183,7 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 
 
 ### Lead Web specialist
-**Gate six technologies India Pvt. Ltd.** | **Indore** | 2004 - 2007 (Almost 3 years)
+**Gate six technologies India Pvt. Ltd.** | **Indore** | _2004 - 2007 (Almost 3 years)_
 
 
 - Setting strategy for design, development, and SEO as well W3C Standard of websites and web-based applications.
@@ -198,7 +198,7 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 
 ### Project: Web Application for Financial Institution
 **Citicorp Service (I) Ltd.**
-- Collaborated with **UX** designers and backend developers to develop a responsive and accessible web application for a large financial institution
+- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for a large financial institution
 - Developed UI components using React and Bootstrap, and integrated them with backend APIs
 - Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines
 - Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
