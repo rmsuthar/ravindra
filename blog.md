@@ -24,6 +24,14 @@ h2 {
   color: #555; /* grey */
 }
 
+a:hover, a:focus {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 3px;
+}
+
 </style>
 
 # Find duplicate [id] selectors on page
