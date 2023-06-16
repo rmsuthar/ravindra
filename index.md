@@ -35,6 +35,14 @@ em {
     color: #000000;
     font-style: normal;
 }
+
+a:hover, a:focus {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 3px;
+}
 @media print {
   .print {
     display: none;
