@@ -78,7 +78,7 @@ In addition to my technical expertise, I also have extensive experience with _ag
 As a leader, I have demonstrated my _ability to inspire and motivate teams_, foster a culture of collaboration and innovation, and drive projects to successful completion using agile methodologies. I have a talent for identifying and developing top talent, and my ability to communicate clearly and effectively has been critical to my success as a Scrum Master.
 
 
-Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including _HTML_, _CSS_, _TypeScript_, _JavaScript_, _Angular_, and _React_, and I have a proven ability to _deliver high-quality projects_ on time and within budget using agile methodologies.
+Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including _HTML_, _CSS_, _TypeScript_, _JavaScript_, _Angular_, and _React_, and I have a proven ability to _deliver high-quality projects_ on time and within budget using agile methodologies. Also working closely with CMS technologies like _TeamSite_ and _Adobe Experience Manager_ (_AEM_)
 
 
 I am a _results-oriented professional_ who is dedicated to delivering excellence in all that I do. With my expertise and experience in agile development and as a Scrum Master, I am confident that I would be an invaluable asset to any organisation, and I look forward to the opportunity to contribute my skills and experience to a new and exciting project.
