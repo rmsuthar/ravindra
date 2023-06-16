@@ -48,7 +48,7 @@ em {
 [Print this page](javascript:window.print()){: .print}
 
 # Ravindra M. Suthar
-**Senior UI Developer** | **Agile Scrum Master with Leadership** | **Team Management Experience**
+**UI Architect & Developer** | **Agile Scrum Master with Leadership** | **Team Management Experience**
 
 
 - m: +91-8380099988
