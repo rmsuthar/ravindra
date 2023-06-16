@@ -24,7 +24,7 @@ h2 {
   color: #555; /* grey */
 }
 
-a:hover, a:focus {
+a:hover{
     text-decoration: none;
     background-color: blue;
     color: white;
