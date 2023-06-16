@@ -36,7 +36,7 @@ em {
     font-style: normal;
 }
 
-a:hover, a:focus {
+a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
     text-decoration: none;
     background-color: blue;
     color: white;
