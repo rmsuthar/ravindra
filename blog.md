@@ -26,7 +26,7 @@ h2 {
 
 </style>
 
-# Find duplicate id selectors on page
+# Find duplicate [id] selectors on page
 ## Problem: For ADA perspectives and standrad, selector id attribute should not duplicates on page.
 
 To find duplicate IDs on a web page and associate them with their corresponding selectors, you can create an object that stores the duplicate IDs as keys and an array of their associated selectors as values. Here's an example code snippet:
