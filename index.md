@@ -169,6 +169,7 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 - Collaborate with cross-functional teams, including UX designers, project managers, and QA engineers, to ensure the success of projects
 - Develop and maintain UI development standards, including code quality, accessibility, and performance
 - Conduct performance evaluations and provide feedback to team members to improve skills and increase productivity
+- Work on CMS like TeamSite and Adobe Experience Managaer (AEM)
 
 
 ### Sr. Consultant CRM
