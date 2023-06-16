@@ -26,14 +26,61 @@ h2 {
 
 </style>
 
+# Find duplicate id selectors on page
+## Problem: For ADA perspectives and standrad, selector id attribute should not duplicates on page.
+
+To find duplicate IDs on a web page and associate them with their corresponding selectors, you can create an object that stores the duplicate IDs as keys and an array of their associated selectors as values. Here's an example code snippet:
+
+```javascript
+function findDuplicateIdsWithSelectors() {
+  const elements = document.querySelectorAll('[id]');
+  const idMap = new Map();
+  const duplicateIds = {};
+
+  elements.forEach((element) => {
+    const id = element.id;
+    const selector = getSelector(element);
+
+    if (idMap.has(id)) {
+      if (!duplicateIds[id]) {
+        duplicateIds[id] = [idMap.get(id)];
+      }
+      duplicateIds[id].push(selector);
+    } else {
+      idMap.set(id, selector);
+    }
+  });
+
+  return duplicateIds;
+}
+
+function getSelector(element) {
+  if (!element) return '';
+
+  let selector = element.tagName.toLowerCase();
+  if (element.id) {
+    selector += `#${element.id}`;
+  } else {
+    selector += Array.from(element.classList).map((className) => `.${className}`).join('');
+  }
+
+  return selector;
+}
+
+// Usage
+const duplicateIdsWithSelectors = findDuplicateIdsWithSelectors();
+console.log(duplicateIdsWithSelectors);
+
+```
+
+---
+
+
 # Locale weekdays and months accordingly to language code
 ## Problem: weekdays and months in the user's language using JavaScript
 
 
 I have defined a getWeekdays function that takes a language code as a parameter and returns an array of weekday names in the specified language. The function creates an empty array weekdays, then initialises a Date object to the current date. We then use a for loop to iterate over the next 7 days and add the localised weekday name to the weekdays array using the toLocaleDateString method. This method formats the date according to the user's locale and options specified in the options object.
-
-
-
 
 ```javascript
 function getWeekdays(lang) {
