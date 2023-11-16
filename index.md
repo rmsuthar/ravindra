@@ -84,6 +84,15 @@ Throughout my career, I have honed my technical skills and stayed up to date wit
 I am a _results-oriented professional_ who is dedicated to delivering excellence in all that I do. With my expertise and experience in agile development and as a Scrum Master, I am confident that I would be an invaluable asset to any organisation, and I look forward to the opportunity to contribute my skills and experience to a new and exciting project.
 
 
+
+## Blog
+Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog){: .print} [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog){: .onlyprint}
+
+
+## Utilities
+Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
+
+
 ## Technical Skills
 
 
@@ -222,16 +231,5 @@ I am a _results-oriented professional_ who is dedicated to delivering excellence
 - Played a major role in End-to-End application development and delivery management.
 - Local Storage Data encryption GPS Location Dashboard with Charts
 - Calendar with event management with Month, Week, and Day view
-
-
-
-
-## Blog
-Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog){: .print} [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog){: .onlyprint}
-
-
-## Utilities
-Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
-
 
 
