@@ -135,6 +135,8 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 ## Licences & Certifications
 - **Google Analytics Certification**
   - Skillshop
+- **Google Tag Manager Fundamentals**
+  - Google Analytics Academy
 - **Scrum Alliance Certifications**
   - Certified ScrumMaster® (CSM®)
 - **Amazon (AWS) Certifications**
