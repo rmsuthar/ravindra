@@ -133,6 +133,8 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 
 
 ## Licences & Certifications
+- **Google Analytics Certification**
+  - Skillshop
 - **Scrum Alliance Certifications**
   - Certified ScrumMaster® (CSM®)
 - **Amazon (AWS) Certifications**
