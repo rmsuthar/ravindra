@@ -217,10 +217,19 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 
 ## Project Details
 
-
-### Project: Web Application for Financial Institution
+### Project: Citi Private bank website development
 **Citicorp Service (I) Ltd.**
-- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for a large financial institution
+- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for private bank customers
+- Developed UI components
+- Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines
+- Adobe experience manager (AEM) cloud services
+- Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
+- Coordinated with the project manager and Scrum master to ensure timely delivery and successful deployment of the application
+
+
+### Project: Web Application for private bank customers and bankers
+**Citicorp Service (I) Ltd.**
+- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for a for private bank customers and bankers
 - Developed UI components using React and Bootstrap, and integrated them with backend APIs
 - Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines
 - Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
