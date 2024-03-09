@@ -164,7 +164,7 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 
 
 ## Educational Qualifications
-- Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University** - Distance Education
+- Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University**
   - 1999 - 2001
 - Higher Diploma Software Eng. (HDSE) **Aptech Computer Education**
   - 1999 - 2001
