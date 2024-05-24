@@ -34,6 +34,59 @@ a:hover, a:focus {
 
 </style>
 
+# AEM dispatcher cache for specific URL params
+## Problem: AEM dispatcher, if a specific URL contains utm parameter then it should load from the dispatcher cache instead of the publisher instance.
+
+To configure Adobe Experience Manager (AEM) Dispatcher to serve cached content when a URL contains specific UTM parameters, you'll need to modify the Dispatcher configuration files. The goal is to ensure that URLs with UTM parameters still utilize the cache effectively, rather than bypassing it and hitting the AEM Publisher instance.
+
+Here's how you can achieve this:
+### Step-by-Step Guide
+
+- Modify the Dispatcher Configuration:
+
+  - The Dispatcher configuration is usually found in the dispatcher.any or dispatcher_vhost.conf file, depending on your setup.
+- Ignore Query Parameters for Caching:
+
+  - You need to instruct the Dispatcher to ignore the UTM query parameters when caching. This ensures that URLs with different UTM parameters are treated as the same URL for caching purposes.
+
+- Set up Dispatcher Filters:
+
+  - Configure the Dispatcher to pass certain requests and cache others based on the presence of UTM parameters.
+
+Here's an example configuration snippet for dispatcher.any:
+
+
+```javascript
+# dispatcher.any configuration
+
+/cache
+{
+    /rules
+    {
+        /0000
+        {
+            # Cache everything except URLs with specific UTM parameters
+            /glob "*"
+            /type "allow"
+        }
+    }
+
+    /ignoreUrlParams
+    {
+        # Add UTM parameters here to be ignored for caching purposes
+        /0001 { /glob "utm_source*" }
+        /0002 { /glob "utm_medium*" }
+        /0003 { /glob "utm_campaign*" }
+        /0004 { /glob "utm_term*" }
+        /0005 { /glob "utm_content*" }
+    }
+}
+
+
+```
+
+---
+
 # Find duplicate [id] selectors on page
 ## Problem: For ADA perspectives and standrad, selector id attribute should not duplicates on page.
 
