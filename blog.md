@@ -86,7 +86,7 @@ Here's an example configuration snippet for dispatcher.any:
 ```
 
 
-## Additional Configuration:
+### Additional Configuration:
 
 Ensure your web server (e.g., Apache, Nginx) is configured correctly to support the Dispatcher settings. For Apache, you might have configurations similar to this:
 
