@@ -85,6 +85,36 @@ Here's an example configuration snippet for dispatcher.any:
 
 ```
 
+
+## Additional Configuration:
+
+Ensure your web server (e.g., Apache, Nginx) is configured correctly to support the Dispatcher settings. For Apache, you might have configurations similar to this:
+
+```console
+# dispatcher_vhost.conf
+
+<IfModule disp_apache2.c>
+    # Dispatcher configuration
+    DispatcherConfig conf/dispatcher.any
+    DispatcherLog /var/log/dispatcher.log
+    DispatcherLogLevel 3
+    DispatcherUseProcessedURL 0
+    DispatcherPassError 0
+    DispatcherNoServerHeader 0
+    DispatcherDeclineRoot 0
+    DispatcherKeepAliveTimeout 60
+
+    # Cache directory
+    DispatcherCacheRoot /path/to/dispatcher/cache
+</IfModule>
+
+<Directory "/path/to/dispatcher/cache">
+    Require all granted
+</Directory>
+
+
+```
+
 ---
 
 # Find duplicate [id] selectors on page
