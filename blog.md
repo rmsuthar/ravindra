@@ -56,7 +56,7 @@ Here's how you can achieve this:
 Here's an example configuration snippet for dispatcher.any:
 
 
-```javascript
+```console
 # dispatcher.any configuration
 
 /cache
