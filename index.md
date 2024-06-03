@@ -68,12 +68,16 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 
 ## Summary
 
-I'm a visionary UI architect with **17+ years of experience**, breathing life into ideas and crafting cutting-edge digital experiences that bridge the gap between design and development. As an agile leader, I orchestrate high-performing teams to deliver user-centric interfaces that not only captivate users but also drive measurable business results.
 
-- **UX Maestro**: My unwavering focus on user experience (UX) translates into intuitive and user-friendly interfaces that keep users engaged and coming back for more.
-- **Full-Stack Fluency**: I possess a comprehensive understanding of front-end technologies like HTML, CSS, TypeScript, JavaScript, Angular, and React, allowing me to construct dynamic and responsive web applications optimized for performance and scalability.
-- **Cloud Craftsman**: I strategically leverage Docker for containerization, orchestration tools like Kubernetes for streamlined deployments, and serverless technologies to achieve optimal scaling on cloud platforms, ensuring efficient resource utilization.
-- **CMS Integration Guru**: I seamlessly integrate content management systems (CMS) like TeamSite and AEM into web applications, streamlining content management workflows and empowering content creators to publish with ease.
+With over 17 years of experience, I am a highly skilled UI developer and seasoned leader with a proven track record of success. My expertise spans a deep understanding of UI development principles and methodologies, along with a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
+
+In addition to my technical acumen, I bring extensive experience in agile development methodologies and hold certification as a Scrum Master. I have successfully led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and collaborated closely with product owners to prioritize and deliver features on time and within budget.
+
+As a leader, I excel in inspiring and motivating teams, fostering a culture of collaboration and innovation, and driving projects to successful completion using agile methodologies. My ability to identify and develop top talent, coupled with clear and effective communication skills, has been critical to my success as a Scrum Master.
+
+Throughout my career, I have maintained and enhanced my technical skills, staying abreast of the latest advancements in UI development. I have extensive experience with a wide range of technologies, including HTML, CSS, TypeScript, JavaScript, Angular, and React, and have a proven ability to deliver high-quality projects on time and within budget. My experience also includes working closely with CMS technologies like TeamSite and Adobe Experience Manager (AEM).
+
+As a results-oriented professional dedicated to delivering excellence, I am confident in my ability to be an invaluable asset to any organization. I look forward to contributing my skills and experience to new and exciting projects.
 
 
 ## Blog
