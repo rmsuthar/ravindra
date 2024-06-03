@@ -68,21 +68,12 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 
 ## Summary
 
+With 17+ years of experience, I bridge the gap between design and development, crafting user-centric interfaces and leading agile teams to deliver exceptional digital experiences.
 
-As a highly skilled UI developer and experienced leader and team management with over _17 years of experience_. I am a seasoned professional with a proven track record of success. With a deep understanding of UI development principles and methodologies, I possess a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
-
-
-In addition to my technical expertise, I also have extensive experience with _agile development_ methodologies and am a _certified Scrum Master_. I have led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and worked closely with product owners to prioritise and deliver features on time and within budget.
-
-
-As a leader, I have demonstrated my _ability to inspire and motivate teams_, foster a culture of collaboration and innovation, and drive projects to successful completion using agile methodologies. I have a talent for identifying and developing top talent, and my ability to communicate clearly and effectively has been critical to my success as a Scrum Master.
-
-
-Throughout my career, I have honed my technical skills and stayed up to date with the latest advancements in UI development. I have experience with a wide range of technologies, including _HTML_, _CSS_, _TypeScript_, _JavaScript_, _Angular_, and _React_, and I have a proven ability to _deliver high-quality projects_ on time and within budget using agile methodologies. Also working closely with CMS technologies like _TeamSite_ and _Adobe Experience Manager_ (_AEM_)
-
-
-I am a _results-oriented professional_ who is dedicated to delivering excellence in all that I do. With my expertise and experience in agile development and as a Scrum Master, I am confident that I would be an invaluable asset to any organisation, and I look forward to the opportunity to contribute my skills and experience to a new and exciting project.
-
+- _UI/UX Rockstar_: My passion lies in crafting beautiful, intuitive, and user-friendly interfaces that prioritize an exceptional user experience.
+- _Front-End Virtuoso_: I leverage my mastery of HTML, CSS, TypeScript, JavaScript, Angular, and React to build dynamic and responsive web applications.
+- _Cloud Craftsman_: I'm adept at utilizing Docker for containerization, orchestration tools like Kubernetes for efficient deployments, and serverless technologies for optimal scaling on cloud platforms.
+- _CMS Integration Ace_: I seamlessly integrate TeamSite and AEM content management systems into web applications for streamlined content management.
 
 
 ## Blog
