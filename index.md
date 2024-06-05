@@ -90,7 +90,6 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 
 ## Technical Skills
 
-
 - HTML, CSS, JavaScript, and TypeScript
 - Angular and React
 - Agile and Scrum methodologies
