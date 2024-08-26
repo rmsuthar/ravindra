@@ -34,6 +34,71 @@ a:hover, a:focus {
 
 </style>
 
+# In Adobe Experience Cloud suits how other apps works.
+
+Adobe Experience Cloud is a comprehensive suite of digital marketing tools designed to help businesses manage, optimize, and deliver personalized experiences to their customers. It consists of several key products, including Adobe Experience Manager (AEM), Adobe Analytics, and Adobe Audience Manager, which work together to enhance customer engagement and drive marketing success. Here’s how each of these tools works and integrates within the Adobe Experience Cloud:
+
+## Adobe Experience Manager (AEM)
+
+Purpose: AEM is a content management system (CMS) that helps businesses deliver personalized and consistent experiences across web, mobile, email, and other digital channels. It is used to manage and publish content, assets, and forms.
+
+Key Features:
+
+	-	Content Management: Create, manage, and deliver digital content at scale across multiple platforms.
+	-	Digital Asset Management (DAM): Manage media assets like images, videos, and documents for re-use across different campaigns and channels.
+	-	Personalization: Deliver personalized content to different user segments based on data from Adobe Audience Manager and Adobe Analytics.
+	-	Content Delivery: Optimize content delivery for different devices and geographies, ensuring fast load times and a seamless experience.
+
+How it Works:
+
+	-	Authoring Environment: Marketers and content creators can use AEM’s drag-and-drop interface to build pages and campaigns.
+	-	Integration: AEM integrates with Adobe Analytics to track user interactions and Adobe Audience Manager for segmenting users, enabling data-driven personalization of content.
+
+## Adobe Analytics
+
+Purpose: Adobe Analytics provides deep insights into customer behavior by tracking and analyzing data across websites, apps, and other channels. It enables businesses to measure the effectiveness of their marketing efforts and optimize the customer journey.
+
+Key Features:
+
+	-	Real-Time Data: Track customer interactions across various digital touchpoints in real-time.
+	-	Advanced Segmentation: Create custom segments based on user behavior, demographics, or other data points for detailed analysis.
+	-	Attribution Analysis: Understand which marketing efforts are driving conversions, allowing businesses to allocate resources effectively.
+	-	Reporting and Dashboards: Visualize data through reports and dashboards, allowing marketers to make data-driven decisions.
+
+How it Works:
+
+	-	Data Collection: Adobe Analytics collects data from various digital channels (websites, apps, etc.) using tracking codes or SDKs.
+	-	Data Analysis: Once data is collected, it is processed and analyzed to give insights on customer behavior, conversions, and engagement.
+	-	Integration: Adobe Analytics integrates with AEM to track content performance and with Adobe Audience Manager to segment users based on behavioral data.
+
+## Adobe Audience Manager
+
+Purpose: Adobe Audience Manager is a Data Management Platform (DMP) that helps businesses create high-value audience segments for targeted marketing efforts. It allows businesses to gather data from various sources, build audience profiles, and activate these profiles for personalized marketing campaigns.
+
+Key Features:
+
+	-	Data Collection: Collects first-party, second-party, and third-party data from different sources, including websites, apps, CRM systems, and external partners.
+	-	Audience Segmentation: Create detailed audience segments based on behavioral, demographic, and contextual data.
+	-	Cross-Channel Activation: Activate audience segments across various marketing channels, such as email, web, social media, and advertising platforms.
+	-	Lookalike Modeling: Identify potential customers by finding users who exhibit similar behaviors to existing high-value customers.
+
+How it Works:
+
+	-	Data Ingestion: Adobe Audience Manager gathers data from a variety of sources, including web, CRM, third-party data providers, and more.
+	-	Segmentation: The platform then processes this data to create actionable audience segments.
+	-	Integration: Audience segments are shared with Adobe Analytics for reporting and analysis, and with AEM to deliver personalized content to different segments. It can also be used for advertising through integration with ad platforms.
+
+How the Suite Works Together:
+
+The Adobe Experience Cloud products are designed to work together seamlessly to optimize the customer experience:
+
+	-	Data Collection and Analysis: Adobe Analytics collects and analyzes customer behavior data from websites and apps.
+	-	Audience Segmentation: Adobe Audience Manager processes this data, along with other data sources, to create detailed audience profiles.
+	-	Content Personalization: Adobe Experience Manager uses these audience segments to deliver personalized content to users on websites, mobile apps, or other channels.
+	-	Cross-Channel Marketing: Audience segments can also be activated for personalized marketing campaigns across email, social media, and advertising platforms, enabling a consistent experience across all touchpoints.
+
+By combining these tools, Adobe Experience Cloud provides a powerful ecosystem for businesses to deliver personalized, data-driven experiences across their entire customer journey.
+
 # AEM dispatcher cache for specific URL params
 ## Problem: AEM dispatcher, if a specific URL contains utm parameter then it should load from the dispatcher cache instead of the publisher instance.
 
