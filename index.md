@@ -227,6 +227,8 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - Developed javascript library to track all events include thid party videos like Kaltura for Adobe launch
 - Google tag manager scripting for analytics
 - Angular components integrations with AEM
+- CICD end to end process with Team City and UrbanDeploy with zero click production deployment
+- Enhanced website performance upto 35%
 
 
 ### Project: Web Application for private bank customers and bankers
@@ -236,6 +238,7 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines
 - Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
 - Coordinated with the project manager and Scrum master to ensure timely delivery and successful deployment of the application
+- CICD end to end process with Team City and UrbanDeploy with zero click production deployment
 
 
 ### Project: Mobile CRM for Sales
