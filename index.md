@@ -41,6 +41,11 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
     border-radius: 3px;
     padding: 2px 3px;
 }
+:hover > .anchorjs-link, .anchorjs-link:focus {
+    opacity: 1;
+    padding-right: 0.675rem;
+    margin-left: 10px;
+}
 @media print {
   .print {
     display: none;
