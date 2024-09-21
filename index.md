@@ -77,6 +77,7 @@ As a leader, I excel in inspiring and motivating teams, fostering a culture of c
 
 Throughout my career, I have maintained and enhanced my technical skills, staying abreast of the latest advancements in UI development. I have extensive experience with a wide range of technologies, including HTML, CSS, TypeScript, JavaScript, Angular, and React, and have a proven ability to deliver high-quality projects on time and within budget. My experience also includes working closely with CMS technologies like TeamSite and Adobe Experience Manager (AEM).
 
+
 As a results-oriented professional dedicated to delivering excellence, I am confident in my ability to be an invaluable asset to any organization. I look forward to contributing my skills and experience to new and exciting projects.
 
 
@@ -98,6 +99,9 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - iOS and Android-compatible web development
 - Web components and shadow components
 - Knowledge of Node.js, Java, and Python
+- Azure services: Azure Kubernetes Service (AKS), Azure Container Instances, Azure DevOps
+- OpenShift: application deployment, scaling, and management on OpenShift platform
+- Cloud container technologies: Docker, container orchestration
 - Accessibility (ADA) standards including WCAG 2.0 and 2.1 guidelines
 - SEO strategies for Google and Adobe technologies
 - Application performance optimization
