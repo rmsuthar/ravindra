@@ -34,6 +34,259 @@ a:hover, a:focus {
 
 </style>
 
+
+# React hooks cheat sheet
+
+### React Hooks Cheat Sheet
+
+React hooks allow you to use state, side effects, refs, and more in functional components. Here’s a cheat sheet for all the essential React hooks:
+
+---
+
+### 1. **useState**
+- **Purpose**: Manage local state in a functional component.
+- **Syntax**:
+  ```jsx
+  const [state, setState] = useState(initialValue);
+  ```
+- **Example**:
+  ```jsx
+  const [count, setCount] = useState(0);
+  ```
+  - `count`: current state
+  - `setCount`: function to update state
+
+---
+
+### 2. **useEffect**
+- **Purpose**: Perform side effects in functional components (e.g., data fetching, timers).
+- **Syntax**:
+  ```jsx
+  useEffect(() => {
+    // effect logic
+    return () => {
+      // cleanup logic
+    };
+  }, [dependencies]);
+  ```
+- **Example**:
+  ```jsx
+  useEffect(() => {
+    document.title = `Clicked ${count} times`;
+  }, [count]); // Only run when `count` changes
+  ```
+
+---
+
+### 3. **useContext**
+- **Purpose**: Access data from a context without passing props.
+- **Syntax**:
+  ```jsx
+  const value = useContext(Context);
+  ```
+- **Example**:
+  ```jsx
+  const theme = useContext(ThemeContext);
+  ```
+  - `theme` is the value provided by `ThemeContext`.
+
+---
+
+### 4. **useReducer**
+- **Purpose**: Alternative to `useState` for complex state logic. Works similar to Redux reducers.
+- **Syntax**:
+  ```jsx
+  const [state, dispatch] = useReducer(reducer, initialState);
+  ```
+- **Example**:
+  ```jsx
+  const [state, dispatch] = useReducer((state, action) => {
+    switch (action.type) {
+      case 'increment':
+        return { count: state.count + 1 };
+      case 'decrement':
+        return { count: state.count - 1 };
+      default:
+        return state;
+    }
+  }, { count: 0 });
+  ```
+
+---
+
+### 5. **useRef**
+- **Purpose**: Create mutable object that persists across renders. Can also reference DOM elements.
+- **Syntax**:
+  ```jsx
+  const ref = useRef(initialValue);
+  ```
+- **Example**:
+  ```jsx
+  const inputRef = useRef(null);
+  inputRef.current.focus();
+  ```
+
+---
+
+### 6. **useMemo**
+- **Purpose**: Memoize expensive calculations, recomputes only when dependencies change.
+- **Syntax**:
+  ```jsx
+  const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+  ```
+- **Example**:
+  ```jsx
+  const memoizedValue = useMemo(() => expensiveCalculation(count), [count]);
+  ```
+
+---
+
+### 7. **useCallback**
+- **Purpose**: Memoize functions, prevents recreation of functions unless dependencies change.
+- **Syntax**:
+  ```jsx
+  const memoizedCallback = useCallback(() => {
+    // function logic
+  }, [dependencies]);
+  ```
+- **Example**:
+  ```jsx
+  const handleClick = useCallback(() => {
+    console.log('Clicked');
+  }, []);
+  ```
+
+---
+
+### 8. **useLayoutEffect**
+- **Purpose**: Similar to `useEffect`, but fires synchronously after all DOM mutations (useful for layout measurements).
+- **Syntax**:
+  ```jsx
+  useLayoutEffect(() => {
+    // effect logic
+  }, [dependencies]);
+  ```
+- **Example**:
+  ```jsx
+  useLayoutEffect(() => {
+    console.log('DOM has been updated');
+  });
+  ```
+
+---
+
+### 9. **useImperativeHandle**
+- **Purpose**: Customize instance value exposed to parent components using `ref`.
+- **Syntax**:
+  ```jsx
+  useImperativeHandle(ref, () => ({
+    customMethod() {
+      // logic
+    }
+  }));
+  ```
+- **Example**:
+  ```jsx
+  useImperativeHandle(ref, () => ({
+    focus() {
+      inputRef.current.focus();
+    }
+  }));
+  ```
+
+---
+
+### 10. **useDebugValue**
+- **Purpose**: Display custom label in React DevTools for custom hooks.
+- **Syntax**:
+  ```jsx
+  useDebugValue(value, formatter);
+  ```
+- **Example**:
+  ```jsx
+  useDebugValue(isOnline ? 'Online' : 'Offline');
+  ```
+
+---
+
+### 11. **useTransition** (React 18+)
+- **Purpose**: Defer updates to allow for a smooth UI experience.
+- **Syntax**:
+  ```jsx
+  const [isPending, startTransition] = useTransition();
+  ```
+- **Example**:
+  ```jsx
+  startTransition(() => {
+    setState(newState);
+  });
+  ```
+
+---
+
+### 12. **useDeferredValue** (React 18+)
+- **Purpose**: Defers a value to prevent UI lag for lower-priority updates.
+- **Syntax**:
+  ```jsx
+  const deferredValue = useDeferredValue(value);
+  ```
+- **Example**:
+  ```jsx
+  const deferredValue = useDeferredValue(inputValue);
+  ```
+
+---
+
+### 13. **useId** (React 18+)
+- **Purpose**: Generate stable IDs for components, useful for accessibility and forms.
+- **Syntax**:
+  ```jsx
+  const id = useId();
+  ```
+- **Example**:
+  ```jsx
+  <label htmlFor={id}>Name</label>
+  <input id={id} />
+  ```
+
+---
+
+### 14. **useSyncExternalStore** (React 18+)
+- **Purpose**: Subscribe to external stores (Redux, etc.) to ensure state is synchronized.
+- **Syntax**:
+  ```jsx
+  const state = useSyncExternalStore(subscribe, getSnapshot);
+  ```
+- **Example**:
+  ```jsx
+  const state = useSyncExternalStore(store.subscribe, store.getState);
+  ```
+
+---
+
+### 15. **useInsertionEffect** (React 18+)
+- **Purpose**: Useful for injecting styles before the DOM updates.
+- **Syntax**:
+  ```jsx
+  useInsertionEffect(() => {
+    // injection logic
+  }, [dependencies]);
+  ```
+
+---
+
+### Summary of React Hooks:
+- **State Management**: `useState`, `useReducer`
+- **Side Effects**: `useEffect`, `useLayoutEffect`
+- **Context**: `useContext`
+- **Refs**: `useRef`, `useImperativeHandle`
+- **Memoization**: `useMemo`, `useCallback`
+- **Advanced Features**: `useTransition`, `useDeferredValue`, `useSyncExternalStore`, `useId`, `useInsertionEffect`, `useDebugValue`
+
+---
+
+This cheat sheet covers all the hooks you need for effective React development. Whether managing state, side effects, or optimizing performance, React hooks provide a powerful way to enhance functional components.
+
 # In Adobe Experience Cloud suits works.
 
 Here's an overview of how each Adobe Experience Cloud application works, their connections, and a brief description of each. This can be formatted as a Word or PDF document as needed. Here's the content structure:
