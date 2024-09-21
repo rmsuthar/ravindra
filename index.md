@@ -24,14 +24,12 @@ p strong {
     font-weight: normal;
     background-color: #000000;
     padding: 3px 5px;
-    box-shadow: rgb(0 0 0 / 11%) 2px 3px 4px 1px;
     color: #ffffff;
 }
 em {
     font-weight: normal;
     background-color: #ffffe4;
     padding: 3px 5px;
-    box-shadow: rgb(66 65 65 / 32%) 0px 2px 4px 0px;
     color: #000000;
     font-style: normal;
 }
