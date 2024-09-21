@@ -5,7 +5,7 @@ tags: [UI Developer, Frontend technologies, Scrum master, Agile Development, Agi
 ---
 
 <style>
-    h2 {
+  h2 {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -13,6 +13,12 @@ tags: [UI Developer, Frontend technologies, Scrum master, Agile Development, Agi
   overflow-x: auto;
   padding: 0.5rem;
   white-space: pre-wrap;
+}
+.markdown-body h1 {
+    padding-bottom: 0.3em;
+    font-size: 2em;
+    border-bottom: 1px solid #eaecef;
+    font-weight: 200;
 }
 .markdown-body h1:first-child{
     display:none;
