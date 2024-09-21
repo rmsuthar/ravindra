@@ -226,6 +226,7 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - Integration with Adobe and Google analytics
 - Developed javascript library to track all events include thid party videos like Kaltura for Adobe launch
 - Google tag manager scripting for analytics
+- Angular components integrations with AEM
 
 
 ### Project: Web Application for private bank customers and bankers
