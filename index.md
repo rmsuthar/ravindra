@@ -21,9 +21,7 @@ tags: [UI Developer, Frontend technologies, Scrum master, Agile Development, Agi
     display:none
 }
 p strong {
-    font-weight: normal;
-    background-color: #e8e8e8;
-    padding: 3px 5px;
+    font-weight: 300;    
     color: #000;
 }
 em {
