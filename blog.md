@@ -34,6 +34,89 @@ a:hover, a:focus {
 
 </style>
 
+### Custom Hook Example: `useFetch`
+
+A custom hook allows you to extract reusable logic from your components, promoting better code organization and reuse. Here, we’ll create a `useFetch` hook for fetching data from an API.
+
+#### Purpose:
+`useFetch` is a custom hook designed to handle the logic for making HTTP requests and managing states like `loading`, `error`, and `data`. This hook can be reused across multiple components for making API calls.
+
+### Code for `useFetch` Custom Hook
+
+```jsx
+import { useState, useEffect } from 'react';
+
+function useFetch(url) {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error('Failed to fetch data');
+        }
+        const result = await response.json();
+        setData(result);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [url]);
+
+  return { data, loading, error };
+}
+```
+
+### How to Use the `useFetch` Hook
+
+```jsx
+import React from 'react';
+import useFetch from './useFetch';
+
+function UserList() {
+  const { data, loading, error } = useFetch('https://jsonplaceholder.typicode.com/users');
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error: {error}</p>;
+
+  return (
+    <ul>
+      {data.map((user) => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
+  );
+}
+
+export default UserList;
+```
+
+### Explanation:
+
+1. **State Management**:
+   - `data`: Stores the fetched data.
+   - `loading`: Boolean indicating the loading state.
+   - `error`: Stores any error message from the fetch request.
+
+2. **Effect Hook (`useEffect`)**:
+   - Handles the fetching logic when the component mounts or when the `url` changes.
+   - It uses `async/await` for making the request and handles possible errors.
+
+3. **Return Object**:
+   - Returns an object containing `data`, `loading`, and `error`, which can be destructured and used in any component.
+
+### Benefits of Custom Hook:
+
+- **Reusability**: The logic for fetching data is centralized, so you can use `useFetch` across multiple components.
+- **Separation of Concerns**: Your components focus on rendering logic, while the hook takes care of the data fetching logic.
 
 # React hooks cheat sheet
 
