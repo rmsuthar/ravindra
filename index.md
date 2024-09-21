@@ -223,6 +223,9 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - Adobe experience manager (AEM) cloud services
 - Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
 - Coordinated with the project manager and Scrum master to ensure timely delivery and successful deployment of the application
+- Integration with Adobe and Google analytics
+- Developed javascript library to track all events include thid party videos like Kaltura for Adobe launch
+- Google tag manager scripting for analytics
 
 
 ### Project: Web Application for private bank customers and bankers
