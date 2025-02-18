@@ -76,17 +76,21 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 ## Summary
 
 
-With over 17 years of experience, I am a highly skilled UI developer and seasoned leader with a proven track record of success. My expertise spans a deep understanding of UI development principles and methodologies, along with a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
+With over 17 years of hands-on professional experience in front-end/UI development using Angular (preferably Angular 8+), I am a highly skilled UI developer and seasoned leader with a proven track record of success. My expertise spans a deep understanding of UI development principles and methodologies, along with a keen eye for detail and a passion for creating intuitive, user-friendly interfaces.
 
 In addition to my technical acumen, I bring extensive experience in agile development methodologies and hold certification as a Scrum Master. I have successfully led multiple agile development teams, facilitated daily stand-ups, sprint planning sessions, and retrospectives, and collaborated closely with product owners to prioritize and deliver features on time and within budget.
 
 As a leader, I excel in inspiring and motivating teams, fostering a culture of collaboration and innovation, and driving projects to successful completion using agile methodologies. My ability to identify and develop top talent, coupled with clear and effective communication skills, has been critical to my success as a Scrum Master.
 
-Throughout my career, I have maintained and enhanced my technical skills, staying abreast of the latest advancements in UI development. I have extensive experience with a wide range of technologies, including HTML, CSS, TypeScript, JavaScript, Angular, and React, and have a proven ability to deliver high-quality projects on time and within budget. My experience also includes working closely with CMS technologies like TeamSite and Adobe Experience Manager (AEM).
+Throughout my career, I have maintained and enhanced my technical skills, staying abreast of the latest advancements in UI development. I have extensive experience with a wide range of technologies, including HTML5, CSS3, SCSS, TypeScript, JavaScript, Angular, and React, and have a proven ability to deliver high-quality projects on time and within budget. My experience also includes working closely with CMS technologies like TeamSite and Adobe Experience Manager (AEM).
 
+I have also worked extensively with the Angular ecosystem for enterprise projects, ensuring scalable and maintainable codebases. Additionally, my knowledge of AWS cloud technologies has enabled me to leverage cloud services for enhanced application performance and deployment.
+
+I have strong expertise in integrating front-end components with backend services using RESTful APIs and GraphQL. My proficiency in UI/UX best practices and building highly interactive web applications is complemented by a strong understanding of frontend build tools (Webpack, Angular CLI, npm, yarn, gulp, etc.) and version control systems like Git.
+
+With multiple years of experience in software engineering best practices (unit testing, automation, design patterns, peer review, etc.), I have a clear understanding of building horizontally scalable, highly available, highly resilient, and low latency applications.
 
 As a results-oriented professional dedicated to delivering excellence, I am confident in my ability to be an invaluable asset to any organization. I look forward to contributing my skills and experience to new and exciting projects.
-
 
 ## Blog
 Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog){: .print} [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog){: .onlyprint}
@@ -100,8 +104,9 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 
 - HTML, CSS, JavaScript, and TypeScript
 - Angular and React
+- Angular ecosystem for enterprise projects
 - Agile and Scrum methodologies
-- Build tool Webpack, grunt, gulp, and esbuild
+- Build tools: Webpack, Grunt, Gulp, and esbuild
 - Git, Bitbucket, Jenkins, and JIRA
 - iOS and Android-compatible web development
 - Web components and shadow components
@@ -114,7 +119,7 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - Application performance optimization
 - Concepts of Micro-frontends
 - Responsive web design and layout with CSS frameworks such as Bootstrap
-- Styling Concepts using SCSS, SASS
+- Styling concepts using SCSS, SASS, LESS
 
 
 ## Management and Leadership Skills
