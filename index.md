@@ -183,6 +183,14 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - Conduct performance evaluations and provide feedback to team members to improve skills and increase productivity.
 - Work on CMS like TeamSite and Adobe Experience Manager (AEM).
 
+### Sr. Interactive Developer L2
+**Sapient** | **Bangalore (Karnataka) India** | _March 2013 - May 2013 (2 months)_
+
+- Adobe CQ development.
+- JavaScript Development & HTML5.
+- Responsive UI Development.
+
+
 ### Sr. Consultant CRM
 **Cognizant Technology Solutions** | **Hyderabad** | _2010 - 2013 (About 2 years)_
 
@@ -208,6 +216,14 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - Setting strategy for design, development, and SEO as well W3C Standard of websites and web-based applications.
 - UI design.
 - Concept visualization and flow of an application. R&D on new technologies and implementation.
+
+### Sr. Web Designer
+**Pinnacle Technosys** | **Vadodara** | _2003 - 2004 (Almost 1 year)_
+
+- Design, development and maintenance of client portals, web based marketing & print
+- Media collaterals & software development for the same.
+- W3C based website design and content implementations.
+- Macromedia Flash design and development
 
 ## Project Details
 
