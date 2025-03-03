@@ -65,16 +65,13 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 # Ravindra M. Suthar
 **UI Architect & Developer** | **Agile Scrum Master with Leadership** | **Team Management Experience**
 
-
 - m: +91-8380099988
 - m: +91-7722044011
-- e: [ravindra.suthar@me.com](ravindra.suthar@me.com "Send email")
-- e: [rsuthar@outlook.com](rsuthar@outlook.com "Send email")
+- e: [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com "Send email")
+- e: [rsuthar@outlook.com](mailto:rsuthar@outlook.com "Send email")
 - w: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/ "Portfolio")
 
-
 ## Summary
-
 
 With **17+ years** in **front-end/UI development**, I specialize in **Angular, React, and modern UI frameworks**, creating intuitive, high-performance web applications. My expertise spans **UI/UX best practices, responsive design**, and frontend architecture, ensuring scalable and maintainable solutions.
 
@@ -89,10 +86,8 @@ Passionate about **innovation and efficiency**, I stay ahead of UI trends and **
 ## Blog
 Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog){: .print} [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog){: .onlyprint}
 
-
 ## Utilities
 Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
-
 
 ## Technical Skills
 
@@ -115,7 +110,6 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - **Responsive web design:** Proficient in creating responsive layouts using CSS frameworks like Bootstrap.
 - **Styling concepts:** Experienced with SCSS, SASS, and LESS for advanced styling techniques.
 
-
 ## Management and Leadership Skills
 
 - **Project Management and Planning:** Expertise in defining project scope, setting milestones, and ensuring timely delivery.
@@ -129,8 +123,6 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - **Change Management:** Experienced in leading teams through organizational changes and ensuring smooth transitions.
 - **Risk Management:** Skilled in identifying potential risks and implementing mitigation strategies to ensure project success.
 
-
-
 ## Achievements
 
 - **Led a successful team:** Directed a team of developers to create a responsive and accessible web application for a major financial institution, ensuring compliance with WCAG 2.1 guidelines.
@@ -138,9 +130,8 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - **Developed custom tagging library:** Created a custom tagging library for a custom data layer to capture specific events and CTAs, enhancing analytical records by 15%.
 - **Enhanced application accuracy:** Improved application functionality by implementing string comparison algorithms, resulting in more accurate results and reducing manual efforts.
 
-
-
 ## Licences & Certifications
+
 - **Google Analytics Certification**
   - Skillshop
 - **Google Tag Manager Fundamentals**
@@ -170,8 +161,8 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
   - Jodi Glickman on Pitching Yourself Learning
   - Regular Expressions
 
-
 ## Educational Qualifications
+
 - Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University**
   - 1999 - 2001
 - Higher Diploma Software Eng. (HDSE) **Aptech Computer Education**
@@ -179,83 +170,77 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
   - 1996 – 1999
 
-
 ## Professional Experience
-### Assistant Vice President (Sr. program analyst)
+
+### Assistant Vice President (Sr. Program Analyst)
 **Citicorp Service (I) Ltd.** | **Pune** | _May 2013 - Present (Over 10 years)_
 
-
-- Manage a team of 10 UI developers in the design, development, and deployment of complex web applications for clients in various industries
-- Implement Agile methodologies and Scrum framework to ensure timely delivery of projects and efficient use of resources
-- Collaborate with cross-functional teams, including UX designers, project managers, and QA engineers, to ensure the success of projects
-- Develop and maintain UI development standards, including code quality, accessibility, and performance
-- Conduct performance evaluations and provide feedback to team members to improve skills and increase productivity
-- Work on CMS like TeamSite and Adobe Experience Managaer (AEM)
-
+- Manage a team of 10 UI developers in the design, development, and deployment of complex web applications for clients in various industries.
+- Implement Agile methodologies and Scrum framework to ensure timely delivery of projects and efficient use of resources.
+- Collaborate with cross-functional teams, including UX designers, project managers, and QA engineers, to ensure the success of projects.
+- Develop and maintain UI development standards, including code quality, accessibility, and performance.
+- Conduct performance evaluations and provide feedback to team members to improve skills and increase productivity.
+- Work on CMS like TeamSite and Adobe Experience Manager (AEM).
 
 ### Sr. Consultant CRM
 **Cognizant Technology Solutions** | **Hyderabad** | _2010 - 2013 (About 2 years)_
-- Enterprise mobile web development
-- Oracle CRM API SOAP-based development
-- Performed and analyse usability
-- Testing, competitive analysis Heuristic/expert evaluating
-- Enterprise application development for CRM.
 
+- Enterprise mobile web development.
+- Oracle CRM API SOAP-based development.
+- Performed and analyzed usability.
+- Testing, competitive analysis, heuristic/expert evaluating.
+- Enterprise application development for CRM.
 
 ### Module Lead UI Developer
 **Impetus InfoTech India Pvt. Ltd.** | **Indore** | _2007 - 2010 (Over 3 years)_
-- Visualise concepts and implementations
-- Usability analyst
-- Working on application usability and web client
-- Perform and analyse usability studies: usability testing, competitive analysis,
-- heuristic/expert evaluating
-- Interact with their key organisational leads, collaboratively driving necessary discussions, decisions, and outcomes Development, design standards, and industry best practices
 
+- Visualize concepts and implementations.
+- Usability analyst.
+- Working on application usability and web client.
+- Perform and analyze usability studies: usability testing, competitive analysis, heuristic/expert evaluating.
+- Interact with their key organizational leads, collaboratively driving necessary discussions, decisions, and outcomes.
+- Development, design standards, and industry best practices.
 
-### Lead Web specialist
-**Gate six technologies India Pvt. Ltd.** | **Indore** | _2004 - 2007 (Almost 3 years)_
-
+### Lead Web Specialist
+**Gate Six Technologies India Pvt. Ltd.** | **Indore** | _2004 - 2007 (Almost 3 years)_
 
 - Setting strategy for design, development, and SEO as well W3C Standard of websites and web-based applications.
-- UI design
-- Concept visualisation and flow of an application. R&D on new technologies and implementation
-
-
-
+- UI design.
+- Concept visualization and flow of an application. R&D on new technologies and implementation.
 
 ## Project Details
 
-### Project: Citi Private bank website development
+### Project: Citi Private Bank Website Development
 **Citicorp Service (I) Ltd.**
-- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for private bank customers
-- Developed UI components
-- Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines
-- Adobe experience manager (AEM) cloud services
-- Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
-- Coordinated with the project manager and Scrum master to ensure timely delivery and successful deployment of the application
-- Integration with Adobe and Google analytics
-- Developed javascript library to track all events include thid party videos like Kaltura for Adobe launch
-- Google tag manager scripting for analytics
-- Angular components integrations with Adobe experience manager (AEM)
-- CICD end to end process with Team City and UrbanDeploy with zero click production deployment
-- Enhanced website performance upto 35%
 
+- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for private bank customers.
+- Developed UI components.
+- Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines.
+- Adobe Experience Manager (AEM) cloud services.
+- Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%.
+- Coordinated with the project manager and Scrum master to ensure timely delivery and successful deployment of the application.
+- Integration with Adobe and Google analytics.
+- Developed JavaScript library to track all events including third-party videos like Kaltura for Adobe launch.
+- Google Tag Manager scripting for analytics.
+- Angular components integrations with Adobe Experience Manager (AEM).
+- CICD end-to-end process with Team City and UrbanDeploy with zero-click production deployment.
+- Enhanced website performance up to 35%.
 
-### Project: Web Application for private bank customers and bankers
+### Project: Web Application for Private Bank Customers and Bankers
 **Citicorp Service (I) Ltd.**
-- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for a for private bank customers and bankers
-- Developed UI components using React and Bootstrap, and integrated them with backend APIs
-- Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines
-- Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%
-- Coordinated with the project manager and Scrum master to ensure timely delivery and successful deployment of the application
-- CICD end to end process with Team City and UrbanDeploy with zero click production deployment
 
+- Collaborated with UX designers and backend developers to develop a responsive and accessible web application for private bank customers and bankers.
+- Developed UI components using React and Bootstrap, and integrated them with backend APIs.
+- Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines.
+- Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%.
+- Coordinated with the project manager and Scrum master to ensure timely delivery and successful deployment of the application.
+- CICD end-to-end process with Team City and UrbanDeploy with zero-click production deployment.
 
 ### Project: Mobile CRM for Sales
 **Cognizant Technology Solutions**
+
 - Worked on a Mobile CRM application, where I integrated the Siebel SOAP web service.
-- Application will communicate with Oracle Siebel Server. The application is performing CRUD
-- Operations on different modules.
+- Application will communicate with Oracle Siebel Server. The application is performing CRUD operations on different modules.
 - Played a major role in End-to-End application development and delivery management.
-- Local Storage Data encryption GPS Location Dashboard with Charts
-- Calendar with event management with Month, Week, and Day view
+- Local Storage Data encryption GPS Location Dashboard with Charts.
+- Calendar with event management with Month, Week, and Day view.
