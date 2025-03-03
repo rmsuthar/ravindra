@@ -175,7 +175,8 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 ### Assistant Vice President (Sr. Program Analyst)
 **Citicorp Service (I) Ltd.** | **Pune** | _May 2013 - Present (Over 10 years)_
 
-- Manage a team of 10 UI developers in the design, development, and deployment of complex web applications for clients in various industries.
+- Led the design, development, and deployment of complex web applications for diverse industry clients.
+- Currently serving as an individual contributor due to company policy on minimal team size.
 - Implement Agile methodologies and Scrum framework to ensure timely delivery of projects and efficient use of resources.
 - Collaborate with cross-functional teams, including UX designers, project managers, and QA engineers, to ensure the success of projects.
 - Develop and maintain UI development standards, including code quality, accessibility, and performance.
