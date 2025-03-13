@@ -1,6 +1,6 @@
 ---
 title: Ravindra Suthar
-description: Experienced UI Architect & Developer | Agile Scrum Master | Proven Leadership in Team Management
+description: Senior UI Architect | Agile Scrum Master | Frontend Performance Expert
 tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Leadership, Team Management]
 ---
 
@@ -63,7 +63,7 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 [Print this page](javascript:window.print()){: .print}
 
 # Ravindra M. Suthar
-**UI Architect & Developer** | **Agile Scrum Master with Leadership** | **Team Management Experience**
+**Senior UI Architect | Agile Scrum Master | Frontend Performance Expert**
 
 - m: +91-8380099988
 - m: +91-7722044011
@@ -73,15 +73,8 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 
 ## Summary
 
-With **17+ years** in **front-end/UI development**, I specialize in **Angular, React, and modern UI frameworks**, creating intuitive, high-performance web applications. My expertise spans **UI/UX best practices, responsive design**, and frontend architecture, ensuring scalable and maintainable solutions.
 
-As a **Scrum Master & Agile Leader**, I have successfully **led multiple development teams**, optimizing workflows through agile methodologies. I excel in **team building, mentorship, and collaboration, ensuring projects** are delivered on time and within budget.
-
-- **Tech Stack:** Angular, React, TypeScript, JavaScript, HTML5, CSS3, SCSS, GraphQL, RESTful APIs, Webpack, Git
-- **Cloud & CMS:** AWS, Adobe Experience Manager (AEM), TeamSite
-- **Best Practices:** Unit Testing, Automation, Design Patterns, Scalable & Resilient Applications
-
-Passionate about **innovation and efficiency**, I stay ahead of UI trends and **drive excellence in every project**. Excited to bring my expertise to new challenges!
+Innovative **UI Architect & Developer** with **17+ years** of experience designing scalable, high-performance web applications. Specializes in **Angular, React, TypeScript, and modern UI frameworks** to create intuitive and efficient user experiences. Proven track record in **leading Agile teams, mentoring developers, and delivering enterprise-grade UI solutions**. Passionate about frontend architecture, performance optimization, and accessibility (WCAG 2.1, ADA compliance).
 
 ## Blog
 Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog){: .print} [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog){: .onlyprint}
@@ -175,7 +168,7 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 ### Assistant Vice President (Sr. Program Analyst)
 **Citicorp Service (I) Ltd.** | **Pune** | _May 2013 - Present (Over 10 years)_
 
-- Led the design, development, and deployment of complex web applications for diverse industry clients.
+- Architected and delivered enterprise web applications using Angular & React, improving page load speed by 50% through optimization strategies.
 - Currently serving as an individual contributor due to company policy on minimal team size.
 - Implement Agile methodologies and Scrum framework to ensure timely delivery of projects and efficient use of resources.
 - Collaborate with cross-functional teams, including UX designers, project managers, and QA engineers, to ensure the success of projects.
@@ -231,7 +224,7 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 **Citicorp Service (I) Ltd.**
 
 - Collaborated with UX designers and backend developers to develop a responsive and accessible web application for private bank customers.
-- Developed UI components.
+- Developed reusable Angular UI components, reducing development time by 30%
 - Implemented accessibility (ADA) standards to ensure the web application was compliant with WCAG 2.1 guidelines.
 - Adobe Experience Manager (AEM) cloud services.
 - Conducted performance testing and implemented optimization strategies to improve application speed and reduce load times by 50%.
