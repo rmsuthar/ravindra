@@ -80,7 +80,18 @@ Innovative **UI Architect & Developer** with **17+ years** of experience designi
 Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog){: .print} [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog){: .onlyprint}
 
 ## Utilities
-Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
+
+### CSP Headers Utility - https://csp-headers.in
+A comprehensive security tool designed to automate web security configuration and Content Security Policy (CSP) generation. Built on Google Cloud Run for scalability and performance.
+
+**Key Features:**
+- **AI-Powered Analysis:** Uses Google Gemini to scan live URLs and detect third-party stacks (Analytics, Fonts, CDNs)
+- **Local Source Parsing:** Paste HTML/source code to extract assets directly
+- **Multi-Platform Export:** Generates ready-to-use configuration code for Nginx, Apache, IIS, and HTML Meta tags
+- **Security First:** Auto-suggests HSTS, X-Frame-Options, and XSS protection headers
+- **Developer-Friendly:** Helps developers and security engineers prevent XSS and Clickjacking attacks effortlessly
+
+Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
 
 ## Technical Skills
 
@@ -93,6 +104,9 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - **Cross-platform web development:** Expertise in developing web applications compatible with iOS and Android.
 - **Web components and shadow DOM:** Knowledgeable in creating reusable web components with encapsulated styles.
 - **Backend technologies:** Familiar with Node.js, Java, and Python for server-side development.
+- **AEM (Adobe Experience Manager) Development:** Working experience in core AEM development, AEM headless CMS implementation, and content fragment-based API development for enterprise content management solutions.
+- **AEM Headless CMS:** Working experience in architecting and developing headless CMS solutions using AEM to deliver content across multiple channels and platforms.
+- **Content Fragment APIs:** Working experience in designing and implementing content fragment-based APIs in AEM for flexible, API-driven content delivery and multi-channel publishing.
 - **Azure services:** Proficient in Azure Kubernetes Service (AKS), Azure Container Instances, and Azure DevOps for cloud solutions.
 - **OpenShift:** Experienced in application deployment, scaling, and management on the OpenShift platform.
 - **Cloud container technologies:** Skilled in Docker and container orchestration for scalable deployments.
@@ -101,7 +115,10 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 - **Application performance optimization:** Expertise in optimizing web applications for speed and efficiency.
 - **Micro-frontends:** Understanding of micro-frontend architecture for modular and scalable web applications.
 - **Responsive web design:** Proficient in creating responsive layouts using CSS frameworks like Bootstrap.
-- **Styling concepts:** Experienced with SCSS, SASS, and LESS for advanced styling techniques.
+- **Styling concepts:** Experienced with SCSS, SASS, LESS, and Vibe coding for advanced styling techniques.
+- **Vibe coding:** Proficient in using Vibe coding patterns for responsive, interactive, and performance-optimized UI development.
+- **Web Security & Content Security Policy:** Expert in designing and implementing security headers (CSP, HSTS, X-Frame-Options, X-XSS-Protection) to prevent web vulnerabilities.
+- **Google Cloud Platform:** Experienced with Google Cloud Run for deploying and scaling applications.
 
 ## Management and Leadership Skills
 
@@ -118,6 +135,7 @@ Check out some utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 
 ## Achievements
 
+- **Developed CSP Headers Utility:** Built a comprehensive security automation tool (https://csp-headers.in) that leverages AI-powered URL analysis and local source parsing to generate Content Security Policy configurations for multiple web servers (Nginx, Apache, IIS). Deployed on Google Cloud Run with auto-scaling capabilities, helping developers and security engineers streamline web security configuration.
 - **Led a successful team:** Directed a team of developers to create a responsive and accessible web application for a major financial institution, ensuring compliance with WCAG 2.1 guidelines.
 - **Boosted SEO performance:** Implemented effective SEO strategies that resulted in a 20% increase in organic traffic and improved website performance by optimizing caching and restructuring code, leading to a 30% increase in traffic.
 - **Developed custom tagging library:** Created a custom tagging library for a custom data layer to capture specific events and CTAs, enhancing analytical records by 15%.
