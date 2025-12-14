@@ -15,13 +15,13 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
   white-space: pre-wrap;
 }
 .markdown-body h1 {
-    padding-bottom: 0.3em;
-    font-size: 2em;
-    border-bottom: 1px solid #eaecef;
-    font-weight: 200;
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid #eaecef;
+  font-weight: 200;
 }
-.markdown-body h1:first-child{
-    display:none;
+.markdown-body h1:first-child:not(.show-title){
+  display:none;
 }
 .onlyprint{
     display:none
@@ -97,7 +97,7 @@ ul, ol {
 
 <div class="profile-header">
   <div class="profile-meta">
-    <h1>Ravindra Suthar</h1>
+    <h1 class="show-title">Ravindra Suthar</h1>
     <h2>Senior UI Architect • Agile Scrum Master • Frontend Performance Expert</h2>
     <div class="meta-row">Pune, India · Open to opportunities · 500+ connections</div>
     <div class="meta-row badges">
