@@ -58,22 +58,54 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
     display:block
   }
 }
+
+/* LinkedIn-like profile header styles */
+.profile-header{
+  display:flex;
+  gap:1.25rem;
+  align-items:center;
+  padding:1rem;
+  border-radius:8px;
+  background:linear-gradient(180deg,#fff,#fafafa);
+  box-shadow:0 1px 3px rgba(16,24,40,0.04);
+  margin-bottom:1rem;
+}
+.avatar{
+  width:120px;
+  height:120px;
+  border-radius:8px;
+  object-fit:cover;
+  border:1px solid #e6e6e6;
+}
+.profile-meta h1{font-size:1.6rem;margin:0 0 0.25rem 0;font-weight:600}
+.profile-meta h2{font-size:1rem;margin:0;color:#555;font-weight:400}
+.profile-meta .meta-row{margin-top:0.5rem;color:#444;font-size:0.95rem}
+.badges{margin-top:0.5rem}
+.badge{display:inline-block;background:#eef6ff;color:#084298;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px}
+
 </style>
 
 [Print this page](javascript:window.print()){: .print}
 
-# Ravindra M. Suthar
-**Senior UI Architect | Agile Scrum Master | Frontend Performance Expert**
+<div class="profile-header">
+  <img class="avatar" src="https://rmsuthar.github.io/ravindra/avatar.png" alt="Ravindra Suthar">
+  <div class="profile-meta">
+    <h1>Ravindra M. Suthar</h1>
+    <h2>Senior UI Architect • Agile Scrum Master • Frontend Performance Expert</h2>
+    <div class="meta-row">Pune, India · Open to opportunities · 500+ connections</div>
+    <div class="meta-row badges">
+      <span class="badge">Angular</span>
+      <span class="badge">React</span>
+      <span class="badge">TypeScript</span>
+      <span class="badge">Performance</span>
+    </div>
+    <div class="meta-row" style="margin-top:10px">
+      📧 <a href="mailto:ravindra.suthar@me.com">ravindra.suthar@me.com</a> · 🔗 <a href="https://www.linkedin.com/in/ravindrasuthar/">LinkedIn</a> · 🌐 <a href="https://rmsuthar.github.io/ravindra/">Portfolio</a>
+    </div>
+  </div>
+</div>
 
-- m: +91-8380099988
-- m: +91-7722044011
-- e: [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com "Send email")
-- e: [rsuthar@outlook.com](mailto:rsuthar@outlook.com "Send email")
-- w: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/ "Portfolio")
- - in: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/ "LinkedIn")
-
-## Summary
-
+## About
 
 Innovative **UI Architect & Developer** with **17+ years** of experience designing scalable, high-performance web applications. Specializes in **Angular, React, TypeScript, and modern UI frameworks** to create intuitive and efficient user experiences. Proven track record in **leading Agile teams, mentoring developers, and delivering enterprise-grade UI solutions**. Passionate about frontend architecture, performance optimization, and accessibility (WCAG 2.1, ADA compliance).
 
