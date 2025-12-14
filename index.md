@@ -70,6 +70,7 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 - e: [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com "Send email")
 - e: [rsuthar@outlook.com](mailto:rsuthar@outlook.com "Send email")
 - w: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/ "Portfolio")
+ - in: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/ "LinkedIn")
 
 ## Summary
 
