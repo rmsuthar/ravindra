@@ -83,13 +83,21 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 .badges{margin-top:0.5rem}
 .badge{display:inline-block;background:#eef6ff;color:#084298;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px}
 
+/* Normalize list indentation for consistent rendering */
+ul, ol {
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.profile-meta{padding-left:0}
+
 </style>
 
 [Print this page](javascript:window.print()){: .print}
 
 <div class="profile-header">
   <div class="profile-meta">
-    <h1>Ravindra M. Suthar</h1>
+    <h1>Ravindra Suthar</h1>
     <h2>Senior UI Architect • Agile Scrum Master • Frontend Performance Expert</h2>
     <div class="meta-row">Pune, India · Open to opportunities · 500+ connections</div>
     <div class="meta-row badges">
