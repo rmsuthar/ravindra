@@ -1,5 +1,5 @@
 ---
-title: Ravindra Suthar
+title: Ravindrakumar Suthar
 description: Senior UI Architect | Agile Scrum Master | Frontend Performance Expert
 tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Leadership, Team Management]
 ---
@@ -97,7 +97,7 @@ ul, ol {
 
 <div class="profile-header">
   <div class="profile-meta">
-    <h1 class="show-title">Ravindra Suthar</h1>
+    <h1 class="show-title">Ravindrakumar Suthar</h1>
     <h2>Senior UI Architect • Agile Scrum Master • Frontend Performance Expert</h2>
     <div class="meta-row">Pune, India · Open to opportunities · 500+ connections</div>
     <div class="meta-row badges">
