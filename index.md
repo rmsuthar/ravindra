@@ -88,7 +88,6 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 [Print this page](javascript:window.print()){: .print}
 
 <div class="profile-header">
-  <img class="avatar" src="https://rmsuthar.github.io/ravindra/avatar.png" alt="Ravindra Suthar">
   <div class="profile-meta">
     <h1>Ravindra M. Suthar</h1>
     <h2>Senior UI Architect • Agile Scrum Master • Frontend Performance Expert</h2>
