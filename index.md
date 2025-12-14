@@ -98,7 +98,7 @@ ul, ol {
 <div class="profile-header">
   <div class="profile-meta">
     <h1 class="show-title">Ravindrakumar Suthar</h1>
-    <h2>Senior UI Architect • Agile Scrum Master • Frontend Performance Expert</h2>
+    <em>Senior UI Architect • Agile Scrum Master • Frontend Performance Expert</em>
     
     <div class="meta-row badges">
       <span class="badge">Angular</span>
