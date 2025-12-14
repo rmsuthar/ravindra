@@ -99,7 +99,7 @@ ul, ol {
   <div class="profile-meta">
     <h1 class="show-title">Ravindrakumar Suthar</h1>
     <h2>Senior UI Architect • Agile Scrum Master • Frontend Performance Expert</h2>
-    <div class="meta-row">Pune, India · Open to opportunities · 500+ connections</div>
+    <div class="meta-row">Pune, India</div>
     <div class="meta-row badges">
       <span class="badge">Angular</span>
       <span class="badge">React</span>
