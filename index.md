@@ -169,6 +169,10 @@ Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlypri
 - **Vibe coding:** Proficient in using Vibe coding patterns for responsive, interactive, and performance-optimized UI development.
 - **Web Security & Content Security Policy:** Expert in designing and implementing security headers (CSP, HSTS, X-Frame-Options, X-XSS-Protection) to prevent web vulnerabilities.
 - **Google Cloud Platform:** Experienced with Google Cloud Run for deploying and scaling applications.
+- **Agentic AI & Generative AI:** Experience building agentic workflows and generative AI features.
+- **Gemini API:** Familiar with using Google Gemini API (and similar LLM APIs) for content generation and automation.
+- **Copilots & AI-assisted Development:** Use copilots for development, automated test-case generation, and code validation.
+- **Google Cloud Platform:** Experienced with Google Cloud Run for deploying and scaling applications.
 
 ## Management and Leadership Skills
 
