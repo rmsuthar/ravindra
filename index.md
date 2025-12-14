@@ -93,6 +93,15 @@ A comprehensive security tool designed to automate web security configuration an
 
 Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
 
+### JSON SVN — Version Control for JSON Configs
+An API-first configuration versioning service that delivers smart JSON deltas, multi-environment promotion, Git-like history, and AI-assisted workflows.
+
+- Smart deltas via `?since={timestamp}` — clients fetch only what changed.
+- Promote configuration between DEV → UAT → PROD with one click.
+- Full audit and Git-like commits with searchable history.
+
+Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlyprint}
+
 ## Technical Skills
 
 - **HTML, CSS, JavaScript, and TypeScript:** Proficient in creating dynamic and interactive web applications.
