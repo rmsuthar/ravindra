@@ -144,6 +144,7 @@ Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlypri
 
 ## Technical Skills
 
+- **Main skill: Vibe coding:** Primary development style and approach.
 - **HTML, CSS, JavaScript, and TypeScript:** Proficient in creating dynamic and interactive web applications.
 - **Angular and React:** Expertise in building scalable and maintainable applications using modern frameworks.
 - **Angular ecosystem for enterprise projects:** Extensive experience in leveraging Angular for large-scale enterprise solutions.
@@ -152,7 +153,7 @@ Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlypri
 - **Version control and CI/CD:** Experienced with Git, Bitbucket, Jenkins, and JIRA for version control and continuous integration/deployment.
 - **Cross-platform web development:** Expertise in developing web applications compatible with iOS and Android.
 - **Web components and shadow DOM:** Knowledgeable in creating reusable web components with encapsulated styles.
-- **Backend technologies:** Familiar with Node.js, Java, and Python for server-side development.
+- **Backend technologies:** Familiar with Node.js, Java, Python, and MongoDB (NoSQL) for server-side development.
 - **AEM (Adobe Experience Manager) Development:** Working experience in core AEM development, AEM headless CMS implementation, and content fragment-based API development for enterprise content management solutions.
 - **AEM Headless CMS:** Working experience in architecting and developing headless CMS solutions using AEM to deliver content across multiple channels and platforms.
 - **Content Fragment APIs:** Working experience in designing and implementing content fragment-based APIs in AEM for flexible, API-driven content delivery and multi-channel publishing.
