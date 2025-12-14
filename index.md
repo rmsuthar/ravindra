@@ -119,7 +119,7 @@ Innovative **UI Architect & Developer** with **17+ years** of experience designi
 ## Blog
 Check out my latest blog posts [here](https://rmsuthar.github.io/ravindra/blog){: .print} [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog){: .onlyprint}
 
-## Utilities
+## Utilities developed
 
 ### CSP Headers Utility - https://csp-headers.in
 A comprehensive security tool designed to automate web security configuration and Content Security Policy (CSP) generation. Built on Google Cloud Run for scalability and performance.
