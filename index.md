@@ -250,6 +250,7 @@ API-first JSON configuration versioning platform with Git-like history.
   - 1999 - 2001
 - Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
   - 1996 – 1999
+
 ---
 
 ## ATS Keywords
