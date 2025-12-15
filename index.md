@@ -27,7 +27,7 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
     display:none
 }
 p strong {
-    font-weight: 300;    
+    font-weight: 600;    
     color: #000;
 }
 em {
