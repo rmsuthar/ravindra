@@ -125,23 +125,6 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 ---
 
-### UI Keywords
-
-<div>
-  <span class="keyword-badge">Performance</span>
-  <span class="keyword-badge">Accessibility</span>
-  <span class="keyword-badge">Responsive</span>
-  <span class="keyword-badge">Micro-frontends</span>
-  <span class="keyword-badge">Web Components</span>
-  <span class="keyword-badge">Vibe coding</span>
-  <span class="keyword-badge">UX</span>
-  <span class="keyword-badge">Interaction Design</span>
-  <span class="keyword-badge">Animation</span>
-  <span class="keyword-badge">Core Web Vitals</span>
-  <span class="keyword-badge">Lighthouse</span>
-</div>
-
-
 ## Key Achievements
 - Improved frontend performance by **up to 50%** across enterprise banking platforms.
 - Delivered **WCAG 2.1 compliant** applications for global private banking clients.
@@ -254,7 +237,41 @@ API-first JSON configuration versioning platform with Git-like history.
 ---
 
 ## ATS Keywords
-Angular, React, TypeScript, Frontend Architect, Accessibility, WCAG, ADA, AEM, Performance Optimization, CSP, Cloud, Agile
-, JavaScript, Web Components, Micro-frontends, Core Web Vitals, Lighthouse, Bundle Optimization, Adobe Experience Manager, Security Headers, OWASP, Docker, Kubernetes, CI/CD, Google Cloud, Azure, Scrum Master, Team Leadership, Mentoring, Enterprise Applications, Banking Technology, E-commerce, Digital Transformation
+<div>
+  <span class="keyword-badge">Angular</span>
+  <span class="keyword-badge">React</span>
+  <span class="keyword-badge">TypeScript</span>
+  <span class="keyword-badge">Frontend Architect</span>
+  <span class="keyword-badge">Accessibility</span>
+  <span class="keyword-badge">WCAG</span>
+  <span class="keyword-badge">ADA</span>
+  <span class="keyword-badge">AEM</span>
+  <span class="keyword-badge">Performance Optimization</span>
+  <span class="keyword-badge">CSP</span>
+  <span class="keyword-badge">Cloud</span>
+  <span class="keyword-badge">Agile</span>
+  <span class="keyword-badge">JavaScript</span>
+  <span class="keyword-badge">Web Components</span>
+  <span class="keyword-badge">Micro-frontends</span>
+  <span class="keyword-badge">Core Web Vitals</span>
+  <span class="keyword-badge">Lighthouse</span>
+  <span class="keyword-badge">Bundle Optimization</span>
+  <span class="keyword-badge">Adobe Experience Manager</span>
+  <span class="keyword-badge">Security Headers</span>
+  <span class="keyword-badge">OWASP</span>
+  <span class="keyword-badge">Docker</span>
+  <span class="keyword-badge">Kubernetes</span>
+  <span class="keyword-badge">CI/CD</span>
+  <span class="keyword-badge">Google Cloud</span>
+  <span class="keyword-badge">Azure</span>
+  <span class="keyword-badge">Scrum Master</span>
+  <span class="keyword-badge">Team Leadership</span>
+  <span class="keyword-badge">Mentoring</span>
+  <span class="keyword-badge">Enterprise Applications</span>
+  <span class="keyword-badge">Banking Technology</span>
+  <span class="keyword-badge">E-commerce</span>
+  <span class="keyword-badge">Digital Transformation</span>
+</div>
+
 
 #angular #react #typescript #frontend #webdeveloper #accessibility #wcag #ada #aem #performance #security #csp #agile #scrummaster #cloudnative #devops #ux #ui #architecture #enterprise
