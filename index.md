@@ -104,6 +104,7 @@ ul, ol {
 
 🔗 Email: [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)  
 🔗 LinkedIn: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
+🔗 Phone: [📞 +91 8380099988](tel:+918380099988)  
 
 
 
