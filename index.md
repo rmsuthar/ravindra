@@ -1,8 +1,8 @@
----
+
 title: Ravindrakumar Suthar
 description: Senior UI Architect | Agile Scrum Master | Frontend Performance Expert
 tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Leadership, Team Management]
----
+
 
 <style>
   h2 {
@@ -84,7 +84,7 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 .badge{display:inline-block;background:#eef6ff;color:#084298;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px}
 
 /* UI keyword badges */
-.keyword-badge{display:inline-block;background:#fff4e6;color:#663c00;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px;border:1px solid #ffe1b3}
+.keyword-badge{display:inline-block;background:#fff4e6; color:#663c00;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px;border:1px solid #ffe1b3}
 
 
 /* Normalize list indentation for consistent rendering */
@@ -106,12 +106,12 @@ ul, ol {
 🔗 LinkedIn: https://www.linkedin.com/in/ravindrasuthar/  
 🌐 Portfolio: https://rmsuthar.github.io/ravindra/
 
----
+
 
 ## Professional Summary
 Senior **Frontend & UI Architect** with **17+ years of experience** delivering **enterprise-scale, high-performance, and accessible web applications** for BFSI and large organizations. Deep expertise in **Angular, React, TypeScript, AEM Headless, Accessibility (WCAG 2.1/2.2, ADA)**, and **web performance optimization**. Proven record of **architecting secure UI platforms, mentoring teams, driving Agile delivery**, and partnering with stakeholders to ship business-critical products.
 
----
+
 
 ## Core Skills
 - **Frontend & Architecture:** Angular, React, TypeScript, JavaScript, Micro-frontends, Web Components, Shadow DOM
@@ -123,7 +123,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - **Analytics:** Adobe Analytics, Google Analytics, GTM
 - **Agile & Leadership:** Scrum Master (CSM), Mentoring, Hiring
 
----
+
 
 ## Key Achievements
 - Improved frontend performance by **up to 50%** across enterprise banking platforms.
@@ -132,7 +132,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - Reduced UI development effort by **30%** using reusable component libraries.
 - Increased organic traffic by **20–30%** through SEO and performance optimization.
 
----
+
 
 ## Professional Experience
 
@@ -147,7 +147,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - Implemented CI/CD pipelines with zero-touch deployments.
 - Mentored engineers and acted as UI technical escalation point.
 
----
+
 
 ### Senior Interactive Developer
 **Sapient, Bangalore**  
@@ -155,7 +155,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 - Developed responsive UIs using **HTML5, JavaScript, and Adobe CQ/AEM**.
 
----
+
 
 ### Senior Consultant – CRM UI
 **Cognizant Technology Solutions, Hyderabad**  
@@ -164,7 +164,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - Built enterprise mobile CRM applications using **Oracle Siebel SOAP APIs**.
 - Delivered end-to-end UI solutions with offline storage and encryption.
 
----
+
 
 ### Module Lead – UI Development
 **Impetus Infotech India Pvt. Ltd., Indore**  
@@ -172,7 +172,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 - Led UI teams and conducted usability testing and heuristic evaluations.
 
----
+
 
 ### Lead Web Specialist
 **Gate Six Technologies India Pvt. Ltd., Indore**  
@@ -180,7 +180,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 - Defined UI strategy, SEO standards, and W3C-compliant implementations.
 
----
+
 
 ## Initiatives Products & Utilities 
 
@@ -191,7 +191,7 @@ AI-powered tool for automated CSP and security header generation.
 ### JSON SVN
 API-first JSON configuration versioning platform with Git-like history.
 
----
+
 
 ## Licences & Certifications
 
@@ -224,7 +224,7 @@ API-first JSON configuration versioning platform with Git-like history.
   - Jodi Glickman on Pitching Yourself Learning
   - Regular Expressions
 
----
+
 
 ## Educational Qualifications
 
@@ -235,7 +235,7 @@ API-first JSON configuration versioning platform with Git-like history.
 - Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
   - 1996 – 1999
 
----
+
 
 ## ATS Keywords
 <div>
