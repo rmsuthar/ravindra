@@ -1,3 +1,100 @@
+---
+title: Ravindrakumar Suthar
+description: Senior UI Architect | Agile Scrum Master | Frontend Performance Expert
+tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Leadership, Team Management]
+---
+
+<style>
+  h2 {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 0.5rem;
+  white-space: pre-wrap;
+}
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid #eaecef;
+  font-weight: 200;
+}
+.markdown-body h1:first-child:not(.show-title){
+  display:none;
+}
+.onlyprint{
+    display:none
+}
+p strong {
+    font-weight: 300;    
+    color: #000;
+}
+em {
+    font-weight: normal;
+    background-color: #ffffe4;
+    padding: 3px 5px;
+    color: #000000;
+    font-style: normal;
+}
+
+a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 3px;
+}
+:hover > .anchorjs-link, .anchorjs-link:focus {
+    opacity: 1;
+    padding-right: 0.675rem;
+    margin-left: 10px;
+}
+@media print {
+  .print {
+    display: none;
+  }
+  .onlyprint{
+    display:block
+  }
+}
+
+/* LinkedIn-like profile header styles */
+.profile-header{
+  display:flex;
+  gap:1.25rem;
+  align-items:center;
+  padding:1rem;
+  border-radius:8px;
+  background:linear-gradient(180deg,#fff,#fafafa);
+  box-shadow:0 1px 3px rgba(16,24,40,0.04);
+  margin-bottom:1rem;
+}
+.avatar{
+  width:120px;
+  height:120px;
+  border-radius:8px;
+  object-fit:cover;
+  border:1px solid #e6e6e6;
+}
+.profile-meta h1{font-size:1.6rem;margin:0 0 0.25rem 0;font-weight:600}
+.profile-meta h2{font-size:1rem;margin:0;color:#555;font-weight:400}
+.profile-meta .meta-row{margin-top:0.5rem;color:#444;font-size:0.95rem}
+.badges{margin-top:0.5rem}
+.badge{display:inline-block;background:#eef6ff;color:#084298;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px}
+
+/* Normalize list indentation for consistent rendering */
+ul, ol {
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+.profile-meta{padding-left:0}
+
+</style>
+
+[Print this page](javascript:window.print()){: .print}
+
 # Ravindrakumar Suthar
 **Senior Frontend / UI Architect | Accessibility & Performance Specialist | Agile Scrum Master**
 
