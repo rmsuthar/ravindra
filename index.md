@@ -274,5 +274,3 @@ API-first JSON configuration versioning platform with Git-like history.
   <span class="keyword-badge">Digital Transformation</span>
 </div>
 
-
-#angular #react #typescript #frontend #webdeveloper #accessibility #wcag #ada #aem #performance #security #csp #agile #scrummaster #cloudnative #devops #ux #ui #architecture #enterprise
