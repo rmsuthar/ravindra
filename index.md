@@ -223,6 +223,7 @@ API-first JSON configuration versioning platform with Git-like history.
   - The Key to Good Communication: Your Audience
   - Jodi Glickman on Pitching Yourself Learning
   - Regular Expressions
+
 ---
 
 ## Educational Qualifications
