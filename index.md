@@ -218,10 +218,14 @@ API-first JSON configuration versioning platform with Git-like history.
 
 ---
 
-## Education
-**Post Graduate Diploma in Information Technology** – Sikkim Manipal University  
-**Bachelor of Science (Chemistry & Mathematics)** – Gujarat University
+## Educational Qualifications
 
+- Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University**
+  - 1999 - 2001
+- Higher Diploma Software Eng. (HDSE) **Aptech Computer Education**
+  - 1999 - 2001
+- Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
+  - 1996 – 1999
 ---
 
 ## ATS Keywords
