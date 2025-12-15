@@ -84,7 +84,7 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 .badge{display:inline-block;background:#eef6ff;color:#084298;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px}
 
 /* UI keyword badges */
-.keyword-badge{display:inline-block;background:#fff4e6; color:#663c00;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px;border:1px solid #ffe1b3;line-height:0.5rem;}
+.keyword-badge{display:inline-block;background:#fff4e6; color:#663c00;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px;border:1px solid #ffe1b3;margin-bottom:0.6rem;}
 
 
 /* Normalize list indentation for consistent rendering */
