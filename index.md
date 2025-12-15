@@ -83,6 +83,10 @@ a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
 .badges{margin-top:0.5rem}
 .badge{display:inline-block;background:#eef6ff;color:#084298;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px}
 
+/* UI keyword badges */
+.keyword-badge{display:inline-block;background:#fff4e6;color:#663c00;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px;border:1px solid #ffe1b3}
+
+
 /* Normalize list indentation for consistent rendering */
 ul, ol {
   margin-left: 1rem;
@@ -120,6 +124,23 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - **Agile & Leadership:** Scrum Master (CSM), Mentoring, Hiring
 
 ---
+
+### UI Keywords
+
+<div>
+  <span class="keyword-badge">Performance</span>
+  <span class="keyword-badge">Accessibility</span>
+  <span class="keyword-badge">Responsive</span>
+  <span class="keyword-badge">Micro-frontends</span>
+  <span class="keyword-badge">Web Components</span>
+  <span class="keyword-badge">Vibe coding</span>
+  <span class="keyword-badge">UX</span>
+  <span class="keyword-badge">Interaction Design</span>
+  <span class="keyword-badge">Animation</span>
+  <span class="keyword-badge">Core Web Vitals</span>
+  <span class="keyword-badge">Lighthouse</span>
+</div>
+
 
 ## Key Achievements
 - Improved frontend performance by **up to 50%** across enterprise banking platforms.
