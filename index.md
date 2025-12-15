@@ -205,3 +205,6 @@ API-first JSON configuration versioning platform with Git-like history.
 
 ## ATS Keywords
 Angular, React, TypeScript, Frontend Architect, Accessibility, WCAG, ADA, AEM, Performance Optimization, CSP, Cloud, Agile
+, JavaScript, Web Components, Micro-frontends, Core Web Vitals, Lighthouse, Bundle Optimization, Adobe Experience Manager, Security Headers, OWASP, Docker, Kubernetes, CI/CD, Google Cloud, Azure, Scrum Master, Team Leadership, Mentoring, Enterprise Applications, Banking Technology, E-commerce, Digital Transformation
+
+#angular #react #typescript #frontend #webdeveloper #accessibility #wcag #ada #aem #performance #security #csp #agile #scrummaster #cloudnative #devops #ux #ui #architecture #enterprise
