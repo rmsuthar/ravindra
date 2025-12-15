@@ -7,7 +7,7 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 <style>
   h2 {
   background-color: #f5f5f5;
-  border: 1px solid #ccc;
+  
   border-radius: 4px;
   line-height: 1.4;
   overflow-x: auto;
