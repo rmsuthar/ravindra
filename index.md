@@ -185,13 +185,26 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 ## Initiatives Products & Utilities 
 
-### CSP Headers Utility
-https://csp-headers.in  
-AI-powered tool for automated CSP and security header generation.
+### CSP Headers Utility - https://csp-headers.in
+A comprehensive security tool designed to automate web security configuration and Content Security Policy (CSP) generation. Built on Google Cloud Run for scalability and performance.
 
-### JSON SVN
-API-first JSON configuration versioning platform with Git-like history.
+**Key Features:**
+- **AI-Powered Analysis:** Uses Google Gemini to scan live URLs and detect third-party stacks (Analytics, Fonts, CDNs)
+- **Local Source Parsing:** Paste HTML/source code to extract assets directly
+- **Multi-Platform Export:** Generates ready-to-use configuration code for Nginx, Apache, IIS, and HTML Meta tags
+- **Security First:** Auto-suggests HSTS, X-Frame-Options, and XSS protection headers
+- **Developer-Friendly:** Helps developers and security engineers prevent XSS and Clickjacking attacks effortlessly
 
+Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
+
+### JSON SVN — Version Control for JSON Configs
+An API-first configuration versioning service that delivers smart JSON deltas, multi-environment promotion, Git-like history, and AI-assisted workflows.
+
+- Smart deltas via `?since={timestamp}` — clients fetch only what changed.
+- Promote configuration between DEV → UAT → PROD with one click.
+- Full audit and Git-like commits with searchable history.
+
+Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlyprint}
 
 
 ## Licences & Certifications
