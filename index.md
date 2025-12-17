@@ -116,6 +116,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 ## Core Skills
 - **Frontend & Architecture:** Angular, React, TypeScript, JavaScript, Micro-frontends, Web Components, Shadow DOM
+- **Agentic AI:** Large Language Models (LLMs), Prompt Engineering, AI Agents, RAG
 - **Accessibility:** WCAG 2.1/2.2, ADA Compliance, Accessibility Audits, Inclusive Design
 - **Performance & SEO:** Core Web Vitals, Lighthouse, Bundle Optimization, Caching Strategies
 - **CMS:** Adobe Experience Manager (AEM), AEM Headless, Content Fragments
@@ -286,6 +287,7 @@ Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlypri
   <span class="keyword-badge">Banking Technology</span>
   <span class="keyword-badge">E-commerce</span>
   <span class="keyword-badge">Digital Transformation</span>
+  <span class="keyword-badge">Agentic AI</span>
 </div>
 
 ---
