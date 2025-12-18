@@ -187,7 +187,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 ## Initiatives Products & Utilities 
 
-### CSP Headers Utility - https://csp-headers.in
+### CSP Headers Utility - [https://csp-headers.in](https://csp-headers.in)
 A comprehensive security tool designed to automate web security configuration and Content Security Policy (CSP) generation. Built on Google Cloud Run for scalability and performance.
 
 **Key Features:**
@@ -199,7 +199,7 @@ A comprehensive security tool designed to automate web security configuration an
 
 Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
 
-### JSON SVN — Version Control for JSON Configs
+### JSON SVN — Version Control for JSON Configs - [https://www.jsonsvn.in](https://www.jsonsvn.in)
 An API-first configuration versioning service that delivers smart JSON deltas, multi-environment promotion, Git-like history, and AI-assisted workflows.
 
 - Smart deltas via `?since={timestamp}` — clients fetch only what changed.
