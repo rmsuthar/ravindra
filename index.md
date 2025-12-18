@@ -210,7 +210,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 *May 2013 – Present*
 
 - Architected enterprise web platforms using **Angular, React, and AEM**.
-- Led accessibility-first UI development (WCAG 2.1 / ADA).
+- Led accessibility-first UI development (WCAG 2.1|2.2 / ADA).
 - Improved page load performance by **35–50%**.
 - Defined frontend architecture standards and best practices.
 - Implemented CI/CD pipelines with zero-touch deployments.
