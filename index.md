@@ -8,17 +8,16 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
   :root {
     --primary: #0066cc;
     --primary-hover: #0052a3;
-    --bg-section: #f8fafc;
+    --bg-page: #f4f7fa;
     --text-main: #2d3748;
-    --badge-bg: #fff4e6;
-    --badge-text: #663c00;
-    --badge-border: #ffe1b3;
-    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --card-bg: #ffffff;
+    --badge-bg: #f1f5f9;
+    --badge-text: #475569;
+    --badge-border: #e2e8f0;
   }
 
   @keyframes slideUp {
-    from { opacity: 0; transform: translateY(20px); }
+    from { opacity: 0; transform: translateY(30px); }
     to { opacity: 1; transform: translateY(0); }
   }
 
@@ -28,108 +27,159 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
   }
 
   body {
-    line-height: 1.6;
+    line-height: 1.7;
     color: var(--text-main);
-    background-color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-page);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 2rem 0;
   }
 
   .markdown-body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
     animation: fadeIn 0.8s ease-out;
+    background: transparent !important;
   }
 
-  .markdown-body > * {
-    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
-  }
-
-  /* Staggered item entrance */
-  .markdown-body > *:nth-child(1) { animation-delay: 0.1s; }
-  .markdown-body > *:nth-child(2) { animation-delay: 0.15s; }
-  .markdown-body > *:nth-child(3) { animation-delay: 0.2s; }
-  .markdown-body > *:nth-child(4) { animation-delay: 0.25s; }
-  .markdown-body > *:nth-child(5) { animation-delay: 0.3s; }
-  .markdown-body > *:nth-child(n+6) { animation-delay: 0.35s; }
-
-  h2 {
-    background-color: var(--bg-section);
-    border-radius: 8px;
-    padding: 0.75rem 1.25rem;
-    margin-top: 2.5rem !important;
-    margin-bottom: 1.25rem !important;
-    border-left: 5px solid var(--primary);
-    font-weight: 600;
-    letter-spacing: -0.01em;
+  .section-card {
+    background: var(--card-bg);
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    margin-bottom: 2.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
     transition: all 0.3s ease;
   }
 
-  h2:hover {
-    transform: translateX(8px);
-    background-color: #edf2f7;
+  .section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
   }
 
-  .markdown-body h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #1a202c;
-    border-bottom: none;
-    margin-bottom: 0.5rem;
+  .header-card {
+    text-align: center;
+    background: linear-gradient(135deg, #004494 0%, #0066cc 100%);
+    color: white;
+    padding: 4rem 2.5rem;
+    border-radius: 20px;
+    margin-bottom: 3rem;
   }
 
-  .markdown-body h1:first-child:not(.show-title) {
-    display: none;
-  }
-
-  p strong {
-    color: #1a202c;
-    font-weight: 600;
-  }
-
-  em {
-    background-color: #fffbe6;
-    padding: 0.1rem 0.3rem;
-    border-radius: 4px;
-    font-style: normal;
-    font-weight: 500;
-  }
-
-  a:not(.anchorjs-link) {
-    color: var(--primary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: all 0.25s ease;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-weight: 500;
-  }
-
-  a:not(.anchorjs-link):hover {
-    background-color: var(--primary);
+  .header-card h1 {
     color: white !important;
-    border-bottom-color: var(--primary);
+    font-size: 3rem !important;
+    margin-bottom: 1rem !important;
+    font-weight: 800 !important;
+  }
+
+  .header-card p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+  }
+
+  .contact-info a {
+    color: rgba(255, 255, 255, 0.9) !important;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 99px;
+  }
+
+  .contact-info a:hover {
+    background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 102, 204, 0.2);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: #1a202c;
+    margin-top: 0 !important;
+    margin-bottom: 1.5rem !important;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+
+  h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #e2e8f0;
+    margin-left: 1.5rem;
   }
 
   .keyword-badge {
-    display: inline-block;
-    background: #f1f5f9;
-    color: #475569;
-    padding: 6px 14px;
-    border-radius: 6px;
+    background: #f8fafc;
+    color: #64748b;
+    padding: 8px 16px;
+    border-radius: 8px;
     font-size: 0.85rem;
-    margin-right: 8px;
-    margin-bottom: 0.8rem;
+    margin: 0 8px 12px 0;
     border: 1px solid #e2e8f0;
+    display: inline-block;
+    font-weight: 600;
     transition: all 0.2s ease;
-    cursor: default;
-    font-weight: 500;
   }
 
   .keyword-badge:hover {
-    background: #e2e8f0;
-    color: #1e293b;
-    border-color: #cbd5e1;
-    transform: translateY(-1px);
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transform: scale(1.05);
+  }
+
+  /* Professional Experience Item */
+  .exp-item {
+    border-left: 2px solid #e2e8f0;
+    padding-left: 1.5rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+  }
+
+  .exp-item::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background: var(--primary);
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+  }
+
+  .exp-title {
+    font-weight: 700;
+    color: #1a202c;
+    font-size: 1.1rem;
+  }
+
+  .exp-date {
+    font-size: 0.9rem;
+    color: var(--primary);
+    background: #eef6ff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 99px;
+    font-weight: 600;
   }
 
   /* List Styling */
@@ -141,41 +191,47 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
   li {
     position: relative;
     padding-left: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
   }
 
   li::before {
-    content: "→";
+    content: "•";
     position: absolute;
     left: 0;
     color: var(--primary);
     font-weight: bold;
-    opacity: 0.7;
+    font-size: 1.2rem;
   }
 
   @media print {
-    .print { display: none; }
-    .onlyprint { display: block; }
-    .markdown-body > * { animation: none; }
+    body { background: white; padding: 0; }
+    .section-card { box-shadow: none; border: 1px solid #eee; margin-bottom: 1.5rem; break-inside: avoid; }
+    .header-card { background: white; color: black; border: 1px solid #eee; }
+    .header-card h1, .contact-info a { color: black !important; border: 1px solid #eee; }
   }
 </style>
 
 [Print this page](javascript:window.print()){: .print}
 
-# Ravindrakumar Suthar
-**Senior Frontend / UI Architect | Accessibility & Performance Specialist | Agile Scrum Master | vibe coding with AI**
+<div class="header-card">
+  <h1>Ravindrakumar Suthar</h1>
+  <p>Senior Frontend / UI Architect | Accessibility & Performance Specialist | Agile Scrum Master | vibe coding with AI</p>
+  <div class="contact-info">
+    <a href="mailto:ravindra.suthar@me.com">ravindra.suthar@me.com</a>
+    <a href="https://www.linkedin.com/in/ravindrasuthar/" target="_blank">LinkedIn</a>
+    <a href="tel:+918380099988">+91 8380099988</a>
+    <a href="https://rmsuthar.github.io/ravindra/" target="_blank">Full Profile</a>
+  </div>
+</div>
 
-Email: [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)  
-LinkedIn: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
-Phone: [📞 +91 8380099988](tel:+918380099988)  
-Profile: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/)
-
-
-## Professional Summary
+<div class="section-card">
+<h2>Professional Summary</h2>
 Senior **Frontend & UI Architect** with **17+ years of experience** delivering **enterprise-scale, high-performance, and accessible web applications** for BFSI and large organizations. Deep expertise in **Angular, React, TypeScript, AEM Headless, Accessibility (WCAG 2.1/2.2, ADA)**, and **web performance optimization**. Proven record of **architecting secure UI platforms, mentoring teams, driving Agile delivery**, and partnering with stakeholders to ship business-critical products.
+</div>
 
 
 
+<div class="section-card">
 ## Core Skills
 - **Frontend & Architecture:** Angular, React, TypeScript, JavaScript, Micro-frontends, Web Components, Shadow DOM
 - **Agentic AI:** Large Language Models (LLMs), Prompt Engineering, AI Agents, RAG
@@ -186,9 +242,11 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - **Cloud & DevOps:** Google Cloud Run, Docker, OpenShift, AKS, TeamCity, Jenkins, UrbanDeploy, RLM Deployments, GitHub, Bitbucket integrations
 - **Analytics:** Adobe Analytics, Google Analytics, Google tag manager (GTM)
 - **Agile & Leadership:** Scrum Master (CSM), Mentoring, Hiring, Jira
+</div>
 
 
 
+<div class="section-card">
 ## Key Achievements
 - Improved frontend performance by **up to 50%** across enterprise banking platforms.
 - Delivered **WCAG 2.1/2.2 ADA compliant** applications for global private banking clients.
@@ -196,14 +254,19 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - Built **JSON SVN — Version Control for JSON Configs (https://www.jsonsvn.in)**, an API-first configuration versioning service delivering smart deltas and Git-like history.
 - Reduced UI development effort by **30%** using reusable component libraries.
 - Increased organic traffic by **20–30%** through SEO and performance optimization.
+</div>
 
 
 
+<div class="section-card">
 ## Professional Experience
 
-### Assistant Vice President – Senior Program Analyst (Frontend Architect)
-**Citicorp Services India Pvt. Ltd., Pune**  
-*May 2013 – Present*
+<div class="exp-item">
+<div class="exp-header">
+<div class="exp-title">Assistant Vice President – Senior Program Analyst (Frontend Architect)</div>
+<div class="exp-date">May 2013 – Present</div>
+</div>
+**Citicorp Services India Pvt. Ltd., Pune**
 
 - Architected enterprise web platforms using **Angular, React, and AEM**.
 - Led accessibility-first UI development (WCAG/ADA).
@@ -211,42 +274,53 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - Defined frontend architecture standards and best practices.
 - Implemented CI/CD pipelines with zero-touch deployments.
 - Mentored engineers and acted as UI technical escalation point.
+</div>
 
-
-
-### Senior Interactive Developer
-**Sapient, Bangalore**  
-*Mar 2013 – May 2013*
+<div class="exp-item">
+<div class="exp-header">
+<div class="exp-title">Senior Interactive Developer</div>
+<div class="exp-date">Mar 2013 – May 2013</div>
+</div>
+**Sapient, Bangalore**
 
 - Developed responsive UIs using **HTML5, JavaScript, and Adobe CQ/AEM**.
+</div>
 
-
-
-### Senior Consultant – CRM UI
-**Cognizant Technology Solutions, Hyderabad**  
-*2010 – 2013*
+<div class="exp-item">
+<div class="exp-header">
+<div class="exp-title">Senior Consultant – CRM UI</div>
+<div class="exp-date">2010 – 2013</div>
+</div>
+**Cognizant Technology Solutions, Hyderabad**
 
 - Built enterprise mobile CRM applications using **Oracle Siebel SOAP APIs**.
 - Delivered end-to-end UI solutions with offline storage and encryption.
+</div>
 
-
-
-### Module Lead – UI Development
-**Impetus Infotech India Pvt. Ltd., Indore**  
-*2007 – 2010*
+<div class="exp-item">
+<div class="exp-header">
+<div class="exp-title">Module Lead – UI Development</div>
+<div class="exp-date">2007 – 2010</div>
+</div>
+**Impetus Infotech India Pvt. Ltd., Indore**
 
 - Led UI teams and conducted usability testing and heuristic evaluations.
+</div>
 
-
-
-### Lead Web Specialist
-**Gate Six Technologies India Pvt. Ltd., Indore**  
-*2004 – 2007*
+<div class="exp-item">
+<div class="exp-header">
+<div class="exp-title">Lead Web Specialist</div>
+<div class="exp-date">2004 – 2007</div>
+</div>
+**Gate Six Technologies India Pvt. Ltd., Indore**
 
 - Defined UI strategy, SEO standards, and W3C-compliant implementations.
+</div>
+</div>
 
 
 
+<div class="section-card">
 ## Initiatives Products & Utilities 
 
 ### CSP Headers Utility - [https://www.csp-headers.in](https://www.csp-headers.in)
@@ -257,7 +331,6 @@ A comprehensive security tool designed to automate web security configuration an
 - **Local Source Parsing:** Paste HTML/source code to extract assets directly
 - **Multi-Platform Export:** Generates ready-to-use configuration code for Nginx, Apache, IIS, and HTML Meta tags
 - **Security First:** Auto-suggests HSTS, X-Frame-Options, and XSS protection headers
-- **Developer-Friendly:** Helps developers and security engineers prevent XSS and Clickjacking attacks effortlessly
 
 ### JSON SVN — Version Control for JSON Configs - [https://www.jsonsvn.in](https://www.jsonsvn.in)
 An API-first configuration versioning service that delivers smart JSON deltas, multi-environment promotion, Git-like history, and AI-assisted workflows.
@@ -266,96 +339,74 @@ An API-first configuration versioning service that delivers smart JSON deltas, m
 - Promote configuration between DEV → UAT → PROD with one click.
 - Full audit and Git-like commits with searchable history.
 
-Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlyprint}
+Check out more utilities [here](https://rmsuthar.github.io/tools/index.html)
+</div>
 
-Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
-
+<div class="section-card">
 ## Licences & Certifications
-
-- **Google Analytics Certification**
-  - Skillshop
-- **Google Tag Manager Fundamentals**
-  - Google Analytics Academy
-- **Scrum Alliance Certifications**
-  - Certified ScrumMaster® (CSM®)
-- **Amazon (AWS) Certifications**
-  - Amazon Web Services Cloud Practitioner
-- **IBM Certifications**
-  - Enterprise Design Thinking Practitioner
-  - Enterprise Design Thinking Co-Creator
-  - Blockchain Essentials
-  - SQL and Relational Databases 101
-- **Atlassian Certifications**
-  - Jira Fundamentals Assessment
-  - Get Started with Jira Service Management
-  - Writing Complex JQL Queries in Jira Software
-  - How to Run Effective Meetings
-- **LinkedIn Certifications**
-  - Agile Development Practices
-  - Strategic Thinking
-  - Developing Executive Presence
-  - Critical Thinking for Better Judgment and Decision-Making
-  - Ken Blanchard on Servant Leadership
-  - Building Relationships While Working from Home
-  - The Key to Good Communication: Your Audience
-  - Jodi Glickman on Pitching Yourself Learning
-  - Regular Expressions
+- **Google Analytics Certification** (Skillshop)
+- **Google Tag Manager Fundamentals** (Google Analytics Academy)
+- **Certified ScrumMaster® (CSM®)** (Scrum Alliance)
+- **AWS Cloud Practitioner** (Amazon)
+- **Enterprise Design Thinking Practitioner & Co-Creator** (IBM)
+- **Blockchain Essentials & SQL Databases 101** (IBM)
+- **Jira Fundamentals & Service Management** (Atlassian)
+- **Agile Development & Strategic Thinking** (LinkedIn)
+</div>
 
 
 
+<div class="section-card">
 ## Educational Qualifications
-
-- Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University**
-  - 1999 - 2001
-- Higher Diploma Software Eng. (HDSE) **Aptech Computer Education**
-  - 1999 - 2001
-- Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
-  - 1996 – 1999
+- **Post Graduate Diploma in IT** — Sikkim Manipal University (1999-2001)
+- **Higher Diploma Software Eng. (HDSE)** — Aptech (1999-2001)
+- **Bachelor of Science (Chemistry & Math)** — Gujarat University (1996-1999)
+</div>
 
 
 
+<div class="section-card">
 ## ATS Keywords
-<div>
-  <span class="keyword-badge">Angular</span>
-  <span class="keyword-badge">React</span>
-  <span class="keyword-badge">TypeScript</span>
-  <span class="keyword-badge">FrontendArchitect</span>
-  <span class="keyword-badge">Accessibility</span>
-  <span class="keyword-badge">WCAG</span>
-  <span class="keyword-badge">ADA</span>
-  <span class="keyword-badge">AEM</span>
-  <span class="keyword-badge">PerformanceOptimization</span>
-  <span class="keyword-badge">CSP</span>
-  <span class="keyword-badge">Cloud</span>
-  <span class="keyword-badge">Agile</span>
-  <span class="keyword-badge">JavaScript</span>
-  <span class="keyword-badge">WebComponents</span>
-  <span class="keyword-badge">Microfrontends</span>
-  <span class="keyword-badge">CoreWebVitals</span>
-  <span class="keyword-badge">Lighthouse</span>
-  <span class="keyword-badge">BundleOptimization</span>
-  <span class="keyword-badge">AdobeExperienceManager</span>
-  <span class="keyword-badge">SecurityHeaders</span>
-  <span class="keyword-badge">OWASP</span>
-  <span class="keyword-badge">Docker</span>
-  <span class="keyword-badge">Kubernetes</span>
-  <span class="keyword-badge">CICD</span>
-  <span class="keyword-badge">GoogleCloud</span>
-  <span class="keyword-badge">Azure</span>
-  <span class="keyword-badge">ScrumMaster</span>
-  <span class="keyword-badge">TeamLeadership</span>
-  <span class="keyword-badge">Mentoring</span>
-  <span class="keyword-badge">EnterpriseApplications</span>
-  <span class="keyword-badge">BankingTechnology</span>
-  <span class="keyword-badge">Ecommerce</span>
-  <span class="keyword-badge">DigitalTransformation</span>
-  <span class="keyword-badge">AgenticAI</span>
-  <span class="keyword-badge">Jira</span>
-  <span class="keyword-badge">GitHub</span>
-  <span class="keyword-badge">Bitbucket</span>
-  <span class="keyword-badge">Jenkins</span>
-  <span class="keyword-badge">RLM</span>
-  <span class="keyword-badge">UrbanDeployment</span>
+<span class="keyword-badge">Angular</span>
+<span class="keyword-badge">React</span>
+<span class="keyword-badge">TypeScript</span>
+<span class="keyword-badge">FrontendArchitect</span>
+<span class="keyword-badge">Accessibility</span>
+<span class="keyword-badge">WCAG</span>
+<span class="keyword-badge">ADA</span>
+<span class="keyword-badge">AEM</span>
+<span class="keyword-badge">PerformanceOptimization</span>
+<span class="keyword-badge">CSP</span>
+<span class="keyword-badge">Cloud</span>
+<span class="keyword-badge">Agile</span>
+<span class="keyword-badge">JavaScript</span>
+<span class="keyword-badge">WebComponents</span>
+<span class="keyword-badge">Microfrontends</span>
+<span class="keyword-badge">CoreWebVitals</span>
+<span class="keyword-badge">Lighthouse</span>
+<span class="keyword-badge">BundleOptimization</span>
+<span class="keyword-badge">AdobeExperienceManager</span>
+<span class="keyword-badge">SecurityHeaders</span>
+<span class="keyword-badge">OWASP</span>
+<span class="keyword-badge">Docker</span>
+<span class="keyword-badge">Kubernetes</span>
+<span class="keyword-badge">CICD</span>
+<span class="keyword-badge">GoogleCloud</span>
+<span class="keyword-badge">Azure</span>
+<span class="keyword-badge">ScrumMaster</span>
+<span class="keyword-badge">TeamLeadership</span>
+<span class="keyword-badge">Mentoring</span>
+<span class="keyword-badge">EnterpriseApplications</span>
+<span class="keyword-badge">BankingTechnology</span>
+<span class="keyword-badge">Ecommerce</span>
+<span class="keyword-badge">DigitalTransformation</span>
+<span class="keyword-badge">AgenticAI</span>
+<span class="keyword-badge">Jira</span>
+<span class="keyword-badge">GitHub</span>
+<span class="keyword-badge">Bitbucket</span>
+<span class="keyword-badge">Jenkins</span>
+<span class="keyword-badge">RLM</span>
+<span class="keyword-badge">UrbanDeployment</span>
 </div>
 
 ---
