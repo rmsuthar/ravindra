@@ -121,9 +121,9 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - **Performance & SEO:** Core Web Vitals, Lighthouse, Bundle Optimization, Caching Strategies
 - **CMS:** Adobe Experience Manager (AEM), AEM Headless, Content Fragments
 - **Security:** CSP, HSTS, X-Frame-Options, OWASP, Secure UI Design
-- **Cloud & DevOps:** Google Cloud Run, Docker, OpenShift, AKS, CI/CD
-- **Analytics:** Adobe Analytics, Google Analytics, GTM
-- **Agile & Leadership:** Scrum Master (CSM), Mentoring, Hiring
+- **Cloud & DevOps:** Google Cloud Run, Docker, OpenShift, AKS, TeamCity, Jenkins, UrbanDeploy, RLM Deployments, GitHub, Bitbucket integrations
+- **Analytics:** Adobe Analytics, Google Analytics, Google tag manager (GTM)
+- **Agile & Leadership:** Scrum Master (CSM), Mentoring, Hiring, Jira
 
 
 
