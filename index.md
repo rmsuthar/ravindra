@@ -100,7 +100,7 @@ ul, ol {
 [Print this page](javascript:window.print()){: .print}
 
 # Ravindrakumar Suthar
-**Senior Frontend / UI Architect | Accessibility & Performance Specialist | Agile Scrum Master**
+**Senior Frontend / UI Architect | Accessibility & Performance Specialist | Agile Scrum Master | vibe coding with AI**
 
 Email: [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)  
 LinkedIn: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
