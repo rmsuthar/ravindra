@@ -288,6 +288,13 @@ Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .
   <span class="keyword-badge">E-commerce</span>
   <span class="keyword-badge">Digital Transformation</span>
   <span class="keyword-badge">Agentic AI</span>
+  <span class="keyword-badge">Jira</span>
+  <span class="keyword-badge">GitHub</span>
+  <span class="keyword-badge">Bitbucket</span>
+  <span class="keyword-badge">Jenkins</span>
+  <span class="keyword-badge">RLM</span>
+  <span class="keyword-badge">Urban Deployment</span>
+  
 </div>
 
 ---
