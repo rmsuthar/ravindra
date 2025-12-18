@@ -195,7 +195,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 ## Key Achievements
 - Improved frontend performance by **up to 50%** across enterprise banking platforms.
-- Delivered **WCAG 2.1 compliant** applications for global private banking clients.
+- Delivered **WCAG 2.1/2.2 ADA compliant** applications for global private banking clients.
 - Built **CSP Headers Utility (https://csp-headers.in)** for automated security header generation.
 - Built **JSON SVN — Version Control for JSON Configs (https://www.jsonsvn.in)**, an API-first configuration versioning service delivering smart deltas and Git-like history.
 - Reduced UI development effort by **30%** using reusable component libraries.
