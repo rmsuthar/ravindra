@@ -317,47 +317,46 @@ Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 
 ## ATS Keywords
 <div>
-  <span class="keyword-badge">Angular</span>
-  <span class="keyword-badge">React</span>
-  <span class="keyword-badge">TypeScript</span>
-  <span class="keyword-badge">Frontend Architect</span>
-  <span class="keyword-badge">Accessibility</span>
-  <span class="keyword-badge">WCAG</span>
-  <span class="keyword-badge">ADA</span>
-  <span class="keyword-badge">AEM</span>
-  <span class="keyword-badge">Performance Optimization</span>
-  <span class="keyword-badge">CSP</span>
-  <span class="keyword-badge">Cloud</span>
-  <span class="keyword-badge">Agile</span>
-  <span class="keyword-badge">JavaScript</span>
-  <span class="keyword-badge">Web Components</span>
-  <span class="keyword-badge">Micro-frontends</span>
-  <span class="keyword-badge">Core Web Vitals</span>
-  <span class="keyword-badge">Lighthouse</span>
-  <span class="keyword-badge">Bundle Optimization</span>
-  <span class="keyword-badge">Adobe Experience Manager</span>
-  <span class="keyword-badge">Security Headers</span>
-  <span class="keyword-badge">OWASP</span>
-  <span class="keyword-badge">Docker</span>
-  <span class="keyword-badge">Kubernetes</span>
-  <span class="keyword-badge">CI/CD</span>
-  <span class="keyword-badge">Google Cloud</span>
-  <span class="keyword-badge">Azure</span>
-  <span class="keyword-badge">Scrum Master</span>
-  <span class="keyword-badge">Team Leadership</span>
-  <span class="keyword-badge">Mentoring</span>
-  <span class="keyword-badge">Enterprise Applications</span>
-  <span class="keyword-badge">Banking Technology</span>
-  <span class="keyword-badge">E-commerce</span>
-  <span class="keyword-badge">Digital Transformation</span>
-  <span class="keyword-badge">Agentic AI</span>
-  <span class="keyword-badge">Jira</span>
-  <span class="keyword-badge">GitHub</span>
-  <span class="keyword-badge">Bitbucket</span>
-  <span class="keyword-badge">Jenkins</span>
-  <span class="keyword-badge">RLM</span>
-  <span class="keyword-badge">Urban Deployment</span>
-  
+  <span class="keyword-badge">#Angular</span>
+  <span class="keyword-badge">#React</span>
+  <span class="keyword-badge">#TypeScript</span>
+  <span class="keyword-badge">#FrontendArchitect</span>
+  <span class="keyword-badge">#Accessibility</span>
+  <span class="keyword-badge">#WCAG</span>
+  <span class="keyword-badge">#ADA</span>
+  <span class="keyword-badge">#AEM</span>
+  <span class="keyword-badge">#PerformanceOptimization</span>
+  <span class="keyword-badge">#CSP</span>
+  <span class="keyword-badge">#Cloud</span>
+  <span class="keyword-badge">#Agile</span>
+  <span class="keyword-badge">#JavaScript</span>
+  <span class="keyword-badge">#WebComponents</span>
+  <span class="keyword-badge">#Microfrontends</span>
+  <span class="keyword-badge">#CoreWebVitals</span>
+  <span class="keyword-badge">#Lighthouse</span>
+  <span class="keyword-badge">#BundleOptimization</span>
+  <span class="keyword-badge">#AdobeExperienceManager</span>
+  <span class="keyword-badge">#SecurityHeaders</span>
+  <span class="keyword-badge">#OWASP</span>
+  <span class="keyword-badge">#Docker</span>
+  <span class="keyword-badge">#Kubernetes</span>
+  <span class="keyword-badge">#CICD</span>
+  <span class="keyword-badge">#GoogleCloud</span>
+  <span class="keyword-badge">#Azure</span>
+  <span class="keyword-badge">#ScrumMaster</span>
+  <span class="keyword-badge">#TeamLeadership</span>
+  <span class="keyword-badge">#Mentoring</span>
+  <span class="keyword-badge">#EnterpriseApplications</span>
+  <span class="keyword-badge">#BankingTechnology</span>
+  <span class="keyword-badge">#Ecommerce</span>
+  <span class="keyword-badge">#DigitalTransformation</span>
+  <span class="keyword-badge">#AgenticAI</span>
+  <span class="keyword-badge">#Jira</span>
+  <span class="keyword-badge">#GitHub</span>
+  <span class="keyword-badge">#Bitbucket</span>
+  <span class="keyword-badge">#Jenkins</span>
+  <span class="keyword-badge">#RLM</span>
+  <span class="keyword-badge">#UrbanDeployment</span>  
 </div>
 
 ---
