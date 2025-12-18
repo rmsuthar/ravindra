@@ -5,96 +5,160 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 ---
 
 <style>
-  h2 {
-  background-color: #f5f5f5;
-  
-  border-radius: 4px;
-  line-height: 1.4;
-  overflow-x: auto;
-  padding: 0.5rem;
-  white-space: pre-wrap;
-}
-.markdown-body h1 {
-  padding-bottom: 0.3em;
-  font-size: 2em;
-  border-bottom: 1px solid #eaecef;
-  font-weight: 200;
-}
-.markdown-body h1:first-child:not(.show-title){
-  display:none;
-}
-.onlyprint{
-    display:none
-}
-p strong {
-    font-weight: 600;    
-    color: #000;
-}
-em {
-    font-weight: normal;
-    background-color: #ffffe4;
-    padding: 3px 5px;
-    color: #000000;
-    font-style: normal;
-}
+  :root {
+    --primary: #0066cc;
+    --primary-hover: #0052a3;
+    --bg-section: #f8fafc;
+    --text-main: #2d3748;
+    --badge-bg: #fff4e6;
+    --badge-text: #663c00;
+    --badge-border: #ffe1b3;
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
 
-a:not(.anchorjs-link):hover, a:not(.anchorjs-link):focus {
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    border-radius: 3px;
-    padding: 2px 3px;
-}
-:hover > .anchorjs-link, .anchorjs-link:focus {
-    opacity: 1;
-    padding-right: 0.675rem;
-    margin-left: 10px;
-}
-@media print {
-  .print {
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  body {
+    line-height: 1.6;
+    color: var(--text-main);
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .markdown-body {
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  .markdown-body > * {
+    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  /* Staggered item entrance */
+  .markdown-body > *:nth-child(1) { animation-delay: 0.1s; }
+  .markdown-body > *:nth-child(2) { animation-delay: 0.15s; }
+  .markdown-body > *:nth-child(3) { animation-delay: 0.2s; }
+  .markdown-body > *:nth-child(4) { animation-delay: 0.25s; }
+  .markdown-body > *:nth-child(5) { animation-delay: 0.3s; }
+  .markdown-body > *:nth-child(n+6) { animation-delay: 0.35s; }
+
+  h2 {
+    background-color: var(--bg-section);
+    border-radius: 8px;
+    padding: 0.75rem 1.25rem;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1.25rem !important;
+    border-left: 5px solid var(--primary);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    transition: all 0.3s ease;
+  }
+
+  h2:hover {
+    transform: translateX(8px);
+    background-color: #edf2f7;
+  }
+
+  .markdown-body h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a202c;
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .markdown-body h1:first-child:not(.show-title) {
     display: none;
   }
-  .onlyprint{
-    display:block
+
+  p strong {
+    color: #1a202c;
+    font-weight: 600;
   }
-}
 
-/* LinkedIn-like profile header styles */
-.profile-header{
-  display:flex;
-  gap:1.25rem;
-  align-items:center;
-  padding:1rem;
-  border-radius:8px;
-  background:linear-gradient(180deg,#fff,#fafafa);
-  box-shadow:0 1px 3px rgba(16,24,40,0.04);
-  margin-bottom:1rem;
-}
-.avatar{
-  width:120px;
-  height:120px;
-  border-radius:8px;
-  object-fit:cover;
-  border:1px solid #e6e6e6;
-}
-.profile-meta h1{font-size:1.6rem;margin:0 0 0.25rem 0;font-weight:600}
-.profile-meta h2{font-size:1rem;margin:0;color:#555;font-weight:400}
-.profile-meta .meta-row{margin-top:0.5rem;color:#444;font-size:0.95rem}
-.badges{margin-top:0.5rem}
-.badge{display:inline-block;background:#eef6ff;color:#084298;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px}
+  em {
+    background-color: #fffbe6;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+  }
 
-/* UI keyword badges */
-.keyword-badge{display:inline-block;background:#fff4e6; color:#663c00;padding:4px 8px;border-radius:12px;font-size:0.85rem;margin-right:6px;border:1px solid #ffe1b3;margin-bottom:0.6rem;}
+  a:not(.anchorjs-link) {
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.25s ease;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
 
+  a:not(.anchorjs-link):hover {
+    background-color: var(--primary);
+    color: white !important;
+    border-bottom-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 102, 204, 0.2);
+  }
 
-/* Normalize list indentation for consistent rendering */
-ul, ol {
-  margin-left: 1rem;
-  padding-left: 1rem;
-}
+  .keyword-badge {
+    display: inline-block;
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    padding: 6px 14px;
+    border-radius: 99px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+    margin-bottom: 0.8rem;
+    border: 1px solid var(--badge-border);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: default;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  }
 
-.profile-meta{padding-left:0}
+  .keyword-badge:hover {
+    transform: translateY(-5px) scale(1.08);
+    background: #ff8c00;
+    color: white;
+    border-color: #ff8c00;
+    box-shadow: 0 10px 20px rgba(255, 140, 0, 0.25);
+  }
 
+  /* List Styling */
+  ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+  }
+
+  li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+    opacity: 0.7;
+  }
+
+  @media print {
+    .print { display: none; }
+    .onlyprint { display: block; }
+    .markdown-body > * { animation: none; }
+  }
 </style>
 
 [Print this page](javascript:window.print()){: .print}
