@@ -197,8 +197,6 @@ A comprehensive security tool designed to automate web security configuration an
 - **Security First:** Auto-suggests HSTS, X-Frame-Options, and XSS protection headers
 - **Developer-Friendly:** Helps developers and security engineers prevent XSS and Clickjacking attacks effortlessly
 
-Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
-
 ### JSON SVN — Version Control for JSON Configs - [https://www.jsonsvn.in](https://www.jsonsvn.in)
 An API-first configuration versioning service that delivers smart JSON deltas, multi-environment promotion, Git-like history, and AI-assisted workflows.
 
@@ -208,6 +206,7 @@ An API-first configuration versioning service that delivers smart JSON deltas, m
 
 Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlyprint}
 
+Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
 
 ## Licences & Certifications
 
