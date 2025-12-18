@@ -112,25 +112,28 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 
   .keyword-badge {
     display: inline-block;
-    background: var(--badge-bg);
+    background: linear-gradient(135deg, #fff4e6 0%, #ffe8cc 100%);
     color: var(--badge-text);
-    padding: 6px 14px;
-    border-radius: 99px;
+    padding: 8px 20px;
+    clip-path: polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%);
     font-size: 0.85rem;
-    margin-right: 8px;
-    margin-bottom: 0.8rem;
-    border: 1px solid var(--badge-border);
+    margin-right: 10px;
+    margin-bottom: 1rem;
+    border: none;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    cursor: default;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    cursor: pointer;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    position: relative;
   }
 
   .keyword-badge:hover {
-    transform: translateY(-5px) scale(1.08);
-    background: #ff8c00;
+    transform: translateY(-5px) scale(1.05);
+    background: linear-gradient(135deg, #ff8c00 0%, #ffae42 100%);
     color: white;
-    border-color: #ff8c00;
-    box-shadow: 0 10px 20px rgba(255, 140, 0, 0.25);
+    clip-path: polygon(0% 0%, calc(100% - 10px) 0%, 100% 100%, 10px 100%);
+    box-shadow: 0 15px 30px rgba(255, 140, 0, 0.3);
   }
 
   /* List Styling */
