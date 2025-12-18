@@ -112,28 +112,24 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 
   .keyword-badge {
     display: inline-block;
-    background: linear-gradient(135deg, #fff4e6 0%, #ffe8cc 100%);
-    color: var(--badge-text);
-    padding: 8px 20px;
-    clip-path: polygon(10px 0%, 100% 0%, calc(100% - 10px) 100%, 0% 100%);
+    background: #f1f5f9;
+    color: #475569;
+    padding: 6px 14px;
+    border-radius: 6px;
     font-size: 0.85rem;
-    margin-right: 10px;
-    margin-bottom: 1rem;
-    border: none;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    cursor: pointer;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    position: relative;
+    margin-right: 8px;
+    margin-bottom: 0.8rem;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+    cursor: default;
+    font-weight: 500;
   }
 
   .keyword-badge:hover {
-    transform: translateY(-5px) scale(1.05);
-    background: linear-gradient(135deg, #ff8c00 0%, #ffae42 100%);
-    color: white;
-    clip-path: polygon(0% 0%, calc(100% - 10px) 0%, 100% 100%, 10px 100%);
-    box-shadow: 0 15px 30px rgba(255, 140, 0, 0.3);
+    background: #e2e8f0;
+    color: #1e293b;
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
   }
 
   /* List Styling */
@@ -320,46 +316,46 @@ Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .
 
 ## ATS Keywords
 <div>
-  <span class="keyword-badge">#Angular</span>
-  <span class="keyword-badge">#React</span>
-  <span class="keyword-badge">#TypeScript</span>
-  <span class="keyword-badge">#FrontendArchitect</span>
-  <span class="keyword-badge">#Accessibility</span>
-  <span class="keyword-badge">#WCAG</span>
-  <span class="keyword-badge">#ADA</span>
-  <span class="keyword-badge">#AEM</span>
-  <span class="keyword-badge">#PerformanceOptimization</span>
-  <span class="keyword-badge">#CSP</span>
-  <span class="keyword-badge">#Cloud</span>
-  <span class="keyword-badge">#Agile</span>
-  <span class="keyword-badge">#JavaScript</span>
-  <span class="keyword-badge">#WebComponents</span>
-  <span class="keyword-badge">#Microfrontends</span>
-  <span class="keyword-badge">#CoreWebVitals</span>
-  <span class="keyword-badge">#Lighthouse</span>
-  <span class="keyword-badge">#BundleOptimization</span>
-  <span class="keyword-badge">#AdobeExperienceManager</span>
-  <span class="keyword-badge">#SecurityHeaders</span>
-  <span class="keyword-badge">#OWASP</span>
-  <span class="keyword-badge">#Docker</span>
-  <span class="keyword-badge">#Kubernetes</span>
-  <span class="keyword-badge">#CICD</span>
-  <span class="keyword-badge">#GoogleCloud</span>
-  <span class="keyword-badge">#Azure</span>
-  <span class="keyword-badge">#ScrumMaster</span>
-  <span class="keyword-badge">#TeamLeadership</span>
-  <span class="keyword-badge">#Mentoring</span>
-  <span class="keyword-badge">#EnterpriseApplications</span>
-  <span class="keyword-badge">#BankingTechnology</span>
-  <span class="keyword-badge">#Ecommerce</span>
-  <span class="keyword-badge">#DigitalTransformation</span>
-  <span class="keyword-badge">#AgenticAI</span>
-  <span class="keyword-badge">#Jira</span>
-  <span class="keyword-badge">#GitHub</span>
-  <span class="keyword-badge">#Bitbucket</span>
-  <span class="keyword-badge">#Jenkins</span>
-  <span class="keyword-badge">#RLM</span>
-  <span class="keyword-badge">#UrbanDeployment</span>  
+  <span class="keyword-badge">Angular</span>
+  <span class="keyword-badge">React</span>
+  <span class="keyword-badge">TypeScript</span>
+  <span class="keyword-badge">FrontendArchitect</span>
+  <span class="keyword-badge">Accessibility</span>
+  <span class="keyword-badge">WCAG</span>
+  <span class="keyword-badge">ADA</span>
+  <span class="keyword-badge">AEM</span>
+  <span class="keyword-badge">PerformanceOptimization</span>
+  <span class="keyword-badge">CSP</span>
+  <span class="keyword-badge">Cloud</span>
+  <span class="keyword-badge">Agile</span>
+  <span class="keyword-badge">JavaScript</span>
+  <span class="keyword-badge">WebComponents</span>
+  <span class="keyword-badge">Microfrontends</span>
+  <span class="keyword-badge">CoreWebVitals</span>
+  <span class="keyword-badge">Lighthouse</span>
+  <span class="keyword-badge">BundleOptimization</span>
+  <span class="keyword-badge">AdobeExperienceManager</span>
+  <span class="keyword-badge">SecurityHeaders</span>
+  <span class="keyword-badge">OWASP</span>
+  <span class="keyword-badge">Docker</span>
+  <span class="keyword-badge">Kubernetes</span>
+  <span class="keyword-badge">CICD</span>
+  <span class="keyword-badge">GoogleCloud</span>
+  <span class="keyword-badge">Azure</span>
+  <span class="keyword-badge">ScrumMaster</span>
+  <span class="keyword-badge">TeamLeadership</span>
+  <span class="keyword-badge">Mentoring</span>
+  <span class="keyword-badge">EnterpriseApplications</span>
+  <span class="keyword-badge">BankingTechnology</span>
+  <span class="keyword-badge">Ecommerce</span>
+  <span class="keyword-badge">DigitalTransformation</span>
+  <span class="keyword-badge">AgenticAI</span>
+  <span class="keyword-badge">Jira</span>
+  <span class="keyword-badge">GitHub</span>
+  <span class="keyword-badge">Bitbucket</span>
+  <span class="keyword-badge">Jenkins</span>
+  <span class="keyword-badge">RLM</span>
+  <span class="keyword-badge">UrbanDeployment</span>
 </div>
 
 ---
