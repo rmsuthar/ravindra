@@ -237,7 +237,7 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 
 ## EDUCATION & CERTIFICATIONS
 
-* **PG Diploma in IT**, Sikkim Manipal University | **B.Sc. (Math/Chem)**, Gujarat University.
+* **PG Diploma in IT**, Sikkim Manipal University | **B.Sc. (Chemistry/Mathematics)**, Gujarat University.
 * **Key Certifications:** Certified ScrumMaster (CSM), AWS Cloud Practitioner, Google Analytics, IBM Design Thinking.
 
 
