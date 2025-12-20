@@ -191,9 +191,11 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 
 ## Key Achievements
 - Improved frontend performance by **up to 50%** across enterprise banking platforms.
+
 - Delivered **WCAG 2.1/2.2 ADA compliant** applications for global private banking clients.
 - Built **CSP Headers Utility (https://csp-headers.in)** for automated security header generation.
 - Built **JSON SVN — Version Control for JSON Configs (https://www.jsonsvn.in)**, an API-first configuration versioning service delivering smart deltas and Git-like history.
+- Built **StateGuard.js (https://rmsuthar.github.io/StateGuard/)**, a lightweight utility that locks DOM element attributes to prevent unauthorized tampering via DevTools.
 - Reduced UI development effort by **30%** using reusable component libraries.
 - Increased organic traffic by **20–30%** through SEO and performance optimization.
 
@@ -267,6 +269,13 @@ An API-first configuration versioning service that delivers smart JSON deltas, m
 - Full audit and Git-like commits with searchable history.
 
 Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlyprint}
+
+### StateGuard.js - [https://rmsuthar.github.io/StateGuard/](https://rmsuthar.github.io/StateGuard/)
+A lightweight utility that locks DOM element attributes. If a user tries to remove a disabled attribute, change a class, or inject an onclick event via DevTools, StateGuard detects it and reverts the change in milliseconds.
+
+- **Automated Reversion:** Instantly restores manipulated attributes, classes, and styles.
+- **Tamper Protection:** Built-in protection against DevTools-based attribute modification.
+- **Customizable Rules:** Define specific elements and attributes to be guarded.
 
 Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
 
@@ -350,6 +359,7 @@ Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .
   <span class="keyword-badge">Ecommerce</span>
   <span class="keyword-badge">DigitalTransformation</span>
   <span class="keyword-badge">AgenticAI</span>
+  <span class="keyword-badge">StateGuard.js</span>
   <span class="keyword-badge">Jira</span>
   <span class="keyword-badge">GitHub</span>
   <span class="keyword-badge">Bitbucket</span>
