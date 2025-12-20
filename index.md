@@ -176,7 +176,12 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 # Ravindrakumar Suthar
 **Senior Frontend Architect | UI Engineering Leader | Accessibility & Security Specialist**
 Pune, India | +91 8380099988 | ravindra.suthar@me.com
-[LinkedIn](https://www.linkedin.com/in/ravindrasuthar/) | [Portfolio](https://rmsuthar.github.io/ravindra/) | [GitHub/Projects](https://rmsuthar.github.io/tools/index.html)
+(https://www.linkedin.com/in/ravindrasuthar/) | [Portfolio](https://rmsuthar.github.io/ravindra/)`
+    `[linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/){: .onlyprint}`
+    `[rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/){: .onlyprint}`
+
+    But the user asked to refactor the specific block:
+    `[LinkedIn](https://www.linkedin.com/in/ravindrasuthar/) | [Portfolio](https://rmsuthar.github.io/ravindra/)`
 
 
 ## PROFESSIONAL SUMMARY
@@ -233,7 +238,7 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 * **StateGuard.js: [stateguard.js](https://rmsuthar.github.io/StateGuard/):** Developed a specialized JS utility to prevent DOM tampering via DevTools, enhancing client-side security and state integrity.
 * **JSON SVN: [json-svn](https://www.jsonsvn.in):** Designed an API-first configuration service providing Git-like versioning and smart deltas for enterprise JSON configs.
 
-
+more projects at [rmsuthar.github.io/tools](https://rmsuthar.github.io/tools)
 
 ## EDUCATION & CERTIFICATIONS
 
