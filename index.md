@@ -183,7 +183,7 @@ Profile: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravin
 
 
 ## Professional Summary
-Senior **Frontend & UI Architect and Engineering Leader** with **17+ years of experience** delivering **enterprise-scale, high-performance, and accessible web applications**. Expert in blending technical excellence with **strategic leadership and people management** to drive large-scale digital transformations. Deep expertise in **Angular, React, TypeScript, AEM, and Accessibility**, coupled with a proven record of **architecting secure platforms, mentoring cross-functional teams, and driving Agile delivery** for global BFSI clients.
+Senior **Frontend & UI Architect and Engineering Leader** with **17+ years of experience** delivering **enterprise-scale, high-performance, and accessible web applications**. Expert in blending technical excellence with **strategic leadership and people management** to drive large-scale digital transformations. Deep expertise in **Angular, React, TypeScript, AEM, and Accessibility**, coupled with a proven record of **architecting secure platforms, mentoring cross-functional teams, and driving Agile delivery**.
 
 
 
