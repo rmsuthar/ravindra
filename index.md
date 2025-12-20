@@ -132,6 +132,17 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
     transform: translateY(-1px);
   }
 
+  .keyword-badge.soft-skill {
+    background: #f0fdf4;
+    color: #166534;
+    border-color: #bbf7d0;
+  }
+
+  .keyword-badge.soft-skill:hover {
+    background: #dcfce7;
+    border-color: #86efac;
+  }
+
   /* List Styling */
   ul {
     list-style-type: none;
@@ -172,7 +183,7 @@ Profile: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravin
 
 
 ## Professional Summary
-Senior **Frontend & UI Architect** with **17+ years of experience** delivering **enterprise-scale, high-performance, and accessible web applications** for BFSI and large organizations. Deep expertise in **Angular, React, TypeScript, AEM Headless, Accessibility (WCAG 2.1/2.2, ADA)**, and **web performance optimization**. Proven record of **architecting secure UI platforms, mentoring teams, driving Agile delivery**, and partnering with stakeholders to ship business-critical products.
+Senior **Frontend & UI Architect and Engineering Leader** with **17+ years of experience** delivering **enterprise-scale, high-performance, and accessible web applications**. Expert in blending technical excellence with **strategic leadership and people management** to drive large-scale digital transformations. Deep expertise in **Angular, React, TypeScript, AEM, and Accessibility**, coupled with a proven record of **architecting secure platforms, mentoring cross-functional teams, and driving Agile delivery** for global BFSI clients.
 
 
 
@@ -186,6 +197,7 @@ Senior **Frontend & UI Architect** with **17+ years of experience** delivering *
 - **Cloud & DevOps:** Google Cloud Run, Docker, OpenShift, AKS, TeamCity, Jenkins, UrbanDeploy, RLM Deployments, GitHub, Bitbucket integrations
 - **Analytics:** Adobe Analytics, Google Analytics, Google tag manager (GTM)
 - **Agile & Leadership:** Scrum Master (CSM), Mentoring, Hiring, Jira
+- **Soft Skills:** Strategic Leadership, Team Management, Global Stakeholder Management, Conflict Resolution, Servant Leadership, Executive Presence, Mentorship & Coaching
 
 
 
@@ -366,6 +378,14 @@ Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .
   <span class="keyword-badge">Jenkins</span>
   <span class="keyword-badge">RLM</span>
   <span class="keyword-badge">UrbanDeployment</span>
+  <span class="keyword-badge soft-skill">StrategicLeadership</span>
+  <span class="keyword-badge soft-skill">TeamManagement</span>
+  <span class="keyword-badge soft-skill">StakeholderManagement</span>
+  <span class="keyword-badge soft-skill">ConflictResolution</span>
+  <span class="keyword-badge soft-skill">ServantLeadership</span>
+  <span class="keyword-badge soft-skill">Mentorship</span>
+  <span class="keyword-badge soft-skill">ExecutivePresence</span>
+  <span class="keyword-badge soft-skill">CriticalThinking</span>
 </div>
 
 ---
