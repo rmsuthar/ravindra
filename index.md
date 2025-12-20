@@ -179,12 +179,12 @@ Pune, India | +91 8380099988 | ravindra.suthar@me.com
 [LinkedIn](https://www.linkedin.com/in/ravindrasuthar/) | [Portfolio](https://rmsuthar.github.io/ravindra/) | [GitHub/Projects](https://rmsuthar.github.io/tools/index.html)
 
 
-### PROFESSIONAL SUMMARY
+## PROFESSIONAL SUMMARY
 
 Strategic **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms for global BFSI clients. Expert in **React, Angular, and Micro-frontends** with a specialized focus on **Web Security (CSP/OWASP)** and **Accessibility (WCAG 2.2)**. Proven track record of improving application performance by **50%** and leading cross-functional teams through Agile transformation as a **Certified ScrumMaster**. Pioneer in integrating **Agentic AI** and LLMs into frontend workflows to drive engineering excellence.
 
 
-### CORE COMPETENCIES
+## CORE COMPETENCIES
 
 - **Architecture:** Micro-frontends, System Design, Web Components, State Management (Redux/Zustand).
 - **Engineering Excellence:** Performance Optimization (Core Web Vitals), Security-First UI, Testing (Cypress/RTL).
@@ -201,9 +201,9 @@ Strategic **Frontend Architect** with **17+ years of experience** in building re
 - Contributed to **engineering communities of practice**, exploring emerging technologies and fostering team diversity.
 - Built **StateGuard.js**, a utility for locking DOM attributes, demonstrating deep technical troubleshooting.
 
----
 
-### PROFESSIONAL EXPERIENCE
+
+## PROFESSIONAL EXPERIENCE
 
 **CITICORP SERVICES INDIA PVT. LTD.** | Pune, India
 *Assistant Vice President – Senior Frontend Architect* | **May 2013 – Present**
@@ -225,22 +225,22 @@ Strategic **Frontend Architect** with **17+ years of experience** in building re
 
 * Engineered enterprise mobile CRM solutions with offline storage capabilities and end-to-end encryption for sensitive data.
 
----
 
-### FEATURED TECHNICAL PROJECTS & INNOVATIONS
+
+## FEATURED TECHNICAL PROJECTS & INNOVATIONS
 
 * **CSP Headers Utility ([csp-headers.in](https://www.csp-headers.in)):** Created an AI-powered security tool (Google Gemini + Cloud Run) that automates the generation of security headers.
 * **StateGuard.js:** Developed a specialized JS utility to prevent DOM tampering via DevTools, enhancing client-side security and state integrity.
 * **JSON SVN:** Designed an API-first configuration service providing Git-like versioning and smart deltas for enterprise JSON configs.
 
----
 
-### EDUCATION & CERTIFICATIONS
+
+## EDUCATION & CERTIFICATIONS
 
 * **PG Diploma in IT**, Sikkim Manipal University | **B.Sc. (Math/Chem)**, Gujarat University.
 * **Key Certifications:** Certified ScrumMaster (CSM), AWS Cloud Practitioner, Google Analytics, IBM Design Thinking.
 
----
+
 
 
 ## ATS Keywords
