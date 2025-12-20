@@ -174,7 +174,7 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 [Print this page](javascript:window.print()){: .print}
 
 # Ravindrakumar Suthar
-**Senior Frontend / UI Architect | Accessibility & Performance Specialist | Agile Scrum Master | vibe coding with AI**
+**Senior Frontend / UI Architect | Accessibility & Performance Specialist | Agile Scrum Master**
 
 Email: [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)  
 LinkedIn: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
