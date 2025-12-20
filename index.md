@@ -174,31 +174,22 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 [Print this page](javascript:window.print()){: .print}
 
 # Ravindrakumar Suthar
-**Senior Frontend / UI Architect | Accessibility & Performance Specialist | Agile Scrum Master**
-
-Email: [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)  
-LinkedIn: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
-Phone: [+91 8380099988](tel:+918380099988)  
-Profile: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/)
+**Senior Frontend Architect | UI Engineering Leader | Accessibility & Security Specialist**
+Pune, India | +91 8380099988 | ravindra.suthar@me.com
+[LinkedIn](https://www.linkedin.com/in/ravindrasuthar/) | [Portfolio](https://rmsuthar.github.io/ravindra/) | [GitHub/Projects](https://rmsuthar.github.io/tools/index.html)
 
 
-## Professional Summary
-Senior **Frontend & UI Architect and Engineering Leader** with **17+ years of experience** delivering **enterprise-scale, high-performance, and resilient web applications**. Expert in blending technical excellence with **system design, operational stability, and strategic leadership**. Proven track record of **architecting secure platforms, mentoring cross-functional teams, and driving data-driven architectural improvements** for global BFSI clients. Focused on **security-first development, coding hygiene, and fostering inclusive engineering cultures**.
+### PROFESSIONAL SUMMARY
+
+Strategic **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms for global BFSI clients. Expert in **React, Angular, and Micro-frontends** with a specialized focus on **Web Security (CSP/OWASP)** and **Accessibility (WCAG 2.2)**. Proven track record of improving application performance by **50%** and leading cross-functional teams through Agile transformation as a **Certified ScrumMaster**. Pioneer in integrating **Agentic AI** and LLMs into frontend workflows to drive engineering excellence.
 
 
+### CORE COMPETENCIES
 
-## Core Skills
-- **Frontend & Architecture:** React, Angular, TypeScript, System Design, Micro-frontends, Web Components, Shadow DOM
-- **Testing & Stability:** React Testing Library, Cypress, Automated Testing, Application Resiliency
-- **Backend & APIs:** RESTful API Design, Backend Collaboration, Database Querying (SQL)
-- **Agentic AI:** Large Language Models (LLMs), Prompt Engineering, AI Agents, RAG
-- **Accessibility:** WCAG 2.1/2.2, ADA Compliance, Accessibility Audits, Inclusive Design
-- **Performance & Data:** Core Web Vitals, Data Visualization, Analytics Reporting, Coding Hygiene Analysis
-- **CMS:** Adobe Experience Manager (AEM), AEM Headless, Content Fragments
-- **Security:** CSP, HSTS, X-Frame-Options, OWASP, Secure UI Design
-- **Cloud & DevOps:** Google Cloud Run, Docker, OpenShift, AKS, CI/CD, UrbanDeploy, GitHub/Bitbucket integrations
-- **Agile & Leadership:** Scrum Master (CSM), Communities of Practice, Mentoring, Diversity & Inclusion
-- **Soft Skills:** Strategic Leadership, Team Management, Global Stakeholder Management, Conflict Resolution, Servant Leadership, Executive Presence, Mentorship & Coaching
+- **Architecture:** Micro-frontends, System Design, Web Components, State Management (Redux/Zustand).
+- **Engineering Excellence:** Performance Optimization (Core Web Vitals), Security-First UI, Testing (Cypress/RTL).
+- **Tech Stack:** React, TypeScript, Angular, AEM (Headless/Full-stack), Google Cloud Run, Docker.
+- **Specialized:** Accessibility (ADA/WCAG Audits), CSP Headers, Agentic AI (Gemini/Prompt Engineering).
 
 
 
@@ -210,129 +201,46 @@ Senior **Frontend & UI Architect and Engineering Leader** with **17+ years of ex
 - Contributed to **engineering communities of practice**, exploring emerging technologies and fostering team diversity.
 - Built **StateGuard.js**, a utility for locking DOM attributes, demonstrating deep technical troubleshooting.
 
+---
 
+### PROFESSIONAL EXPERIENCE
 
-## Professional Experience
+**CITICORP SERVICES INDIA PVT. LTD.** | Pune, India
+*Assistant Vice President – Senior Frontend Architect* | **May 2013 – Present**
 
-### Assistant Vice President – Senior Program Analyst (Frontend Architect)
-**Citicorp Services India Pvt. Ltd., Pune**  
-*May 2013 – Present*
+* **Architectural Leadership:** Spearheaded the migration of legacy BFSI platforms to modern Micro-frontend architectures using React and Angular, improving deployment frequency and system modularity.
+* **Performance & Stability:** Achieved a **50% reduction in page load times** by optimizing Core Web Vitals and implementing advanced caching/CDN strategies.
+* **Security & Compliance:** Hardened enterprise UI security by implementing automated **CSP (Content Security Policy)** generation and HSTS, ensuring zero high-risk OWASP vulnerabilities in UI layers.
+* **Accessibility Champion:** Led the WCAG 2.1/2.2 compliance initiative for global banking apps, ensuring 100% ADA compliance across critical user journeys.
+* **Data-Driven Insights:** Developed custom data visualization dashboards to monitor application health and coding hygiene, reducing technical debt by 30% over 2 years.
+* **Mentorship:** Established a "Community of Practice" for 50+ developers, fostering a culture of inclusive engineering and continuous learning.
 
-- Architected high-quality, secure web platforms using **React, Angular, and AEM**.
-- Produced comprehensive **architecture and design artifacts** for complex, synchronous systems.
-- Collaborated with backend teams to design **scalable and reusable RESTful APIs**.
-- Implemented automated testing strategy using **React Testing Library and Cypress**.
-- Analyzed large datasets to develop **visualizations and reporting** for continuous improvement.
-- Proactively identified and resolved hidden problems in system architecture and coding hygiene.
-- Mentored engineers, led **Communities of Practice**, and championed a culture of **inclusion and respect**.
+**SAPIENT** | Bangalore, India
+*Senior Interactive Developer* | **Mar 2013 – May 2013**
 
+* Developed high-performance responsive interfaces for retail clients using HTML5 and AEM (Adobe CQ).
 
+**COGNIZANT TECHNOLOGY SOLUTIONS** | Hyderabad, India
+*Senior Consultant – CRM UI* | **2010 – 2013**
 
-### Senior Interactive Developer
-**Sapient, Bangalore**  
-*Mar 2013 – May 2013*
+* Engineered enterprise mobile CRM solutions with offline storage capabilities and end-to-end encryption for sensitive data.
 
-- Developed responsive UIs using **HTML5, JavaScript, and Adobe CQ/AEM**.
+---
 
+### FEATURED TECHNICAL PROJECTS & INNOVATIONS
 
+* **CSP Headers Utility ([csp-headers.in](https://www.csp-headers.in)):** Created an AI-powered security tool (Google Gemini + Cloud Run) that automates the generation of security headers.
+* **StateGuard.js:** Developed a specialized JS utility to prevent DOM tampering via DevTools, enhancing client-side security and state integrity.
+* **JSON SVN:** Designed an API-first configuration service providing Git-like versioning and smart deltas for enterprise JSON configs.
 
-### Senior Consultant – CRM UI
-**Cognizant Technology Solutions, Hyderabad**  
-*2010 – 2013*
+---
 
-- Built enterprise mobile CRM applications using **Oracle Siebel SOAP APIs**.
-- Delivered end-to-end UI solutions with offline storage and encryption.
+### EDUCATION & CERTIFICATIONS
 
+* **PG Diploma in IT**, Sikkim Manipal University | **B.Sc. (Math/Chem)**, Gujarat University.
+* **Key Certifications:** Certified ScrumMaster (CSM), AWS Cloud Practitioner, Google Analytics, IBM Design Thinking.
 
-
-### Module Lead – UI Development
-**Impetus Infotech India Pvt. Ltd., Indore**  
-*2007 – 2010*
-
-- Led UI teams and conducted usability testing and heuristic evaluations.
-
-
-
-### Lead Web Specialist
-**Gate Six Technologies India Pvt. Ltd., Indore**  
-*2004 – 2007*
-
-- Defined UI strategy, SEO standards, and W3C-compliant implementations.
-
-
-
-## Initiatives Products & Utilities 
-
-### CSP Headers Utility - [https://www.csp-headers.in](https://www.csp-headers.in)
-A comprehensive security tool designed to automate web security configuration and Content Security Policy (CSP) generation. Built on Google Cloud Run for scalability and performance.
-
-**Key Features:**
-- **AI-Powered Analysis:** Uses Google Gemini to scan live URLs and detect third-party stacks (Analytics, Fonts, CDNs)
-- **Local Source Parsing:** Paste HTML/source code to extract assets directly
-- **Multi-Platform Export:** Generates ready-to-use configuration code for Nginx, Apache, IIS, and HTML Meta tags
-- **Security First:** Auto-suggests HSTS, X-Frame-Options, and XSS protection headers
-- **Developer-Friendly:** Helps developers and security engineers prevent XSS and Clickjacking attacks effortlessly
-
-### JSON SVN — Version Control for JSON Configs - [https://www.jsonsvn.in](https://www.jsonsvn.in)
-An API-first configuration versioning service that delivers smart JSON deltas, multi-environment promotion, Git-like history, and AI-assisted workflows.
-
-- Smart deltas via `?since={timestamp}` — clients fetch only what changed.
-- Promote configuration between DEV → UAT → PROD with one click.
-- Full audit and Git-like commits with searchable history.
-
-Learn more: [JSON SVN](json-svn.md){: .print} [JSON SVN](json-svn.md){: .onlyprint}
-
-### StateGuard.js - [https://rmsuthar.github.io/StateGuard/](https://rmsuthar.github.io/StateGuard/)
-A lightweight utility that locks DOM element attributes. If a user tries to remove a disabled attribute, change a class, or inject an onclick event via DevTools, StateGuard detects it and reverts the change in milliseconds.
-
-- **Automated Reversion:** Instantly restores manipulated attributes, classes, and styles.
-- **Tamper Protection:** Built-in protection against DevTools-based attribute modification.
-- **Customizable Rules:** Define specific elements and attributes to be guarded.
-
-Check out more utilities [here](https://rmsuthar.github.io/tools/index.html){: .print} [https://rmsuthar.github.io/tools/index.html](https://rmsuthar.github.io/tools/index.html){: .onlyprint}
-
-## Licences & Certifications
-
-- **Google Analytics Certification**
-  - Skillshop
-- **Google Tag Manager Fundamentals**
-  - Google Analytics Academy
-- **Scrum Alliance Certifications**
-  - Certified ScrumMaster® (CSM®)
-- **Amazon (AWS) Certifications**
-  - Amazon Web Services Cloud Practitioner
-- **IBM Certifications**
-  - Enterprise Design Thinking Practitioner
-  - Enterprise Design Thinking Co-Creator
-  - Blockchain Essentials
-  - SQL and Relational Databases 101
-- **Atlassian Certifications**
-  - Jira Fundamentals Assessment
-  - Get Started with Jira Service Management
-  - Writing Complex JQL Queries in Jira Software
-  - How to Run Effective Meetings
-- **LinkedIn Certifications**
-  - Agile Development Practices
-  - Strategic Thinking
-  - Developing Executive Presence
-  - Critical Thinking for Better Judgment and Decision-Making
-  - Ken Blanchard on Servant Leadership
-  - Building Relationships While Working from Home
-  - The Key to Good Communication: Your Audience
-  - Jodi Glickman on Pitching Yourself Learning
-  - Regular Expressions
-
-
-
-## Educational Qualifications
-
-- Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University**
-  - 1999 - 2001
-- Higher Diploma Software Eng. (HDSE) **Aptech Computer Education**
-  - 1999 - 2001
-- Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
-  - 1996 – 1999
-
+---
 
 
 ## ATS Keywords
