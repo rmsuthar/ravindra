@@ -176,12 +176,10 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 # Ravindrakumar Suthar
 **Senior Frontend Architect | UI Engineering Leader | Accessibility & Security Specialist**
 Pune, India | +91 8380099988 | ravindra.suthar@me.com
-(https://www.linkedin.com/in/ravindrasuthar/) | [Portfolio](https://rmsuthar.github.io/ravindra/)`
-    `[linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/){: .onlyprint}`
-    `[rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/){: .onlyprint}`
 
-    But the user asked to refactor the specific block:
-    `[LinkedIn](https://www.linkedin.com/in/ravindrasuthar/) | [Portfolio](https://rmsuthar.github.io/ravindra/)`
+🔗 LinkedIn: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
+🌐 Portfolio: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/)
+
 
 
 ## PROFESSIONAL SUMMARY
@@ -234,11 +232,11 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 
 ## FEATURED TECHNICAL PROJECTS & INNOVATIONS
 
-* **CSP Headers Utility ([csp-headers.in](https://www.csp-headers.in)):** Created an AI-powered security tool (Google Gemini + Cloud Run) that automates the generation of security headers.
-* **StateGuard.js: [stateguard.js](https://rmsuthar.github.io/StateGuard/):** Developed a specialized JS utility to prevent DOM tampering via DevTools, enhancing client-side security and state integrity.
-* **JSON SVN: [json-svn](https://www.jsonsvn.in):** Designed an API-first configuration service providing Git-like versioning and smart deltas for enterprise JSON configs.
+* **CSP Headers Utility ([csp-headers.in - https://www.csp-headers.in](https://www.csp-headers.in)):** Created an AI-powered security tool (Google Gemini + Cloud Run) that automates the generation of security headers.
+* **StateGuard.js: [stateguard.js - https://rmsuthar.github.io/StateGuard/](https://rmsuthar.github.io/StateGuard/):** Developed a specialized JS utility to prevent DOM tampering via DevTools, enhancing client-side security and state integrity.
+* **JSON SVN: [json-svn - https://www.jsonsvn.in](https://www.jsonsvn.in):** Designed an API-first configuration service providing Git-like versioning and smart deltas for enterprise JSON configs.
 
-more projects at [rmsuthar.github.io/tools](https://rmsuthar.github.io/tools)
+more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/tools)
 
 ## EDUCATION & CERTIFICATIONS
 
