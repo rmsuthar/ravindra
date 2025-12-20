@@ -181,15 +181,15 @@ Pune, India | +91 8380099988 | ravindra.suthar@me.com
 
 ## PROFESSIONAL SUMMARY
 
-Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms for global BFSI clients. Thought-leader in technical innovation and cross-functional influence, with a proven track record of enabling business through engineering excellence. Expert in **advanced deployment strategies (Canary, Blue-Green, Chaos)** and **Reference Architecture** with a specialized focus on **Web Security (CSP/OWASP)**. Certified ScrumMaster with a history of leading large global projects from initiation to operation, optimizing SDLC methodologies, and fostering end-to-end service ownership.
+Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms and **UI SDKs** for global BFSI clients. Driven by a **multi-technology mindset**, I leverage modern frameworks, **FIDO2**, and **Generative AI** to deliver business-aligned, intuitive, and performant UIs. Expert in **React, Next.js, ES6+, and TypeScript**, with a proven track record of translating complex technical concepts into clear business value for stakeholders.
 
 
 ## CORE COMPETENCIES
 
-- **Architecture:** Micro-frontends, System Design, **Reference Architecture (Poison Pill, Active-Active, Self-Healing)**, **Gang of Four Patterns (MVC, Service-to-Worker, API Gateway, DI, Lazy Loading)**.
-- **Engineering Excellence:** Performance Engineering (Scale/Load), **Advanced Testing (Chaos, A/B, Canary, Blue-Green)**, Security-First UI.
-- **Strategy & Leadership:** SDLC Optimization, Trade-off Analysis (Regulatory/Security/Value), Global Talent Selection, API Standards.
-- **Tech Stack:** React, TypeScript, Angular, AEM (Headless/Full-stack), Google Cloud Run, Docker.
+- **Architecture:** Micro-frontends, **SDK Development (npm/Yarn Workspaces)**, System Design, **Reference Architecture (Poison Pill, Self-Healing)**, Design Patterns (MVC, DI).
+- **Engineering Excellence:** Performance Engineering, **State Management (Redux/Zustand)**, **CSS Systems (Tailwind/SCSS/LESS)**, **Build Tools (Webpack/Vite/Babel)**.
+- **Strategy & Leadership:** **Agile Champion**, SDLC Optimization, **Stakeholder Technical Translation**, Technical Documentation, Design Analysis.
+- **Tech Stack:** React, Next.js, TypeScript, JavaScript (ES6+), Headless AEM, Google Cloud Run, Docker.
 
 
 
@@ -208,11 +208,12 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 **CITICORP SERVICES INDIA PVT. LTD.** | Pune, India
 *Assistant Vice President – Senior Frontend Architect* | **May 2013 – Present**
 
-* **Architectural Leadership:** Spearheaded the migration of legacy BFSI platforms to modern Micro-frontend architectures. Led the initiation and formation of large global projects including architecting, estimating, and selecting talent across geographies and functions.
-* **Engineering Excellence:** Implemented advanced production test setups including **A/B testing, Chaos engineering, Canary releases, and Blue-Green deployments**.
-* **Design & Optimization:** Evangelized reference architectures (Poison Pill, Self-healing, Auto-scaling). Applied advanced patterns (Service-to-Worker, Intercepting Filter, DI) and implemented API standards/cataloging to drive service adoption.
-* **Operational Strategy:** Drove trade-off discussions to set development capacity based on value drivers (Regulatory, Security, Market Parity, Tech Debt). Continually optimized SDLC methodologies to improve lead time and quality.
-* **Full-Stack Mentorship:** Coached teams to take on full-stack development and facilitate end-to-end service ownership, fostering a culture of continuous learning and high performance.
+* **Architectural Leadership:** Spearheaded the migration of legacy BFSI platforms to modern Micro-frontend architectures. Led the design and build of **UI SDKs, portals, and iframe-based integrations**, enabling seamless experiences across multiple platforms.
+* **Analysis & Documentation:** Conducted comprehensive analysis of design requirements to architect robust, scalable front-end solutions. Authored extensive **technical documentation for SDKs and portals** to ensure seamless adoption.
+* **Engineering & Development:** Actively delivering high-performance UI solutions using **React.js, Next.js (ES6+), and TypeScript**. Implemented secure cross-window communication and managed complex state transitions using Redux and specialized utilities.
+* **Agile Champion & Quality:** Driven efficiency and continuous improvement in UI delivery processes through Agile methodologies. Participated in **design reviews, architectural assessments, and production issue triaging** to maintain peak quality.
+* **Strategic Collaboration:** Partnered with UX, Backend, and Product managers to align deliverables with business objectives. Excelled in **translating complex technical architectures** for stakeholders, ensuring project transparency and alignment.
+* **Mentorship:** Provided technical guidance and fostered skill growth. Integration of emerging tech (FIDO2, GenAI) to enhance developer productivity and user experience.
 
 **SAPIENT** | Bangalore, India
 *Senior Interactive Developer* | **Mar 2013 – May 2013**
@@ -301,7 +302,27 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
   <span class="keyword-badge">APIGateway</span>
   <span class="keyword-badge">DependencyInjection</span>
   <span class="keyword-badge">SDLCPerformance</span>
+  <span class="keyword-badge">Next.js</span>
+  <span class="keyword-badge">UISDKs</span>
+  <span class="keyword-badge">Iframes</span>
+  <span class="keyword-badge">postMessageAPI</span>
+  <span class="keyword-badge">FIDO2</span>
+  <span class="keyword-badge">GenerativeAI</span>
+  <span class="keyword-badge">ES6+</span>
+  <span class="keyword-badge">Redux</span>
+  <span class="keyword-badge">Zustand</span>
+  <span class="keyword-badge">TailwindCSS</span>
+  <span class="keyword-badge">SCSS</span>
+  <span class="keyword-badge">StyledComponents</span>
+  <span class="keyword-badge">Webpack</span>
+  <span class="keyword-badge">Vite</span>
+  <span class="keyword-badge">YarnWorkspaces</span>
+  <span class="keyword-badge">Lerna</span>
+  <span class="keyword-badge">TechnicalDocumentation</span>
+  <span class="keyword-badge">DesignAnalysis</span>
+  <span class="keyword-badge">IssueTriaging</span>
   <span class="keyword-badge soft-skill">ThoughtLeadership</span>
+  <span class="keyword-badge soft-skill">StakeholderTranslation</span>
   <span class="keyword-badge soft-skill">CrossFunctionalInfluence</span>
   <span class="keyword-badge soft-skill">StrategicLeadership</span>
 </div>
