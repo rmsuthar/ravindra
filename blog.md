@@ -129,45 +129,33 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
     opacity: 0.6;
   }
 
-  /* ADA Compliant Code Boxes - Polished */
+  /* Simplified ADA Compliant Code Boxes */
   pre {
-    background: #0f172a !important;
-    border-radius: 20px !important;
-    padding: 2.5rem 2rem !important;
-    margin: 2.5rem 0 !important;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    position: relative;
-    overflow: hidden;
-  }
-
-  pre::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(90deg, var(--primary), var(--accent));
+    background: #1e293b !important;
+    border-radius: 12px !important;
+    padding: 1.5rem !important;
+    margin: 2rem 0 !important;
+    border: 1px solid #334155;
+    overflow-x: auto;
   }
 
   code {
     font-family: 'Fira Code', monospace !important;
-    background: var(--primary-light);
-    color: var(--primary);
-    padding: 0.2em 0.5em;
-    border-radius: 6px;
+    background: #f1f5f9;
+    color: #b91c1c;
+    padding: 2px 6px;
+    border-radius: 4px;
     font-size: 0.9em;
     font-weight: 500;
   }
 
   pre code {
     background: transparent !important;
-    color: #e2e8f0 !important;
+    color: #f8fafc !important;
     padding: 0 !important;
     font-size: 0.95rem !important;
     display: block;
-    line-height: 1.7;
+    line-height: 1.6;
   }
 
   /* List Styling */
