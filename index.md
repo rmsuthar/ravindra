@@ -241,10 +241,15 @@ more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/t
 
 ## EDUCATION & CERTIFICATIONS
 
-* **PG Diploma in IT**, Sikkim Manipal University | **B.Sc. (Chemistry/Mathematics)**, Gujarat University.
+
+- Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University**
+  - 1999 - 2001
+- Higher Diploma Software Eng. (HDSE) **Aptech Computer Education**
+  - 1999 - 2001
+- Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
+  - 1996 – 1999
+
 * **Key Certifications:** Certified ScrumMaster (CSM), AWS Cloud Practitioner, Google Analytics, IBM Design Thinking.
-
-
 
 
 ## ATS Keywords
