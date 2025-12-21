@@ -20,6 +20,9 @@
     margin: 0 auto !important;
     padding: 60px 20px !important;
   }
+  .markdown-body h1:first-child:not(.show-title) {
+    display: none;
+  }
 
   h1 {
     font-size: 3.5rem;
@@ -234,5 +237,112 @@ Engineering excellence is more than just code; it's about the security and resil
 *   **Content Security Policy (CSP)**: Strictly defining trusted origins.
 *   **Subresource Integrity (SRI)**: Verifying remote scripts.
 *   **Reference Architecture**: Implementing "Poison Pill" and "Self-Healing" behaviors.
+
+---
+
+## 06. Architecture Guide for UI Engineers
+A beginner-friendly breakdown of core architectural concepts, explained specifically for the modern frontend landscape with practical code examples.
+
+### 1. Micro-frontends (MFE)
+**Concept:** Splitting a giant monolith into independent "Lego" pieces.
+
+*   **Example (Conceptual Module Federation):**
+```javascript
+// A host app "stitching" together two remote MFEs
+import React, { Suspense } from 'react';
+
+const PaymentsMFE = React.lazy(() => import('PaymentsApp/Widget'));
+const SettingsMFE = React.lazy(() => import('SettingsApp/Page'));
+
+const Dashboard = () => (
+  <div>
+    <Suspense fallback="Loading Payments...">
+      <PaymentsMFE />
+    </Suspense>
+    <Suspense fallback="Loading Settings...">
+      <SettingsMFE />
+    </Suspense>
+  </div>
+);
+```
+
+### 2. SDK Development (npm / Yarn Workspaces)
+**Concept:** Building a shared toolbox (Design System/API Library) in a single repository.
+
+*   **Example (Yarn Workspaces Structure):**
+```bash
+/my-project
+  /packages
+    /ui-kit        # Shared Buttons, Inputs (SDK)
+    /data-service  # Shared API logic (SDK)
+    /partner-app   # Uses ui-kit & data-service
+  package.json     # "workspaces": ["packages/*"]
+```
+
+### 3. System Design
+**Concept:** The blueprint of how data moves through your app.
+
+*   **Example (UI Search Flow):**
+```javascript
+// System Design: Handling frequent API calls (Debouncing)
+const SearchBar = () => {
+  const [query, setQuery] = useState('');
+  
+  useEffect(() => {
+    // 1. Wait for user to stop typing (300ms) - "System Governance"
+    const timer = setTimeout(() => {
+      if (query) fetchResults(query);
+    }, 3000);
+    
+    // 2. Cleanup: Cancel previous call if user types again
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  return <input onChange={(e) => setQuery(e.target.value)} />;
+};
+```
+
+### 4. Reference Architecture (Resiliency)
+**Concept:** Ensuring the app doesn't stay broken when something fails.
+
+*   **Example (Self-Healing / Fallback):**
+```javascript
+// Error Boundary: "Self-healing" mechanism to keep UI alive
+class ResilientComponent extends React.Component {
+  state = { hasError: false };
+
+  static getDerivedStateFromError() {
+    return { hasError: true }; // "Self-healing" state update
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <div>Oops! This section crashed, but the rest of the site is OK.</div>;
+    }
+    return this.props.children;
+  }
+}
+```
+
+### 5. Design Patterns (MVC & DI)
+**Concept:** Proven templates to keep code clean and testable.
+
+*   **Example (Dependency Injection):**
+```javascript
+// Dependency Injection: Passing the "tool" into the function
+// Instead of hardcoding 'apiService', we inject it
+const useUser = (apiService) => { 
+  const [user, setUser] = useState();
+  
+  useEffect(() => {
+    apiService.getUser().then(setUser);
+  }, [apiService]);
+
+  return user;
+};
+
+// During testing, we inject a "MockService" instead of a "RealService"
+const testUser = useUser(MockService); 
+```
 
 ---
