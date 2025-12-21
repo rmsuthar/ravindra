@@ -36,18 +36,41 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
     padding: 80px 40px !important;
   }
 
-  /* Title Section Styling */
-  .title-area {
-    margin-bottom: 6rem;
-    text-align: left;
+  /* Header & Breadcrumb Styling */
+  .header {
+    margin-bottom: 4rem;
   }
 
-  h1 {
-    font-size: 4.5rem;
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+
+  .breadcrumb a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--accent);
+  }
+
+  .breadcrumb span {
+    opacity: 0.5;
+  }
+
+  .title {
+    font-size: 4rem;
     font-weight: 800;
-    line-height: 1;
+    line-height: 1.1;
     margin-bottom: 1rem !important;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.04em;
     background: linear-gradient(135deg, var(--text-main) 30%, var(--primary) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -56,11 +79,12 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
   .subtitle {
     font-family: 'Playfair Display', serif;
     font-style: italic;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--text-muted);
     border-left: 3px solid var(--accent);
     padding-left: 20px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    max-width: 700px;
   }
 
   /* Section Styling */
@@ -191,15 +215,18 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
   }
 </style>
 
-<a href="index.md" class="back-nav">
-  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
-  Back to Profile
-</a>
 
-<div class="title-area">
-  <h1>Engineering Journal</h1>
-  <p class="subtitle">A deep dive into 17+ years of UI architecture, product engineering, and technical leadership.</p>
-</div>
+<header class="header">
+  <nav class="breadcrumb">
+    <a href="https://rmsuthar.github.io/ravindra/">Ravindra</a>
+    <span>/</span>
+    <span>Blogs</span>
+  </nav>
+  <h1 class="title">Engineering Journal</h1>
+  <p class="subtitle">
+    A deep dive into 17+ years of UI architecture, product engineering, and technical leadership.
+  </p>
+</header>
 
 ---
 
