@@ -2,259 +2,156 @@
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap');
 
   :root {
-    --bg-main: #f0f4f8;
-    --text-main: #1a202c;
-    --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    --bg-main: #fcfcfd;
+    --text-main: #1a1a1b;
+    --primary: #0066cc;
+    --border: #e2e8f0;
   }
 
   body {
     background-color: var(--bg-main);
     color: var(--text-main);
     font-family: 'Outfit', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    line-height: 1.7;
   }
 
   .markdown-body {
-    max-width: 900px !important;
+    max-width: 800px !important;
     margin: 0 auto !important;
     padding: 60px 20px !important;
-    background: transparent !important;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 800;
-    text-align: center;
-    margin-bottom: 4rem !important;
-    background: linear-gradient(135deg, #2b6cb0 0%, #4299e1 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 3rem !important;
+    letter-spacing: -0.04em;
+    color: #111;
   }
 
-  /* Universal Card Styling */
-  details {
-    background: #ffffff;
-    border-radius: 20px;
-    margin-bottom: 2rem;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: var(--card-shadow);
-    border: 1px solid rgba(255,255,255,0.3);
-  }
-
-  details[open] {
-    transform: scale(1.02);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
-  }
-
-  summary {
-    padding: 1.75rem 2.25rem;
+  h2 {
+    font-size: 2.25rem;
     font-weight: 700;
-    font-size: 1.4rem;
-    cursor: pointer;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    outline: none;
-    user-select: none;
+    margin-top: 4rem !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 4px solid #f1f5f9;
+    padding-bottom: 10px;
+    color: #000;
   }
 
-  summary::-webkit-details-marker { display: none; }
-
-  /* Color Variations */
-  .card-blue { border-left: 8px solid #3182ce; }
-  .card-purple { border-left: 8px solid #805ad5; }
-  .card-green { border-left: 8px solid #38a169; }
-  .card-orange { border-left: 8px solid #dd6b20; }
-  .card-red { border-left: 8px solid #e53e3e; }
-  .card-indigo { border-left: 8px solid #5a67d8; }
-
-  /* Indicator */
-  .indicator {
-    width: 32px;
-    height: 32px;
-    background: #edf2f7;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s;
-    font-size: 0.9rem;
-    color: #4a5568;
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem !important;
+    color: var(--primary);
   }
 
-  details[open] .indicator {
-    background: #2d3748;
-    color: #fff;
-    transform: rotate(180deg);
-  }
-
-  /* HTML Content Styling (Fixes Markdown Issue) */
-  .content-wrapper {
-    padding: 0 2.25rem 2.25rem 2.25rem;
-    color: #4a5568;
-    animation: slideDown 0.4s ease-out;
-  }
-
-  .content-wrapper h2 {
-    color: var(--text-main);
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    margin-top: 0;
-  }
-
-  .content-wrapper h3 {
-    color: #2d3748;
-    font-size: 1.25rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .content-wrapper p { margin-bottom: 1.25rem; font-size: 1.1rem; }
-
-  .content-wrapper ul {
+  p {
+    font-size: 1.15rem;
+    color: #374151;
     margin-bottom: 1.5rem;
-    padding-left: 1.5rem;
   }
 
-  .content-wrapper li { margin-bottom: 0.5rem; }
+  hr {
+    border: 0;
+    height: 1px;
+    background: var(--border);
+    margin: 4rem 0;
+  }
 
   pre {
-    background: #1a202c !important;
-    color: #e2e8f0;
-    padding: 1.5rem;
-    border-radius: 12px;
-    overflow-x: auto;
-    font-family: 'Fira Code', monospace;
-    font-size: 0.95rem;
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
-    margin: 1.5rem 0;
+    background: #111827 !important;
+    border-radius: 16px !important;
+    padding: 2rem !important;
+    margin: 2rem 0 !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
 
   code {
-    background: #f1f5f9;
-    color: #e53e3e;
+    font-family: 'Fira Code', monospace !important;
+    background: #f3f4f6;
     padding: 2px 6px;
-    border-radius: 4px;
-    font-family: 'Fira Code', monospace;
-    font-size: 0.9em;
+    border-radius: 6px;
+    color: #d91e18;
+    font-size: 0.95em;
   }
 
   pre code {
-    background: transparent;
-    color: inherit;
-    padding: 0;
+    background: transparent !important;
+    color: #e5e7eb !important;
+    padding: 0 !important;
   }
 
-  .tag {
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 99px;
-    font-size: 0.75rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 0.5rem;
-  }
-
-  .tag-blue { background: #ebf8ff; color: #2b6cb0; }
-  .tag-purple { background: #faf5ff; color: #6b46c1; }
-  .tag-green { background: #f0fff4; color: #2f855a; }
-  .tag-orange { background: #fffaf0; color: #c05621; }
-  .tag-red { background: #fff5f5; color: #c53030; }
-  .tag-indigo { background: #ebf4ff; color: #4c51bf; }
-
-  @keyframes slideDown {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .back-link {
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 20px;
-    background: #fff;
-    border-radius: 12px;
-    text-decoration: none;
-    color: #2d3748;
-    font-weight: 600;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  ul {
+    padding-left: 1.5rem;
     margin-bottom: 2rem;
-    transition: all 0.2s;
+  }
+
+  li {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    color: #4b5563;
+  }
+
+  /* Back button styling */
+  .back-link {
+    display: inline-block;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    transition: transform 0.2s;
   }
 
   .back-link:hover {
     transform: translateX(-5px);
-    background: #2d3748;
-    color: #fff;
-  }
-
-  @media (max-width: 640px) {
-    summary { padding: 1.25rem 1.5rem; font-size: 1.1rem; }
-    .content-wrapper { padding: 0 1.5rem 1.5rem 1.5rem; }
   }
 </style>
 
-<a href="index.md" class="back-link">← Return to Profile</a>
+[← Back to Profile](index.md){: .back-link}
 
-<h1>Engineering Masterclass</h1>
+# Engineering Journal
 
-<details class="card-blue">
-  <summary>
-    <div>
-      <span class="tag tag-blue">Architecture</span>
-      <div class="title">Dynamic Script Loading via Remote JSON</div>
-    </div>
-    <div class="indicator">▼</div>
-  </summary>
-  <div class="content-wrapper">
-    <h2>Externalizing Application Logic</h2>
-    <p>Modern enterprise applications require high agility. By externalizing logic into JSON, teams can update event handlers and business rules without triggering a full CI/CD pipeline deployment.</p>
-    
-    <h3>Implementation Strategy</h3>
-    <p>The core concept involves fetching a configuration object and using the JavaScript <code>Function</code> constructor to instantiate executable code securely.</p>
-    
-    <pre><code>// Example Remote Configuration
-{
-  "events": [
-    { "name": "onSubmit", "code": "alert('Form Submitted!');" }
-  ]
-}
+A collection of technical insights, architectural patterns, and engineering excellence discovered across 17+ years of building enterprise scale UI.
 
-// Global Hydration Logic
-async function hydrateActions() {
+---
+
+## 01. Execute Events from External JSON
+Modern enterprise applications require high agility. By externalizing logic into JSON, teams can update event handlers and business rules without triggering a full CI/CD pipeline deployment.
+
+### Implementation Strategy
+The core concept involves fetching a configuration object and using the JavaScript `Function` constructor to instantiate executable code.
+
+```javascript
+// Fetch and hydrate remote logic
+const hydrateActions = async () => {
   const config = await fetch('/api/ui-config').then(r => r.json());
-  config.events.forEach(e => {
-    window[e.name] = new Function(e.code);
+  
+  config.events.forEach(event => {
+    // Dynamically create the function from the JSON string
+    window[event.name] = new Function(event.handler);
   });
-}</code></pre>
+};
+```
 
-    <ul>
-      <li><strong>Benefit:</strong> Instant updates for feature flags and simple UI logic.</li>
-      <li><strong>Caution:</strong> Ensure strict sanitization and use Content Security Policy (CSP) to mitigate XSS risks.</li>
-    </ul>
-  </div>
-</details>
+---
 
-<details class="card-purple">
-  <summary>
-    <div>
-      <span class="tag tag-purple">DOM Utility</span>
-      <div class="title">Fail-Safe Visibility Detection</div>
-    </div>
-    <div class="indicator">▼</div>
-  </summary>
-  <div class="content-wrapper">
-    <h2>Detecting User-Facing Elements</h2>
-    <p>Simple <code>display: none</code> checks are insufficient for modern interactive UIs. Elements might be hidden through opacity, parent clip-paths, or simply being outside the current viewport.</p>
+## 02. Advanced Element Visibility Detection
+Simple `display: none` checks are insufficient for modern interactive UIs. Elements might be hidden through opacity, parent clip-paths, or simply being outside the current viewport.
 
-    <h3>The Deterministic Checker</h3>
-    <p>Using <code>getBoundingClientRect()</code> provides precise coordinates relative to the viewport, while <code>getComputedStyle()</code> reveals opacity and visibility states.</p>
+### The Problem
+Traditional checks often fail because they don't account for:
+*   `opacity: 0`
+*   `visibility: hidden`
+*   Viewport position (above or below scroll)
 
-    <pre><code>function isElementVisible(selector) {
+### The Deterministic Solution
+Using `getBoundingClientRect()` provides absolute coordinates relative to the viewport.
+
+```javascript
+function isVisible(selector) {
   const el = document.querySelector(selector);
   if (!el) return false;
 
@@ -266,104 +163,64 @@ async function hydrateActions() {
     rect.height > 0 &&
     style.visibility !== 'hidden' &&
     parseFloat(style.opacity) > 0 &&
-    rect.top <= window.innerHeight &&
-    rect.bottom >= 0
+    rect.top < window.innerHeight &&
+    rect.bottom > 0
   );
-}</code></pre>
-  </div>
-</details>
+}
+```
 
-<details class="card-green">
-  <summary>
-    <div>
-      <span class="tag tag-green">Algorithms</span>
-      <div class="title">Wildcard Pattern Recognition</div>
-    </div>
-    <div class="indicator">▼</div>
-  </summary>
-  <div class="content-wrapper">
-    <h2>Flexible Data Searching</h2>
-    <p>Implementing a wildcard search mechanism allows users to query complex datasets using the familiar <code>*</code> operator, commonly used in Unix shells and version control systems.</p>
+---
 
-    <h3>Optimized Regex Translator</h3>
-    <p>Converting a wildcard string into a Regular Expression ensures native-level performance across large arrays.</p>
+## 03. Wildcard Pattern Matching in Arrays
+Implementing a pattern matching system allows for flexible data filtering (like `m*n`) without the overhead of manually managing complex RegEx objects.
 
-    <pre><code>class WildcardSearch {
-  constructor(list) { this.list = list; }
+### Usage
+*   **Fast**: Uses pre-cached regex templates.
+*   **Flexible**: Supports multi-symbol wildcarding.
 
-  search(pattern) {
-    const escapedPattern = pattern.replace(/[.+^${}()|[\]\\]/g, '\\$&');
-    const regex = new RegExp(`^${escapedPattern.replace(/\*/g, '.*')}$`, 'i');
+```javascript
+class PatternSearch {
+  constructor(list) {
+    this.list = list;
+  }
+
+  find(pattern) {
+    const regex = new RegExp(`^${pattern.replace(/\*/g, '.*')}$`, 'i');
     return this.list.filter(item => regex.test(item));
   }
 }
 
-// Usage
-const dict = new WildcardSearch(["monday", "tuesday", "friday"]);
-dict.search("*day"); // Returns all matches</code></pre>
-  </div>
-</details>
+const db = new PatternSearch(["monday", "tuesday", "wednesday"]);
+console.log(db.find("m*n*y")); // ["monday"]
+```
 
-<details class="card-orange">
-  <summary>
-    <div>
-      <span class="tag tag-orange">I18n</span>
-      <div class="title">Locale-Aware Date Utilities</div>
-    </div>
-    <div class="indicator">▼</div>
-  </summary>
-  <div class="content-wrapper">
-    <h2>Native Browser Internationalization</h2>
-    <p>Stop shipping large date libraries for simple localized strings. Modern browsers provide the <code>Intl</code> object and <code>toLocaleDateString</code> which are extremely efficient.</p>
+---
 
-    <pre><code>function getLocalizedDays(locale = 'en-US') {
-  const formatter = new Intl.DateTimeFormat(locale, { weekday: 'long' });
+## 04. Native Browser Localization (Zero-Dependency)
+Modern browsers have built-in support for locale-aware strings through `Intl` and `toLocaleDateString`. Avoid shipping massive libraries for basic localization tasks.
+
+### Localized Weekdays
+```javascript
+const getLocalizedDays = (locale = 'en-US') => {
   return Array.from({ length: 7 }, (_, i) => {
-    const date = new Date(2021, 0, 4 + i); // 2021-01-04 was a Monday
-    return formatter.format(date);
+    return new Date(2024, 0, 1 + i).toLocaleDateString(locale, { 
+      weekday: 'long' 
+    });
   });
-}</code></pre>
-    <p>This approach reduces bundle size by avoiding dependencies like Moment.js or date-fns for basic localization tasks.</p>
-  </div>
-</details>
+};
 
-<details class="card-red">
-  <summary>
-    <div>
-      <span class="tag tag-red">Security</span>
-      <div class="title">Advanced Frontend Guarding</div>
-    </div>
-    <div class="indicator">▼</div>
-  </summary>
-  <div class="content-wrapper">
-    <h2>Hardening Client-Side Integrity</h2>
-    <p>Protecting the UI from tampering (via Malicious Extensions or DevTools) is critical for enterprise security and state consistency.</p>
-    
-    <h3>Key Strategies</h3>
-    <ul>
-      <li><strong>CSP Headers:</strong> Strictly control script origins.</li>
-      <li><strong>Subresource Integrity (SRI):</strong> Verify that fetched assets haven't been modified.</li>
-      <li><strong>DOM Attribute Guarding:</strong> Prevent unauthorized modifications to sensitive ID and data-attributes.</li>
-    </ul>
-  </div>
-</details>
+// Example: getLocalizedDays('fr-FR') 
+// -> ["lundi", "mardi", "mercredi", ...]
+```
 
-<details class="card-indigo">
-  <summary>
-    <div>
-      <span class="tag tag-indigo">Leadership</span>
-      <div class="title">Engineering Management Framework</div>
-    </div>
-  </summary>
-  <div class="content-wrapper">
-    <h2>Scaling Quality through Automation</h2>
-    <p>Leadership in engineering is about creating high-trust environments where quality is built-in, not inspected at the end.</p>
-    
-    <h3>DORA Metrics Focus</h3>
-    <ul>
-      <li><strong>Deployment Frequency:</strong> Enabling multiple releases per day.</li>
-      <li><strong>Lead Time for Changes:</strong> Reducing time from commit to production.</li>
-      <li><strong>Change Failure Rate:</strong> Ensuring stability via automated testing.</li>
-    </ul>
-  </div>
-</details>
+---
+
+## 05. Security & Engineering Governance
+Engineering excellence is more than just code; it's about the security and resilience of the system as a whole.
+
+### Core Focus Areas:
+*   **Content Security Policy (CSP)**: Strictly defining trusted origins.
+*   **Subresource Integrity (SRI)**: Verifying remote scripts.
+*   **Reference Architecture**: Implementing "Poison Pill" and "Self-Healing" behaviors.
+
+---
