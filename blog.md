@@ -61,26 +61,38 @@
   }
 
   pre {
-    background: #111827 !important;
-    border-radius: 16px !important;
-    padding: 2rem !important;
+    background: #0f172a !important; /* Deep Navy - High Contrast Base */
+    border-radius: 12px !important;
+    padding: 1.5rem !important;
     margin: 2rem 0 !important;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    border: 1px solid #334155;
   }
 
   code {
     font-family: 'Fira Code', monospace !important;
-    background: #f3f4f6;
+    background: #f1f5f9;
     padding: 2px 6px;
-    border-radius: 6px;
-    color: #d91e18;
-    font-size: 0.95em;
+    border-radius: 4px;
+    color: #b91c1c; /* High contrast red for inline code */
+    font-size: 0.9em;
   }
 
+  /* ADA Compliant Code Text: Ensuring white/light-gray on dark background */
   pre code {
     background: transparent !important;
-    color: #e5e7eb !important;
+    color: #f8fafc !important; /* Off-white for maximum readability */
     padding: 0 !important;
+    font-size: 0.95rem !important;
+    line-height: 1.6;
+    display: block;
+    text-shadow: none;
+  }
+
+  /* Enhancing visibility for syntax if handled by various themes */
+  pre span {
+    color: inherit !important;
   }
 
   ul {
