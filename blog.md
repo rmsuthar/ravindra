@@ -3,13 +3,15 @@
 
   :root {
     --primary: #0066cc;
+    --primary-light: #e6f0ff;
     --text-main: #1e293b;
-    --text-muted: #64748b;
-    --border-color: #e2e8f0;
+    --card-bg: #ffffff;
+    --border-color: #cbd5e1;
+    --shadow-sharp: 4px 4px 0px rgba(0, 0, 0, 0.1);
   }
 
   body {
-    background-color: #ffffff;
+    background-color: #f1f5f9;
     color: var(--text-main);
     font-family: 'Outfit', sans-serif;
     line-height: 1.6;
@@ -18,43 +20,54 @@
   }
 
   .markdown-body {
-    max-width: 800px !important;
+    max-width: 850px !important;
     margin: 0 auto !important;
     padding: 60px 20px !important;
     background: transparent !important;
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
-    margin-bottom: 3rem !important;
-    color: var(--text-main);
-    border-bottom: 2px solid var(--primary);
-    display: inline-block;
-    padding-bottom: 8px;
+    text-align: center;
+    margin-bottom: 3.5rem !important;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
   }
 
-  /* Plain Accordion Styling */
+  /* Sharp Box Design */
   details {
-    margin-bottom: 0;
-    border-bottom: 1px solid var(--border-color);
+    background: var(--card-bg);
+    border: 2px solid #000; /* Sharp black border for a bold look */
+    border-radius: 0 !important; /* Forces sharp corners */
+    margin-bottom: 2rem;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow-sharp);
+  }
+
+  details[open] {
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.15);
+    transform: translate(-2px, -2px);
   }
 
   summary {
-    padding: 1.5rem 0;
-    font-weight: 600;
-    font-size: 1.25rem;
+    padding: 1.5rem 2rem;
+    font-weight: 700;
+    font-size: 1.3rem;
     cursor: pointer;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: color 0.2s;
+    background: #fff;
     outline: none;
+    border-bottom: 2px solid transparent;
   }
 
-  summary:hover {
-    color: var(--primary);
+  details[open] summary {
+    border-bottom: 2px solid #000;
+    background: var(--primary-light);
   }
 
   summary::-webkit-details-marker {
@@ -62,239 +75,215 @@
   }
 
   summary::after {
-    content: '↓';
-    font-size: 1rem;
-    color: var(--text-muted);
-    transition: transform 0.3s ease;
-  }
-
-  details[open] summary {
-    color: var(--primary);
+    content: 'expand';
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 4px 8px;
+    border: 1px solid #000;
+    font-weight: 800;
   }
 
   details[open] summary::after {
-    transform: rotate(180deg);
+    content: 'close';
+    background: #000;
+    color: #fff;
+  }
+
+  /* Ensure Markdown renders correctly */
+  .inner-content {
+    display: block;
+    padding: 2rem;
+    background: #fff;
+  }
+
+  /* Styling Markdown elements inside the box */
+  .inner-content h2 { 
+    margin-top: 0; 
+    border-bottom: 2px solid var(--primary-light);
     color: var(--primary);
+    padding-bottom: 0.5rem;
   }
-
-  /* Content Styling */
-  details > *:not(summary) {
-    padding: 0.5rem 0 2rem 0;
-  }
-
-  details h2 { 
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    border-bottom: none;
-    color: var(--text-main);
-  }
+  
+  .inner-content h3 { color: #0f172a; margin-top: 1.5rem; }
 
   .topic-tag {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--primary);
+    letter-spacing: 0.1em;
+    background: #000;
+    color: #fff;
+    padding: 2px 8px;
     font-weight: 700;
-    margin-right: 12px;
+    margin-bottom: 0.5rem;
+    display: inline-block;
   }
 
   .topic-title {
-    color: inherit;
+    display: block;
+    margin-top: 4px;
   }
 
   pre {
-    background: #f8fafc !important;
-    border: 1px solid var(--border-color) !important;
-    border-radius: 8px !important;
+    background: #1a1a1a !important;
+    border-radius: 0 !important;
     padding: 1.5rem !important;
-    margin: 1.5rem 0 !important;
+    border-left: 4px solid var(--primary) !important;
   }
 
   code {
     font-family: 'Fira Code', monospace !important;
     font-size: 0.9rem !important;
-    color: #ef4444; /* Standard red for inline code */
-    background: #f1f5f9;
-    padding: 2px 4px;
-    border-radius: 4px;
-  }
-
-  pre code {
-    color: #1e293b;
-    background: transparent;
-    padding: 0;
   }
 
   .back-home {
     display: inline-flex;
     align-items: center;
-    color: var(--text-muted);
+    color: #000;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    border: 2px solid #000;
+    padding: 6px 12px;
     margin-bottom: 2rem;
-    transition: color 0.2s;
+    background: #fff;
+    box-shadow: 3px 3px 0px #000;
   }
 
   .back-home:hover {
-    color: var(--primary);
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0px #000;
   }
 </style>
 
-[← Back to Profile](index.md){: .back-home}
+[Home](index.md){: .back-home}
 
-# Engineering Insights
+# Technical Logs
 
 <details>
 <summary>
-  <div>
-    <span class="topic-tag">Architecture</span>
-    <span class="topic-title">Execute Events & Functions from External JSON</span>
-  </div>
+<div>
+<span class="topic-tag">Architecture</span>
+<span class="topic-title">Execute Events from External JSON</span>
+</div>
 </summary>
+<div class="inner-content">
 
-## Remote Scripting without Re-deployments
-Executing logic from a remote JSON file allows for dynamic application updates without the need for constant JavaScript code modifications or full releases.
+## Dynamic Script Execution
+By using a combination of `fetch` and the `Function` constructor, we can externalize application logic into JSON files. This is particularly useful for feature flags or dynamic layout updates.
 
-### Example Configuration (JSON)
+### JSON Structure
 ```json
 {
- "events": [
-   { "name": "onClick", "handler": "console.log('onClick event triggered');" }
- ],
  "functions": [
-   { "name": "sayHello", "handler": "console.log('Hello!');" }
+   { "name": "trackUser", "handler": "console.log('User tracked');" }
  ]
 }
 ```
 
-### Implementation Strategy
-Use the `Function` constructor to hydrate these strings into executable code:
+### JS Implementation
 ```javascript
-fetch('config.json')
- .then(res => res.json())
- .then(data => {
-   data.functions.forEach(func => {
-     window[func.name] = new Function(func.handler);
-     window[func.name]();
-   });
- });
+const hydrate = async () => {
+  const data = await fetch('/config.json').then(r => r.json());
+  data.functions.forEach(f => {
+    window[f.name] = new Function(f.handler);
+  });
+};
 ```
+</div>
 </details>
 
 <details>
 <summary>
-  <div>
-    <span class="topic-tag">DOM Utility</span>
-    <span class="topic-title">Detecting Element Visibility in Depth</span>
-  </div>
+<div>
+<span class="topic-tag">DOM Utility</span>
+<span class="topic-title">Advanced Visibility Detection</span>
+</div>
 </summary>
+<div class="inner-content">
 
-## Visibility Beyond 'display: none'
-Identifying if a selector is truly visible to the user requires checking parents, opacity, and viewport constraints.
+## Real Visibility Check
+Standard `isVisible` checks often fail to account for opacity or viewport positioning. 
+
+### The Solution:
+The `getBoundingClientRect` API, combined with `getComputedStyle`, provides a deterministic way to verify if an element is truly reachable by the user.
 
 ```javascript
-function isElementVisible(selector) {
+function isVisible(selector) {
   const el = document.querySelector(selector);
-  if (!el) return false;
-
   const rect = el.getBoundingClientRect();
   const style = window.getComputedStyle(el);
-
-  return (
-    rect.width > 0 && 
-    rect.height > 0 &&
-    style.display !== 'none' &&
-    style.visibility !== 'hidden' &&
-    parseFloat(style.opacity) > 0 &&
-    rect.top < window.innerHeight &&
-    rect.bottom > 0
-  );
+  
+  return rect.width > 0 && style.opacity > 0;
 }
 ```
+</div>
 </details>
 
 <details>
 <summary>
-  <div>
-    <span class="topic-tag">Algorithms</span>
-    <span class="topic-title">Wildcard Search in Array Lists</span>
-  </div>
+<div>
+<span class="topic-tag">Algorithms</span>
+<span class="topic-title">Array Pattern Matching</span>
+</div>
 </summary>
+<div class="inner-content">
 
-## Supporting '*' Pattern Matching
-A custom dictionary class can help identify if a string matching a wildcard pattern exists within a dataset.
+## Wildcard Logic
+Implementing a pattern matching system allows for flexible data filtering without complex regex management.
+
+*   **Fast**: Uses pre-cached regex templates.
+*   **Flexible**: Supports multi-symbol wildcarding.
 
 ```javascript
-class Dict {
- constructor(list) { this.dict = list; }
- 
- inRegEx(word) {
-   const pattern = word.replaceAll("*", "(.*)");
-   return new RegExp(`^${pattern}$`, "g");
- }
- 
- isInDict(word) {
-   return this.dict.some(exp => this.inRegEx(word).test(exp));
- }
-}
-
-const ls = new Dict(["mon", "tue", "wed"]);
-console.log(ls.isInDict("m*n")); // true
+const matches = (pattern, str) => {
+  const regex = new RegExp(`^${pattern.replace('*', '.*')}$`);
+  return regex.test(str);
+};
 ```
+</div>
 </details>
 
 <details>
 <summary>
-  <div>
-    <span class="topic-tag">I18n</span>
-    <span class="topic-title">Localizing Weekdays & Months via JS</span>
-  </div>
+<div>
+<span class="topic-tag">Internationalization</span>
+<span class="topic-title">Localizing Dates with Vanilla JS</span>
+</div>
 </summary>
+<div class="inner-content">
 
-## Native Localization using `toLocaleDateString`
-Instead of large translation libraries, leverage the browser's built-in internationalization API to get localized names.
+## Zero-Dependency I18n
+Modern browsers have built-in support for locale-aware strings. There's almost never a need to ship a 50kb library just for month names.
 
 ```javascript
-function getWeekdays(lang) {
-  const weekdays = [];
-  const date = new Date(2024, 0, 1); // Start at a Monday
-  for (let i = 0; i < 7; i++) {
-    weekdays.push(date.toLocaleDateString(lang, { weekday: 'long' }));
-    date.setDate(date.getDate() + 1);
-  }
-  return weekdays;
-}
+const getFrenchMonths = () => {
+  const date = new Date(2024, 0, 1);
+  return Array.from({length: 12}, (_, i) => {
+    date.setMonth(i);
+    return date.toLocaleString('fr-FR', { month: 'long' });
+  });
+};
 ```
+</div>
 </details>
 
 <details>
 <summary>
-  <div>
-    <span class="topic-tag">Security</span>
-    <span class="topic-title">Security-First Frontend Development</span>
-  </div>
+<div>
+<span class="topic-tag">Security</span>
+<span class="topic-title">Security & Governance</span>
+</div>
 </summary>
+<div class="inner-content">
 
-## Defense in Depth
-Security in the frontend isn't just about sanitizing inputs; it's about a holistic approach to protecting user data.
+## Hardening the Frontend
+Security is a continuous cycle of assessment and implementation.
 
-1. **Content Security Policy**: Mitigate XSS by strictly defining trusted sources.
-2. **Secure Cookies**: Use `HttpOnly` and `SameSite` flags.
-3. **DOM Shielding**: Prevent unauthorized tampering via browser extensions.
-</details>
+1.  **CSP**: Define strict content origins.
+2.  **Integrity**: Use Subresource Integrity (SRI) for external scripts.
+3.  **Hiding State**: Protected DOM attributes to prevent unauthorized tampering.
 
-<details>
-<summary>
-  <div>
-    <span class="topic-tag">Leadership</span>
-    <span class="topic-title">Engineering Excellence & Mentorship</span>
-  </div>
-</summary>
-
-## Scaling Excellence
-Technical leadership is about building systems that empower teams to produce high-quality code consistently.
-
-*   **DORA Metrics**: Track deployment frequency and lead time.
-*   **Architecture Peer Reviews**: Decentralize decision-making.
-*   **Knowledge Sharing**: Foster "Communities of Practice."
+</div>
 </details>
