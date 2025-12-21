@@ -374,25 +374,32 @@ Moving beyond basic concepts into implementation strategies, trade-offs, and pro
 While the "Lego" analogy works for beginners, intermediate engineers must solve the challenges of **Shared State** and **Dependency Contention**.
 
 *   **Orchestration vs. Integration:** Decide between a "Shell" (Container) that dynamically loads bundles via Module Federation vs. "Build-time integration" where sub-apps are npm packages.
+
 *   **Communication Patterns:** Avoid direct coupling. Use a **Pub-Sub (Publish-Subscribe)** pattern or `CustomEvents` through the `window` object to allow MFEs to talk without knowing each other exists.
+
 *   **Scoped Styling:** Implement CSS-in-JS or CSS Modules with unique hash prefixes to ensure Team A's `.button` doesn't overwrite Team B's `.button`.
 
 ### 2. Scalable SDKs & Monorepo Governance
 Building a library (SDK) that 50+ developers use requires strict governance.
 
 *   **Tree-shaking & Bundle Hygiene:** Ensure your SDK is side-effect free. Use `ESM` (ES Modules) to allow bundlers like Webpack/Vite to remove unused code, keeping the consumer's app lean.
+
 *   **Semantic Versioning (SemVer):** Master the **Major.Minor.Patch** flow. 
     *   *Major:* Breaking changes (removing a prop).
     *   *Minor:* New features (adding a style).
     *   *Patch:* Bug fixes.
+
 *   **The "Core" Pattern:** Keep your SDK thin. The core logic should be vanilla JS/TS, with separate "adapters" for React, Angular, or Vue.
 
 ### 3. Frontend System Design: The Layered Approach
 Senior architects design UIs in "Layers" to ensure the logic stays separate from the pixels.
 
 *   **Domain Layer:** Where the pure business logic and math live. (Zero dependencies on React).
+
 *   **Infrastructure/Data Layer:** Handles API calls, local caching (SWR/React Query), and data normalization.
+
 *   **Presentation Layer:** The "Dumb" components that only care about padding, colors, and layout.
+
 *   **Trade-off (SLA):** Designing for "99.9% Uptime" isn't just a backend metric. In the UI, this means handling "Partial Failure"—where the header loads even if the sidebar fails.
 
 ### 4. Advanced Resiliency: The Circuit Breaker
@@ -423,6 +430,7 @@ const circuitBreaker = {
 Intermediate engineering is about **Inversion of Control**.
 
 *   **Provider Pattern:** Leverage React Context not just for "Theme", but for injecting **Adapters**.
+
 *   **Example (Mocking for Speed):**
 
 ```javascript
