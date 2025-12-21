@@ -109,40 +109,25 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
   /* Enhanced hr */
   hr {
     border: 0;
-    height: 1px;
-    background: linear-gradient(to right, transparent, var(--border), transparent);
-    margin: 8rem 0;
-    position: relative;
-    overflow: visible;
+    border-top: 1px solid #000;
+    margin: 4rem 0;
+    opacity: 0.1;
   }
 
-  hr::after {
-    content: "✦";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--bg-main);
-    padding: 0 1.5rem;
-    color: var(--primary);
-    font-size: 1.2rem;
-    opacity: 0.6;
-  }
-
-  /* Simplified ADA Compliant Code Boxes */
+  /* Simplified Code Boxes */
   pre {
-    background: #1e293b !important;
-    border-radius: 12px !important;
+    background: transparent !important;
+    border-radius: 8px !important;
     padding: 1.5rem !important;
     margin: 2rem 0 !important;
-    border: 1px solid #334155;
+    border: 1px solid var(--border);
     overflow-x: auto;
   }
 
   code {
     font-family: 'Fira Code', monospace !important;
-    background: #f1f5f9;
-    color: #b91c1c;
+    background: var(--primary-light);
+    color: var(--primary);
     padding: 2px 6px;
     border-radius: 4px;
     font-size: 0.9em;
@@ -151,7 +136,7 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
 
   pre code {
     background: transparent !important;
-    color: #f8fafc !important;
+    color: var(--text-main) !important;
     padding: 0 !important;
     font-size: 0.95rem !important;
     display: block;
