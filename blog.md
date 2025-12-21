@@ -1,66 +1,110 @@
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
   :root {
-    --bg-main: #fcfcfd;
-    --text-main: #1a1a1b;
-    --primary: #0066cc;
+    --bg-main: #f8fafc;
+    --text-main: #0f172a;
+    --text-muted: #475569;
+    --primary: #2563eb;
+    --primary-light: #eff6ff;
+    --accent: #7c3aed;
     --border: #e2e8f0;
+    --glass: rgba(255, 255, 255, 0.8);
   }
 
   body {
     background-color: var(--bg-main);
     color: var(--text-main);
     font-family: 'Outfit', sans-serif;
-    line-height: 1.7;
+    line-height: 1.8;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(221,83%,93%,1) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, hsla(259,81%,93%,1) 0, transparent 50%);
+    background-attachment: fixed;
   }
 
   .markdown-body {
-    max-width: 800px !important;
+    max-width: 900px !important;
     margin: 0 auto !important;
-    padding: 60px 20px !important;
+    padding: 80px 40px !important;
   }
-  .markdown-body h1:first-child:not(.show-title) {
-    display: none;
+
+  /* Title Section Styling */
+  .title-area {
+    margin-bottom: 6rem;
+    text-align: left;
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 800;
-    text-align: left;
-    margin-bottom: 3rem !important;
-    letter-spacing: -0.04em;
-    color: #111;
+    line-height: 1;
+    margin-bottom: 1rem !important;
+    letter-spacing: -0.05em;
+    background: linear-gradient(135deg, var(--text-main) 30%, var(--primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
+  .subtitle {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: var(--text-muted);
+    border-left: 3px solid var(--accent);
+    padding-left: 20px;
+    margin-top: 1.5rem;
+  }
+
+  /* Section Styling */
   h2 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    margin-top: 4rem !important;
-    margin-bottom: 1.5rem !important;
-    border-bottom: 4px solid #f1f5f9;
-    padding-bottom: 10px;
-    color: #000;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 6rem !important;
+    margin-bottom: 2rem !important;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--text-main);
+    letter-spacing: -0.02em;
+  }
+
+  h2::before {
+    content: "";
+    width: 40px;
+    height: 4px;
+    background: var(--primary);
+    border-radius: 2px;
   }
 
   h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 2rem !important;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 3rem !important;
+    margin-bottom: 1.2rem !important;
     color: var(--primary);
+    display: flex;
+    align-items: center;
   }
 
-  p {
+  /* Content Cards Look without DIVs */
+  p, ul, ol {
     font-size: 1.15rem;
-    color: #374151;
-    margin-bottom: 1.5rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
   }
 
+  strong {
+    color: var(--text-main);
+    font-weight: 600;
+  }
+
+  /* Enhanced hr */
   hr {
     border: 0;
     height: 1px;
     background: linear-gradient(to right, transparent, var(--border), transparent);
-    margin: 6rem 0;
+    margin: 8rem 0;
     position: relative;
     overflow: visible;
   }
@@ -75,76 +119,107 @@
     padding: 0 1.5rem;
     color: var(--primary);
     font-size: 1.2rem;
-    opacity: 0.5;
+    opacity: 0.6;
   }
 
+  /* ADA Compliant Code Boxes - Polished */
   pre {
-    background: #0f172a !important; /* Deep Navy - High Contrast Base */
-    border-radius: 12px !important;
-    padding: 1.5rem !important;
-    margin: 2rem 0 !important;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    overflow-x: auto;
-    border: 1px solid #334155;
+    background: #0f172a !important;
+    border-radius: 20px !important;
+    padding: 2.5rem 2rem !important;
+    margin: 2.5rem 0 !important;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  pre::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
   }
 
   code {
     font-family: 'Fira Code', monospace !important;
-    background: #f1f5f9;
-    padding: 2px 6px;
-    border-radius: 4px;
-    color: #b91c1c; /* High contrast red for inline code */
+    background: var(--primary-light);
+    color: var(--primary);
+    padding: 0.2em 0.5em;
+    border-radius: 6px;
     font-size: 0.9em;
+    font-weight: 500;
   }
 
-  /* ADA Compliant Code Text: Ensuring white/light-gray on dark background */
   pre code {
     background: transparent !important;
-    color: #f8fafc !important; /* Off-white for maximum readability */
+    color: #e2e8f0 !important;
     padding: 0 !important;
     font-size: 0.95rem !important;
-    line-height: 1.6;
     display: block;
-    text-shadow: none;
+    line-height: 1.7;
   }
 
-  /* Enhancing visibility for syntax if handled by various themes */
-  pre span {
-    color: inherit !important;
-  }
-
+  /* List Styling */
   ul {
+    list-style: none;
+    padding-left: 0.5rem;
+  }
+
+  ul li {
+    position: relative;
     padding-left: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
-  li {
-    margin-bottom: 0.75rem;
-    font-size: 1.1rem;
-    color: #4b5563;
-  }
-
-  /* Back button styling */
-  .back-link {
-    display: inline-block;
+  ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
     color: var(--primary);
-    text-decoration: none;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-    transition: transform 0.2s;
+    font-weight: bold;
   }
 
-  .back-link:hover {
+  /* Back Link */
+  .back-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-bottom: 4rem;
+    transition: all 0.3s ease;
+  }
+
+  .back-nav:hover {
+    color: var(--primary);
     transform: translateX(-5px);
+  }
+
+  .back-nav svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 768px) {
+    h1 { font-size: 3rem; }
+    .markdown-body { padding: 40px 20px !important; }
   }
 </style>
 
-[← Back to Profile](index.md){: .back-link}
+<a href="index.md" class="back-nav">
+  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+  Back to Profile
+</a>
 
-# Engineering Journal
-
-A collection of technical insights, architectural patterns, and engineering excellence discovered across 17+ years of building enterprise scale UI.
+<div class="title-area">
+  <h1>Engineering Journal</h1>
+  <p class="subtitle">A deep dive into 17+ years of UI architecture, product engineering, and technical leadership.</p>
+</div>
 
 ---
 
@@ -172,10 +247,7 @@ const hydrateActions = async () => {
 Simple `display: none` checks are insufficient for modern interactive UIs. Elements might be hidden through opacity, parent clip-paths, or simply being outside the current viewport.
 
 ### The Problem
-Traditional checks often fail because they don't account for:
-*   `opacity: 0`
-*   `visibility: hidden`
-*   Viewport position (above or below scroll)
+Traditional checks often fail because they don't account for `opacity: 0`, `visibility: hidden`, or viewport position (above or below scroll).
 
 ### The Deterministic Solution
 Using `getBoundingClientRect()` provides absolute coordinates relative to the viewport.
@@ -226,7 +298,7 @@ console.log(db.find("m*n*y")); // ["monday"]
 
 ---
 
-## 04. Native Browser Localization (Zero-Dependency)
+## 04. Native Browser Localization
 Modern browsers have built-in support for locale-aware strings through `Intl` and `toLocaleDateString`. Avoid shipping massive libraries for basic localization tasks.
 
 ### Localized Weekdays
@@ -238,9 +310,6 @@ const getLocalizedDays = (locale = 'en-US') => {
     });
   });
 };
-
-// Example: getLocalizedDays('fr-FR') 
-// -> ["lundi", "mardi", "mercredi", ...]
 ```
 
 ---
@@ -248,7 +317,6 @@ const getLocalizedDays = (locale = 'en-US') => {
 ## 05. Security & Engineering Governance
 Engineering excellence is more than just code; it's about the security and resilience of the system as a whole.
 
-### Core Focus Areas:
 *   **Content Security Policy (CSP)**: Strictly defining trusted origins.
 *   **Subresource Integrity (SRI)**: Verifying remote scripts.
 *   **Reference Architecture**: Implementing "Poison Pill" and "Self-Healing" behaviors.
@@ -260,8 +328,6 @@ A beginner-friendly breakdown of core architectural concepts, explained specific
 
 ### 1. Micro-frontends (MFE)
 **Concept:** Splitting a giant monolith into independent "Lego" pieces.
-
-*   **Example (Conceptual Module Federation):**
 
 ```javascript
 // A host app "stitching" together two remote MFEs
@@ -285,8 +351,6 @@ const Dashboard = () => (
 ### 2. SDK Development (npm / Yarn Workspaces)
 **Concept:** Building a shared toolbox (Design System/API Library) in a single repository.
 
-*   **Example (Yarn Workspaces Structure):**
-
 ```bash
 /my-project
   /packages
@@ -299,20 +363,15 @@ const Dashboard = () => (
 ### 3. System Design
 **Concept:** The blueprint of how data moves through your app.
 
-*   **Example (UI Search Flow):**
-
 ```javascript
 // System Design: Handling frequent API calls (Debouncing)
 const SearchBar = () => {
   const [query, setQuery] = useState('');
   
   useEffect(() => {
-    // 1. Wait for user to stop typing (300ms) - "System Governance"
     const timer = setTimeout(() => {
       if (query) fetchResults(query);
     }, 3000);
-    
-    // 2. Cleanup: Cancel previous call if user types again
     return () => clearTimeout(timer);
   }, [query]);
 
@@ -320,97 +379,31 @@ const SearchBar = () => {
 };
 ```
 
-### 4. Reference Architecture (Resiliency)
-**Concept:** Ensuring the app doesn't stay broken when something fails.
-
-*   **Example (Self-Healing / Fallback):**
-
-```javascript
-// Error Boundary: "Self-healing" mechanism to keep UI alive
-class ResilientComponent extends React.Component {
-  state = { hasError: false };
-
-  static getDerivedStateFromError() {
-    return { hasError: true }; // "Self-healing" state update
-  }
-
-  render() {
-    if (this.state.hasError) {
-      return <div>Oops! This section crashed, but the rest of the site is OK.</div>;
-    }
-    return this.props.children;
-  }
-}
-```
-
-### 5. Design Patterns (MVC & DI)
-**Concept:** Proven templates to keep code clean and testable.
-
-*   **Example (Dependency Injection):**
-
-```javascript
-// Dependency Injection: Passing the "tool" into the function
-// Instead of hardcoding 'apiService', we inject it
-const useUser = (apiService) => { 
-  const [user, setUser] = useState();
-  
-  useEffect(() => {
-    apiService.getUser().then(setUser);
-  }, [apiService]);
-
-  return user;
-};
-
-// During testing, we inject a "MockService" instead of a "RealService"
-const testUser = useUser(MockService); 
-```
-
 ---
 
-## 07. Deep Dive: Architectural Excellence (Intermediate)
-Moving beyond basic concepts into implementation strategies, trade-offs, and professional-grade patterns for senior-level engineering.
+## 07. Deep Dive: Architectural Excellence
+Moving beyond basic concepts into implementation strategies and professional-grade patterns for senior-level engineering.
 
 ### 1. Micro-frontends in the Real World
-While the "Lego" analogy works for beginners, intermediate engineers must solve the challenges of **Shared State** and **Dependency Contention**.
+Intermediate engineers must solve the challenges of **Shared State** and **Dependency Contention**.
 
-*   **Orchestration vs. Integration:** Decide between a "Shell" (Container) that dynamically loads bundles via Module Federation vs. "Build-time integration" where sub-apps are npm packages.
+*   **Orchestration:** Use a "Shell" (Container) that dynamically loads bundles via Module Federation.
+*   **Communication:** Use a **Pub-Sub (Publish-Subscribe)** pattern or `CustomEvents` for decoupled communication.
+*   **Scoped Styling:** Implement CSS-in-JS or CSS Modules with unique hash prefixes.
 
-*   **Communication Patterns:** Avoid direct coupling. Use a **Pub-Sub (Publish-Subscribe)** pattern or `CustomEvents` through the `window` object to allow MFEs to talk without knowing each other exists.
+### 2. Scalable SDKs & Governance
+Building a library that 50+ developers use requires strict governance.
 
-*   **Scoped Styling:** Implement CSS-in-JS or CSS Modules with unique hash prefixes to ensure Team A's `.button` doesn't overwrite Team B's `.button`.
+*   **Tree-shaking:** Ensure your SDK is side-effect free. Use **ESM** to allow bundlers to remove unused code.
+*   **SemVer:** Master the **Major.Minor.Patch** flow for breaking changes, features, and fixes.
+*   **The "Core" Pattern:** Keep your SDK thin with separate framework adapters (React, Angular, Vue).
 
-### 2. Scalable SDKs & Monorepo Governance
-Building a library (SDK) that 50+ developers use requires strict governance.
-
-*   **Tree-shaking & Bundle Hygiene:** Ensure your SDK is side-effect free. Use `ESM` (ES Modules) to allow bundlers like Webpack/Vite to remove unused code, keeping the consumer's app lean.
-
-*   **Semantic Versioning (SemVer):** Master the **Major.Minor.Patch** flow. 
-    *   *Major:* Breaking changes (removing a prop).
-    *   *Minor:* New features (adding a style).
-    *   *Patch:* Bug fixes.
-
-*   **The "Core" Pattern:** Keep your SDK thin. The core logic should be vanilla JS/TS, with separate "adapters" for React, Angular, or Vue.
-
-### 3. Frontend System Design: The Layered Approach
-Senior architects design UIs in "Layers" to ensure the logic stays separate from the pixels.
-
-*   **Domain Layer:** Where the pure business logic and math live. (Zero dependencies on React).
-
-*   **Infrastructure/Data Layer:** Handles API calls, local caching (SWR/React Query), and data normalization.
-
-*   **Presentation Layer:** The "Dumb" components that only care about padding, colors, and layout.
-
-*   **Trade-off (SLA):** Designing for "99.9% Uptime" isn't just a backend metric. In the UI, this means handling "Partial Failure"—where the header loads even if the sidebar fails.
-
-### 4. Advanced Resiliency: The Circuit Breaker
+### 3. Advanced Resiliency: The Circuit Breaker
 If an external API is slow or failing, your UI should stop trying to call it temporarily to prevent "Cascading Failures."
 
-*   **Circuit Breaker Pattern:**
-
 ```javascript
-// A simple state machine for API calls
 const circuitBreaker = {
-  state: 'CLOSED', // Standard operation
+  state: 'CLOSED',
   failureCount: 0,
   
   async callAPI(apiFn) {
@@ -426,71 +419,38 @@ const circuitBreaker = {
 };
 ```
 
-### 5. Clean Architecture in Frontend (DI & Hooks)
-Intermediate engineering is about **Inversion of Control**.
-
-*   **Provider Pattern:** Leverage React Context not just for "Theme", but for injecting **Adapters**.
-
-*   **Example (Mocking for Speed):**
-
-```javascript
-// Injecting an API adapter through Context
-const ApiProvider = ({ adapter, children }) => (
-  <ApiContext.Provider value={adapter}>{children}</ApiContext.Provider>
-);
-
-// This allows you to test the entire app with a 
-// "FakeMockAdapter" without changing a single line of component code.
-```
-
 ---
 
-## 08. Master Level: Strategic Architecture (Advanced)
+## 08. Master Level: Strategic Architecture
 Strategic patterns for creating future-proof, high-performance, and ultra-secure global enterprise systems.
 
 ### 1. The BFF Pattern (Backend for Frontend)
-In large systems, the UI shouldn't talk to 20 different microservices. We use a **BFF** to orchestrate and aggregate data specifically for the UI's needs.
+In large systems, the UI shouldn't talk to 20 different microservices. We use a **BFF** to orchestrate and aggregate data.
 
-*   **GraphQL as an Orchestrator:** Instead of multiple REST calls, the UI requests exactly what it needs in one query.
-
-*   **Performance Engineering:** The BFF handles complex data joining and filtering, reducing the computational load (and battery drain) on the user's device.
+*   **GraphQL as an Orchestrator:** Request exactly what is needed in one query.
+*   **Performance Engineering:** The BFF handles complex data joining, reducing the load on the user's device.
 
 ### 2. Deterministic UI with State Machines
-As applications grow, "Boolean Hell" (e.g., `isLoading`, `isError`, `isSuccess`) leads to buggy, unpredictable UIs.
+As applications grow, "Boolean Hell" leads to buggy, unpredictable UIs.
 
-*   **Finite State Machines (FSM):** Use libraries like **XState** to define formal states (e.g., `Idle`, `Loading`, `Retrying`, `Success`, `Failure`) and the transitions between them.
+*   **Finite State Machines (FSM):** Use libraries like **XState** to define formal states (Idle, Loading, Success, Failure).
+*   **Impact:** Eliminates "impossible states" and makes the UI mathematically predictable.
 
-*   **Impact:** This makes the UI mathematically predictable and eliminates "impossible states" (like showing a success message and a loading spinner at the same time).
+### 3. Agentic AI & Generative UI
+The next frontier is interfaces generated dynamically by AI based on user intent.
 
-### 3. Performance Engineering: Off-Main-Thread & WASM
-For heavy computations (data visualization, encryption, or image processing), we move work off the main thread to keep the UI smooth (60 FPS).
-
-*   **Web Workers:** Running heavy JS logic in a background thread so the main thread stays free to handle user clicks and animations.
-
-*   **WebAssembly (WASM):** For ultra-high performance, we compile C++ or Rust code into a binary that runs in the browser at near-native speeds.
-
-### 4. Agentic AI & Generative UI
-The next frontier is interfaces that aren't static but are generated dynamically by AI based on user intent.
-
-*   **RAG-driven UI:** Integrating Retrieval-Augmented Generation to surface context-aware widgets and data.
-
-*   **Prompt Engineering as a Service:** Architects must design how LLM prompts are securely injected and managed to drive specific UI behaviors.
+*   **RAG-driven UI:** Integrating Retrieval-Augmented Generation for context-aware widgets.
+*   **Prompt Engineering:** Designing how LLM prompts are securely managed to drive specific UI behaviors.
 
 ---
 
-## 09. Learning Resources & References
-To master these concepts, I highly recommend reviewing the following industry-leading resources:
+## 09. Learning Resources
+To master these concepts, I highly recommend reviewing these industry-leading resources:
 
-*   **[Microfrontends.org](https://micro-frontends.org/)**: The definitive guide to building MFE architectures.
-
-*   **[Patterns.dev](https://www.patterns.dev/)**: A comprehensive interactive resource for modern web design patterns and performance optimizations.
-
-*   **[Martin Fowler: Micro-frontends](https://martinfowler.com/articles/micro-frontends.html)**: A deep architectural dive by the person who literally wrote the book on enterprise architecture.
-
-*   **[Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend/)**: A practical guide on applying Uncle Bob's Clean Architecture principles to React and TypeScript.
-
-*   **[MDN: Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)**: The foundation for high-performance, off-main-thread JavaScript.
-
-*   **[OWASP Top 10 for Frontend](https://owasp.org/www-project-top-ten/)**: The absolute baseline for any architect building secure enterprise-grade UIs.
+*   **[Microfrontends.org](https://micro-frontends.org/)**: The definitive guide to MFE architectures.
+*   **[Patterns.dev](https://www.patterns.dev/)**: A comprehensive resource for modern web patterns.
+*   **[Martin Fowler: Micro-frontends](https://martinfowler.com/articles/micro-frontends.html)**: Deep architectural dive.
+*   **[Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend/)**: Applying Clean Architecture to React.
+*   **[OWASP Top 10 for Frontend](https://owasp.org/www-project-top-ten/)**: Essential security baseline.
 
 ---
