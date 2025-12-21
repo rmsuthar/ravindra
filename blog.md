@@ -30,6 +30,11 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
     background-attachment: fixed;
   }
 
+   .markdown-body h1:first-child:not(.show-title) {
+    display: none;
+  }
+
+
   .markdown-body {
     max-width: 900px !important;
     margin: 0 auto !important;
