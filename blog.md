@@ -20,14 +20,9 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
   }
 
   body {
-    background-color: var(--bg-main);
     color: var(--text-main);
     font-family: 'Outfit', sans-serif;
     line-height: 1.8;
-    background-image: 
-      radial-gradient(at 0% 0%, hsla(221,83%,93%,1) 0, transparent 50%), 
-      radial-gradient(at 50% 0%, hsla(259,81%,93%,1) 0, transparent 50%);
-    background-attachment: fixed;
   }
 
    .markdown-body h1:first-child:not(.show-title) {
@@ -155,9 +150,8 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
 
   code {
     font-family: 'Fira Code', monospace !important;
-    background: var(--primary-light);
     color: var(--primary);
-    padding: 2px 6px;
+    padding: 2px 4px;
     border-radius: 4px;
     font-size: 0.9em;
     font-weight: 500;
@@ -229,7 +223,6 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
   </nav>
 </header>
 
----
 
 ## 01. Execute Events from External JSON
 Modern enterprise applications require high agility. By externalizing logic into JSON, teams can update event handlers and business rules without triggering a full CI/CD pipeline deployment.
