@@ -1,65 +1,47 @@
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap');
 
   :root {
     --primary: #0066cc;
-    --primary-light: #00d4ff;
-    --bg-main: #f8fafc;
     --text-main: #1e293b;
-    --card-bg: #ffffff;
+    --text-muted: #64748b;
     --border-color: #e2e8f0;
-    --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
   }
 
   body {
-    background-color: var(--bg-main);
+    background-color: #ffffff;
     color: var(--text-main);
-    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Outfit', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
   }
 
-  /* Container styling for the blog body */
   .markdown-body {
-    max-width: 900px !important;
+    max-width: 800px !important;
     margin: 0 auto !important;
-    padding: 40px 20px !important;
+    padding: 60px 20px !important;
     background: transparent !important;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
-    text-align: center;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin-bottom: 3rem !important;
-    letter-spacing: -0.02em;
+    color: var(--text-main);
+    border-bottom: 2px solid var(--primary);
+    display: inline-block;
+    padding-bottom: 8px;
   }
 
-  /* Accordion styling */
+  /* Plain Accordion Styling */
   details {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 16px;
-    margin-bottom: 1.5rem;
-    overflow: hidden;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: var(--shadow-md);
-  }
-
-  details[open] {
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-4px);
-    border-color: var(--primary);
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--border-color);
   }
 
   summary {
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 0;
     font-weight: 600;
     font-size: 1.25rem;
     cursor: pointer;
@@ -67,206 +49,252 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: background 0.3s;
-    user-select: none;
+    transition: color 0.2s;
+    outline: none;
   }
 
   summary:hover {
-    background: #f1f5f9;
+    color: var(--primary);
   }
 
   summary::-webkit-details-marker {
     display: none;
   }
 
-  /* Custom indicator */
   summary::after {
-    content: '';
-    width: 24px;
-    height: 24px;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%230066cc' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='dp12 4.5v15m7.5-7.5h-15' /%3E%3C/svg%3E") no-repeat center;
-    transition: transform 0.4s ease;
-    filter: drop-shadow(0 1px 2px rgba(0,102,204,0.2));
+    content: '↓';
+    font-size: 1rem;
+    color: var(--text-muted);
+    transition: transform 0.3s ease;
+  }
+
+  details[open] summary {
+    color: var(--primary);
   }
 
   details[open] summary::after {
-    transform: rotate(45deg);
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%230066cc' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M6 18L18 6M6 6l12 12' /%3E%3C/svg%3E") no-repeat center;
+    transform: rotate(180deg);
+    color: var(--primary);
   }
 
-  .blog-content {
-    padding: 2rem;
-    border-top: 1px solid var(--border-color);
-    background: #fafcfe;
-    animation: slideDown 0.4s ease-out;
+  /* Content Styling */
+  details > *:not(summary) {
+    padding: 0.5rem 0 2rem 0;
+  }
+
+  details h2 { 
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-bottom: none;
+    color: var(--text-main);
   }
 
   .topic-tag {
     font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     color: var(--primary);
-    background: #e6f0ff;
-    padding: 4px 10px;
-    border-radius: 20px;
     font-weight: 700;
-    margin-bottom: 0.75rem;
-    display: inline-block;
+    margin-right: 12px;
   }
 
   .topic-title {
-    display: block;
-    color: var(--text-main);
-  }
-
-  /* Content typography */
-  .blog-content h2, .blog-content h3 {
-    margin-top: 0;
-    color: var(--primary);
+    color: inherit;
   }
 
   pre {
-    background: #1e293b !important;
-    border-radius: 12px !important;
+    background: #f8fafc !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 8px !important;
     padding: 1.5rem !important;
-    overflow-x: auto;
-    box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+    margin: 1.5rem 0 !important;
   }
 
   code {
-    font-family: 'Fira Code', 'Cascadia Code', monospace;
-    font-size: 0.9rem;
+    font-family: 'Fira Code', monospace !important;
+    font-size: 0.9rem !important;
+    color: #ef4444; /* Standard red for inline code */
+    background: #f1f5f9;
+    padding: 2px 4px;
+    border-radius: 4px;
   }
 
-  @keyframes slideDown {
-    from { opacity: 0; transform: translateY(-20px); }
-    to { opacity: 1; transform: translateY(0); }
+  pre code {
+    color: #1e293b;
+    background: transparent;
+    padding: 0;
   }
 
-  /* Back to home link */
   .back-home {
     display: inline-flex;
     align-items: center;
-    color: var(--primary);
+    color: var(--text-muted);
     text-decoration: none;
-    font-weight: 600;
+    font-size: 0.9rem;
     margin-bottom: 2rem;
-    transition: transform 0.2s;
+    transition: color 0.2s;
   }
 
   .back-home:hover {
-    transform: translateX(-5px);
-  }
-
-  .back-home::before {
-    content: '←';
-    margin-right: 8px;
-  }
-
-  @media (max-width: 640px) {
-    h1 { font-size: 2.25rem; }
-    summary { padding: 1.25rem; font-size: 1.1rem; }
+    color: var(--primary);
   }
 </style>
 
-[Back to Profile](index.md){: .back-home}
+[← Back to Profile](index.md){: .back-home}
 
-# Engineering Blogs & Insights
+# Engineering Insights
 
 <details>
-  <summary>
-    <div>
-      <span class="topic-tag">Architecture</span>
-      <span class="topic-title">Modern React: Beyond the Basics</span>
-    </div>
-  </summary>
-  <div class="blog-content">
-
-  ## Mastering Composition over Inheritance
-  In modern React development, the key to scalable UI is composition. Instead of complex prop-drilling or rigid component hierarchies, leverage children and render props to create truly flexible systems.
-
-  ### Key React Hooks Cheat Sheet
-  
-  *   **`useState`**: Manage local state.
-  *   **`useEffect`**: Handle side effects (API calls, subscriptions).
-  *   **`useContext`**: Global state without prop drilling.
-  *   **`useMemo`**: Cache expensive calculations.
-  *   **`useCallback`**: Memoize functions to prevent unnecessary re-renders.
-
-  ```jsx
-  const OptimizedComponent = memo(({ data, onLoad }) => {
-    const processed = useMemo(() => expensiveLogic(data), [data]);
-    const handleClick = useCallback(() => onLoad(processed), [processed, onLoad]);
-
-    return <button onClick={handleClick}>Process Data</button>;
-  });
-  ```
+<summary>
+  <div>
+    <span class="topic-tag">Architecture</span>
+    <span class="topic-title">Execute Events & Functions from External JSON</span>
   </div>
+</summary>
+
+## Remote Scripting without Re-deployments
+Executing logic from a remote JSON file allows for dynamic application updates without the need for constant JavaScript code modifications or full releases.
+
+### Example Configuration (JSON)
+```json
+{
+ "events": [
+   { "name": "onClick", "handler": "console.log('onClick event triggered');" }
+ ],
+ "functions": [
+   { "name": "sayHello", "handler": "console.log('Hello!');" }
+ ]
+}
+```
+
+### Implementation Strategy
+Use the `Function` constructor to hydrate these strings into executable code:
+```javascript
+fetch('config.json')
+ .then(res => res.json())
+ .then(data => {
+   data.functions.forEach(func => {
+     window[func.name] = new Function(func.handler);
+     window[func.name]();
+   });
+ });
+```
 </details>
 
 <details>
-  <summary>
-    <div>
-      <span class="topic-tag">Security</span>
-      <span class="topic-title">Security-First Frontend Development</span>
-    </div>
-  </summary>
-  <div class="blog-content">
-
-  ## Beyond OWASP Top 10
-  Security in the frontend isn't just about sanitizing inputs. It's about defense in depth.
-
-  ### 1. Content Security Policy (CSP)
-  Implement a robust CSP to prevent XSS and data injection. 
-  ```http
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://trusted.cdn.com;
-  ```
-
-  ### 2. Secure Storage
-  Avoid storing sensitive tokens in `localStorage`. Use **HttpOnly Cookies** to mitigate token theft via XSS.
-
-  ### 3. DOM Integrity
-  Protect your application from malicious browser extensions and DevTools tampering.
+<summary>
+  <div>
+    <span class="topic-tag">DOM Utility</span>
+    <span class="topic-title">Detecting Element Visibility in Depth</span>
   </div>
+</summary>
+
+## Visibility Beyond 'display: none'
+Identifying if a selector is truly visible to the user requires checking parents, opacity, and viewport constraints.
+
+```javascript
+function isElementVisible(selector) {
+  const el = document.querySelector(selector);
+  if (!el) return false;
+
+  const rect = el.getBoundingClientRect();
+  const style = window.getComputedStyle(el);
+
+  return (
+    rect.width > 0 && 
+    rect.height > 0 &&
+    style.display !== 'none' &&
+    style.visibility !== 'hidden' &&
+    parseFloat(style.opacity) > 0 &&
+    rect.top < window.innerHeight &&
+    rect.bottom > 0
+  );
+}
+```
 </details>
 
 <details>
-  <summary>
-    <div>
-      <span class="topic-tag">Leadership</span>
-      <span class="topic-title">Engineering Excellence & Mentorship</span>
-    </div>
-  </summary>
-  <div class="blog-content">
-
-  ## Cultivating a High-Performance Culture
-  Technical leadership is less about writing code and more about enabling others to write *better* code.
-
-  ### Core Principles:
-  *   **Empathy-Driven Code Reviews**: Focus on the code, not the person. Ask questions rather than making demands.
-  *   **Architecture Communities of Practice**: Create forums where developers can debate technical decisions and share innovations.
-  *   **SDLC Optimization**: Measure what matters—Lead Time, Deployment Frequency, and Change Failure Rate (DORA metrics).
-
+<summary>
+  <div>
+    <span class="topic-tag">Algorithms</span>
+    <span class="topic-title">Wildcard Search in Array Lists</span>
   </div>
+</summary>
+
+## Supporting '*' Pattern Matching
+A custom dictionary class can help identify if a string matching a wildcard pattern exists within a dataset.
+
+```javascript
+class Dict {
+ constructor(list) { this.dict = list; }
+ 
+ inRegEx(word) {
+   const pattern = word.replaceAll("*", "(.*)");
+   return new RegExp(`^${pattern}$`, "g");
+ }
+ 
+ isInDict(word) {
+   return this.dict.some(exp => this.inRegEx(word).test(exp));
+ }
+}
+
+const ls = new Dict(["mon", "tue", "wed"]);
+console.log(ls.isInDict("m*n")); // true
+```
 </details>
 
 <details>
-  <summary>
-    <div>
-      <span class="topic-tag">Case Study</span>
-      <span class="topic-title">Optimizing Core Web Vitals at Scale</span>
-    </div>
-  </summary>
-  <div class="blog-content">
-
-  ## Achieving a 50% Performance Boost
-  Performance isn't a one-time task; it's a continuous engineering discipline.
-
-  ### Our Approach:
-  1.  **Image Optimization**: Moving to Next-Gen formats (WebP/AVIF) and dynamic resizing.
-  2.  **Code Splitting**: Implementing aggressive route-based and component-based lazy loading.
-  3.  **Critical CSS**: Extracting and inlining the styles needed for the first paint.
-  4.  **Resource Prioritization**: Using `preconnect`, `preload`, and `fetchpriority` effectively.
-
+<summary>
+  <div>
+    <span class="topic-tag">I18n</span>
+    <span class="topic-title">Localizing Weekdays & Months via JS</span>
   </div>
+</summary>
+
+## Native Localization using `toLocaleDateString`
+Instead of large translation libraries, leverage the browser's built-in internationalization API to get localized names.
+
+```javascript
+function getWeekdays(lang) {
+  const weekdays = [];
+  const date = new Date(2024, 0, 1); // Start at a Monday
+  for (let i = 0; i < 7; i++) {
+    weekdays.push(date.toLocaleDateString(lang, { weekday: 'long' }));
+    date.setDate(date.getDate() + 1);
+  }
+  return weekdays;
+}
+```
+</details>
+
+<details>
+<summary>
+  <div>
+    <span class="topic-tag">Security</span>
+    <span class="topic-title">Security-First Frontend Development</span>
+  </div>
+</summary>
+
+## Defense in Depth
+Security in the frontend isn't just about sanitizing inputs; it's about a holistic approach to protecting user data.
+
+1. **Content Security Policy**: Mitigate XSS by strictly defining trusted sources.
+2. **Secure Cookies**: Use `HttpOnly` and `SameSite` flags.
+3. **DOM Shielding**: Prevent unauthorized tampering via browser extensions.
+</details>
+
+<details>
+<summary>
+  <div>
+    <span class="topic-tag">Leadership</span>
+    <span class="topic-title">Engineering Excellence & Mentorship</span>
+  </div>
+</summary>
+
+## Scaling Excellence
+Technical leadership is about building systems that empower teams to produce high-quality code consistently.
+
+*   **DORA Metrics**: Track deployment frequency and lead time.
+*   **Architecture Peer Reviews**: Decentralize decision-making.
+*   **Knowledge Sharing**: Foster "Communities of Practice."
 </details>
