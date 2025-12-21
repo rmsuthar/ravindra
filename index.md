@@ -178,7 +178,9 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 Pune, India | +91 8380099988 | ravindra.suthar@me.com
 
 🔗 LinkedIn: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
+
 🌐 Portfolio: [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/)
+
 ✍️ Blog: [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog)
 
 
