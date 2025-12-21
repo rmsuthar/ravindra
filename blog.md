@@ -227,10 +227,7 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
     <span>/</span>
     <span>Blogs</span>
   </nav>
-  <h1 class="title">Engineering Journal</h1>
-  <p class="subtitle">
-    A deep dive into 17+ years of UI architecture, product engineering, and technical leadership.
-  </p>
+  
 </header>
 
 ---
