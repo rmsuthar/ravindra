@@ -196,8 +196,8 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
   }
 
   .back-nav svg {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 
   @media (max-width: 768px) {
