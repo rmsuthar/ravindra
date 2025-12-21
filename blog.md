@@ -349,6 +349,8 @@ const Dashboard = () => (
 );
 ```
 
+**Usage:** Use this when you have a massive application being built by multiple global teams (e.g., a Banking Portal with separate teams for 'Cards', 'Loans', and 'Profile').
+
 ### 2. SDK Development (npm / Yarn Workspaces)
 **Concept:** Building a shared toolbox (Design System/API Library) in a single repository.
 
@@ -360,6 +362,8 @@ const Dashboard = () => (
     /partner-app   # Uses ui-kit & data-service
   package.json     # "workspaces": ["packages/*"]
 ```
+
+**Usage:** Use this when you need to share code (like a brand-specific button component or an auth-utility) across multiple separate repositories or projects.
 
 ### 3. System Design
 **Concept:** The blueprint of how data moves through your app.
@@ -380,6 +384,8 @@ const SearchBar = () => {
 };
 ```
 
+**Usage:** Use this at the beginning of any project to determine how the frontend will fetch data, handle errors, and manage application state globally.
+
 ---
 
 ## 07. Deep Dive: Architectural Excellence
@@ -392,12 +398,16 @@ Intermediate engineers must solve the challenges of **Shared State** and **Depen
 *   **Communication:** Use a **Pub-Sub (Publish-Subscribe)** pattern or `CustomEvents` for decoupled communication.
 *   **Scoped Styling:** Implement CSS-in-JS or CSS Modules with unique hash prefixes.
 
+**Usage:** Crucial for migrating from a legacy monolith to a modern modular system where different sub-apps might use conflicting versions of React or CSS libraries.
+
 ### 2. Scalable SDKs & Governance
 Building a library that 50+ developers use requires strict governance.
 
 *   **Tree-shaking:** Ensure your SDK is side-effect free. Use **ESM** to allow bundlers to remove unused code.
 *   **SemVer:** Master the **Major.Minor.Patch** flow for breaking changes, features, and fixes.
 *   **The "Core" Pattern:** Keep your SDK thin with separate framework adapters (React, Angular, Vue).
+
+**Usage:** Best for enterprise-level Design Systems (UI Kits) that must be consumed by different departments using various tech stacks.
 
 ### 3. Advanced Resiliency: The Circuit Breaker
 If an external API is slow or failing, your UI should stop trying to call it temporarily to prevent "Cascading Failures."
@@ -420,6 +430,8 @@ const circuitBreaker = {
 };
 ```
 
+**Usage:** Essential for mission-critical UIs (e.g., checkout pages or admin dashboards) where you want to prevent slow third-party services from hanging the entire browser Tab.
+
 ---
 
 ## 08. Master Level: Strategic Architecture
@@ -431,11 +443,15 @@ In large systems, the UI shouldn't talk to 20 different microservices. We use a 
 *   **GraphQL as an Orchestrator:** Request exactly what is needed in one query.
 *   **Performance Engineering:** The BFF handles complex data joining, reducing the load on the user's device.
 
+**Usage:** Ideal for mobile-heavy applications where network latency is high and you want to minimize the number of backend requests.
+
 ### 2. Deterministic UI with State Machines
 As applications grow, "Boolean Hell" leads to buggy, unpredictable UIs.
 
 *   **Finite State Machines (FSM):** Use libraries like **XState** to define formal states (Idle, Loading, Success, Failure).
 *   **Impact:** Eliminates "impossible states" and makes the UI mathematically predictable.
+
+**Usage:** Use this for complex multi-step forms (like a mortgage application or a flight booking flow) where the UI state can become very messy with traditional booleans.
 
 ### 3. Agentic AI & Generative UI
 The next frontier is interfaces generated dynamically by AI based on user intent.
