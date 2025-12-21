@@ -1,3 +1,10 @@
+---
+title: Engineering Journal | Ravindra Suthar - UI Architecture & Leadership<
+description: A deep dive into 17+ years of UI architecture, product engineering, and technical leadership. Exploring Micro-frontends, System Design, and Engineering Excellence.
+tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product Engineering, React, JavaScript, Frontend Leadership, Reference Architecture, State Machinest]
+---
+
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
