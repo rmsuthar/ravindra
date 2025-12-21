@@ -175,6 +175,7 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 
 # Ravindrakumar Suthar
 **Senior Frontend Architect | UI Engineering Leader | Accessibility & Security Specialist**
+
 Pune, India | +91 8380099988 | ravindra.suthar@me.com
 
 🔗 LinkedIn: [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
