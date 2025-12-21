@@ -227,7 +227,6 @@ tags: [I Architecture, Micro-frontends, System Design, SDK Development, Product 
     <span>/</span>
     <span>Blogs</span>
   </nav>
-  
 </header>
 
 ---
