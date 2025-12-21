@@ -176,8 +176,8 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 # Ravindrakumar Suthar
 **Senior Frontend Architect | UI Engineering Leader | Accessibility & Security Specialist**
 
-- **Mobile:** [+91 8380099988](tel:+918380099988)
-- **Email:** [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)
+**Mobile:** [+91 8380099988](tel:+918380099988) | **Email:** [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)
+
 - **LinkedIn:** [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
 - **Portfolio:** [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/)
 - **Blog:** [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog)
