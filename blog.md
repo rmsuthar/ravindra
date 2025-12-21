@@ -262,6 +262,7 @@ A beginner-friendly breakdown of core architectural concepts, explained specific
 **Concept:** Splitting a giant monolith into independent "Lego" pieces.
 
 *   **Example (Conceptual Module Federation):**
+
 ```javascript
 // A host app "stitching" together two remote MFEs
 import React, { Suspense } from 'react';
@@ -285,6 +286,7 @@ const Dashboard = () => (
 **Concept:** Building a shared toolbox (Design System/API Library) in a single repository.
 
 *   **Example (Yarn Workspaces Structure):**
+
 ```bash
 /my-project
   /packages
@@ -298,6 +300,7 @@ const Dashboard = () => (
 **Concept:** The blueprint of how data moves through your app.
 
 *   **Example (UI Search Flow):**
+
 ```javascript
 // System Design: Handling frequent API calls (Debouncing)
 const SearchBar = () => {
@@ -321,6 +324,7 @@ const SearchBar = () => {
 **Concept:** Ensuring the app doesn't stay broken when something fails.
 
 *   **Example (Self-Healing / Fallback):**
+
 ```javascript
 // Error Boundary: "Self-healing" mechanism to keep UI alive
 class ResilientComponent extends React.Component {
@@ -343,6 +347,7 @@ class ResilientComponent extends React.Component {
 **Concept:** Proven templates to keep code clean and testable.
 
 *   **Example (Dependency Injection):**
+
 ```javascript
 // Dependency Injection: Passing the "tool" into the function
 // Instead of hardcoding 'apiService', we inject it
