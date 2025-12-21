@@ -175,7 +175,7 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 
 # Ravindrakumar Suthar
 **Senior Frontend Architect | UI Engineering Leader | Accessibility & Security Specialist**
-**Pune, India**
+**Pune, MH, India**
 
 - **Mobile:** +91 8380099988
 - **Email:** [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)
