@@ -185,15 +185,15 @@ tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Lea
 
 ## PROFESSIONAL SUMMARY
 
-Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms and **UI SDKs** for global BFSI clients. Driven by a **multi-technology mindset**, I leverage modern frameworks, **FIDO2**, and **Generative AI** to deliver business-aligned, intuitive, and performant UIs. Expert in **React, Next.js, ES6+, and TypeScript**, with a proven track record of translating complex technical concepts into clear business value for stakeholders.
+Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms and **UI SDKs** for global BFSI clients. Driven by a **proactive mindset** and a passion for **continuous learning and fast iteration**, I leverage modern frameworks, **FIDO2**, and **Generative AI** to deliver **data-driven, business-aligned** UIs. Expert in **React, Next.js, ES6+, and TypeScript**, with a proven track record of **strong root cause analysis** and translating complex technical concepts into **clear, effective technical communication** for stakeholders.
 
 
 ## CORE COMPETENCIES
 
 - **Architecture:** Micro-frontends, **SDK Development (npm/Yarn Workspaces)**, System Design, **Reference Architecture (Poison Pill, Self-Healing)**, Design Patterns (MVC, DI).
-- **Engineering Excellence:** Performance Engineering, **State Management (Redux/Zustand)**, **CSS Systems (Tailwind/SCSS/LESS)**, **Build Tools (Webpack/Vite/Babel)**.
-- **Strategy & Leadership:** **Agile Champion**, SDLC Optimization, **Stakeholder Technical Translation**, Technical Documentation, Design Analysis.
-- **Tech Stack:** React, Next.js, TypeScript, JavaScript (ES6+), Headless AEM, Google Cloud Run, Docker.
+- **Engineering Excellence:** **Root Cause Analysis (RCA)**, Performance Engineering, **State Management (Redux/Zustand)**, **CSS Systems (Tailwind/SCSS/LESS)**, **Build Tools (Webpack/Vite/Babel)**.
+- **Strategy & Leadership:** **Agile Champion (Fast Iteration)**, SDLC Optimization, **Stakeholder Technical Translation**, Effective Technical Communication, Data-Driven Optimization.
+- **Tech Stack:** React, Next.js, TypeScript, JavaScript (ES6+), **Generative AI Tools & Workflows**, Headless AEM, Docker.
 
 
 
@@ -215,9 +215,9 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 * **Architectural Leadership:** Spearheaded the migration of legacy BFSI platforms to modern Micro-frontend architectures. Led the design and build of **UI SDKs, portals, and iframe-based integrations**, enabling seamless experiences across multiple platforms.
 * **Analysis & Documentation:** Conducted comprehensive analysis of design requirements to architect robust, scalable front-end solutions. Authored extensive **technical documentation for SDKs and portals** to ensure seamless adoption.
 * **Engineering & Development:** Actively delivering high-performance UI solutions using **React.js, Next.js (ES6+), and TypeScript**. Implemented secure cross-window communication and managed complex state transitions using Redux and specialized utilities.
-* **Agile Champion & Quality:** Driven efficiency and continuous improvement in UI delivery processes through Agile methodologies. Participated in **design reviews, architectural assessments, and production issue triaging** to maintain peak quality.
-* **Strategic Collaboration:** Partnered with UX, Backend, and Product managers to align deliverables with business objectives. Excelled in **translating complex technical architectures** for stakeholders, ensuring project transparency and alignment.
-* **Mentorship:** Provided technical guidance and fostered skill growth. Integration of emerging tech (FIDO2, GenAI) to enhance developer productivity and user experience.
+* **Agile Champion & Quality:** Driven efficiency and continuous improvement in UI delivery processes through Agile methodologies, focusing on **fast iteration and data-driven optimization**. Expert in **root cause analysis (RCA)** during architectural assessments and production issue triaging.
+* **Strategic Collaboration:** Partnered with UX, Backend, and Product managers to align deliverables with business objectives. Excelled in **clear and effective technical communication**, translating complex architectures for stakeholders to ensure project transparency.
+* **Mentorship & AI Integration:** Provided technical guidance and fostered a culture of continuous learning. Hands-on experience with **Generative AI tools and workflows** to enhance developer productivity (LLM-driven code generation, prompt engineering) and user experience.
 
 **SAPIENT** | Bangalore, India
 *Senior Interactive Developer* | **Mar 2013 – May 2013**
@@ -268,6 +268,10 @@ more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/t
   <span class="keyword-badge">Web Security (CSP/OWASP)</span>
   <span class="keyword-badge">FIDO2</span>
   <span class="keyword-badge">Generative AI</span>
+  <span class="keyword-badge">Generative AI Tools</span>
+  <span class="keyword-badge">Root Cause Analysis (RCA)</span>
+  <span class="keyword-badge">Technical Communication</span>
+  <span class="keyword-badge">Data-Driven Optimization</span>
   <span class="keyword-badge">State Management (Redux/Zustand)</span>
   <span class="keyword-badge">CSS Systems (Tailwind/SCSS)</span>
   <span class="keyword-badge">Build Tools (Webpack/Vite)</span>
@@ -282,12 +286,14 @@ more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/t
   <span class="keyword-badge">Product Engineering</span>
   <span class="keyword-badge">StateGuard.js</span>
   <span class="keyword-badge">API Design (REST/postMessage)</span>
-  <span class="keyword-badge">Technical Documentation</span>
+  <span class="keyword-badge soft-skill">Technical Communication</span>
   <span class="keyword-badge soft-skill">Stakeholder Translation</span>
   <span class="keyword-badge soft-skill">Thought Leadership</span>
   <span class="keyword-badge soft-skill">Strategic Planning</span>
   <span class="keyword-badge soft-skill">Cross-functional Leadership</span>
   <span class="keyword-badge soft-skill">Mentoring & Coaching</span>
+  <span class="keyword-badge soft-skill">Fast Iteration</span>
+  <span class="keyword-badge soft-skill">Continuous Learning</span>
 </div>
 
 ---
