@@ -1,7 +1,7 @@
 ---
 title: Ravindrakumar Suthar
 description: Senior UI Architect | Agile Scrum Master | Frontend Performance Expert
-tags: [UI Developer, Frontend Technologies, Scrum Master, Agile Development, Leadership, Team Management]
+tags: [UI Developer, Frontend Technologies, UI/UX Design, Scrum Master, Agile Development, Leadership, Team Management]
 ---
 
 <style>
@@ -194,6 +194,7 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 - **Engineering Excellence:** **Root Cause Analysis (RCA)**, Performance Engineering, **State Management (Redux/Zustand)**, **CSS Systems (Tailwind/SCSS/LESS)**, **Build Tools (Webpack/Vite/Babel)**.
 - **Strategy & Leadership:** **Agile Champion (Fast Iteration)**, SDLC Optimization, **Stakeholder Technical Translation**, Effective Technical Communication, Data-Driven Optimization.
 - **Tech Stack:** React, Next.js, TypeScript, JavaScript (ES6+), **Generative AI Tools & Workflows**, Headless AEM, Docker.
+- **UI/UX Design:** Figma, Adobe XD, Adobe Photoshop.
 
 
 
@@ -286,6 +287,10 @@ more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/t
   <span class="keyword-badge">Product Engineering</span>
   <span class="keyword-badge">StateGuard.js</span>
   <span class="keyword-badge">API Design (REST/postMessage)</span>
+  <span class="keyword-badge">UI/UX Design</span>
+  <span class="keyword-badge">Figma</span>
+  <span class="keyword-badge">Adobe XD</span>
+  <span class="keyword-badge">Adobe Photoshop</span>
   <span class="keyword-badge soft-skill">Technical Communication</span>
   <span class="keyword-badge soft-skill">Stakeholder Translation</span>
   <span class="keyword-badge soft-skill">Thought Leadership</span>
