@@ -262,12 +262,10 @@ more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/t
   <span class="keyword-badge">Micro-frontends</span>
   <span class="keyword-badge">UI SDKs</span>
   <span class="keyword-badge">Frontend Architecture</span>
-  <span class="keyword-badge">System Design</span>
   <span class="keyword-badge">Web Performance Optimization</span>
   <span class="keyword-badge">Core Web Vitals</span>
   <span class="keyword-badge">Accessibility (WCAG/ADA)</span>
   <span class="keyword-badge">Web Security (CSP/OWASP)</span>
-  <span class="keyword-badge">FIDO2</span>
   <span class="keyword-badge">Generative AI</span>
   <span class="keyword-badge">Generative AI Tools</span>
   <span class="keyword-badge">Root Cause Analysis (RCA)</span>
