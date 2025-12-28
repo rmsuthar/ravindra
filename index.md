@@ -228,7 +228,7 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 **COGNIZANT TECHNOLOGY SOLUTIONS** | Hyderabad, India
 *Senior Consultant – CRM UI* | **2010 – 2013**
 
-* Engineered enterprise mobile CRM solutions with offline storage capabilities and end-to-end encryption for sensitive data.
+* Engineered enterprise mobile CRM solutions with Sibel CRM support for chrome browsers and mobile supports.
 
 
 
