@@ -230,7 +230,7 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 ## PROFESSIONAL EXPERIENCE
 
 **CITICORP SERVICES INDIA PVT. LTD.** | Pune, India  
-*Assistant Vice President – Senior Frontend Architect* | **May 2013 – Present**  
+*Assistant Vice President* | **May 2013 – Present**  
 - **Led cross-functional engineering initiatives** by spearheading the migration of legacy BFSI platforms to modern Micro-frontend architectures, ensuring seamless transition while maintaining business continuity.
 - **Architected and delivered enterprise-scale solutions** by designing and building **UI, API, and backend and iframe-based integrations**, enabling seamless experiences across multiple platforms and reducing integration complexity by 40%.
 - **Drove technical excellence and performance optimization** by delivering high-performance UI solutions using **React.js, Next.js (ES6+), and TypeScript**, resulting in 50% improvement in application load times and enhanced user experience.
