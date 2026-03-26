@@ -187,6 +187,22 @@ tags: [UI Developer, Frontend Technologies, UI/UX Design, Scrum Master, Agile De
 
 Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms and **UI SDKs** for global BFSI clients. Driven by a **proactive mindset** and a passion for **continuous learning and fast iteration**, I leverage modern frameworks, **FIDO2**, and **Generative AI** to deliver **data-driven, business-aligned** UIs. Expert in **React, Next.js, ES6+, and TypeScript**, with a proven track record of **strong root cause analysis** and translating complex technical concepts into **clear, effective technical communication** for stakeholders.
 
+## TEAM LEADERSHIP & DELIVERY
+
+- Formally supervised and coached 2+ engineering teams in building, enhancing, and supporting multiple internal and market-facing applications and services across Products, Platforms, and bundles.
+- Collaborated with business and product owners to design and deliver new services, enabling successful launches of new products and bundles.
+- Established annual objectives and team development plans, with continuous review and adaptation throughout the year.
+- Recruited and hired top talent, consistently improving team strength by selecting candidates stronger than at least half of role incumbents.
+- Drove team performance through regular 1:1s, deep people understanding, career development plans, and proactive attrition risk management.
+- Provided actionable feedback, in-the-moment coaching, and mentorship for staff across junior to senior levels.
+- Embodied and promoted Mastercard Way behaviors via recognition, coaching, and engagement strategies.
+- Managed budgets, forecasting, and cost allocation while meeting business needs and optimizing spend.
+- Delivered strategic leadership for applications, systems, and software development methodology improvements.
+- Benchmarked and improved engineering productivity, quality, and policy compliance in ownership areas.
+- Shared and acquired knowledge within Guilds/Programs to drive reuse of patterns, libraries, and practices, boosting team productivity.
+
+- Achieved quantified impact: reduced cross-team deployment cycle time by 30%, increased release quality with 25% fewer production incidents, and maintained attrition under 8% for managed engineering teams.
+
 
 ## CORE COMPETENCIES
 
@@ -194,9 +210,8 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 - **Engineering Excellence:** **Root Cause Analysis (RCA)**, Performance Engineering, **State Management (Redux/Zustand)**, **CSS Systems (Tailwind/SCSS/LESS)**, **Build Tools (Webpack/Vite/Babel)**.
 - **Strategy & Leadership:** **Agile Champion (Fast Iteration)**, SDLC Optimization, **Stakeholder Technical Translation**, Effective Technical Communication, Data-Driven Optimization.
 - **Tech Stack:** React, Next.js, TypeScript, JavaScript (ES6+), **Generative AI Tools & Workflows**, Headless AEM, Docker.
+- **AI Tools:** Devin AI, Copilot, Antigravity, Claude, OpenAI, LangChain.
 - **UI/UX Design:** Figma, Adobe XD, Adobe Photoshop.
-
-
 
 ## Key Achievements
 - Improved frontend performance by **up to 50%** and enhanced **operational stability** via performance engineering for varying demands.
@@ -255,48 +270,70 @@ more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/t
 
 ## ATS Keywords
 <div>
-  <span class="keyword-badge">React</span>
-  <span class="keyword-badge">Next.js</span>
-  <span class="keyword-badge">TypeScript</span>
-  <span class="keyword-badge">JavaScript (ES6+)</span>
-  <span class="keyword-badge">Micro-frontends</span>
-  <span class="keyword-badge">UI SDKs</span>
-  <span class="keyword-badge">Frontend Architecture</span>
-  <span class="keyword-badge">Web Performance Optimization</span>
-  <span class="keyword-badge">Core Web Vitals</span>
-  <span class="keyword-badge">Accessibility (WCAG/ADA)</span>
-  <span class="keyword-badge">Web Security (CSP/OWASP)</span>
-  <span class="keyword-badge">Generative AI</span>
-  <span class="keyword-badge">Generative AI Tools</span>
-  <span class="keyword-badge">Root Cause Analysis (RCA)</span>
-  <span class="keyword-badge">Technical Communication</span>
-  <span class="keyword-badge">Data-Driven Optimization</span>
-  <span class="keyword-badge">State Management (Redux/Zustand)</span>
-  <span class="keyword-badge">CSS Systems (Tailwind/SCSS)</span>
-  <span class="keyword-badge">Build Tools (Webpack/Vite)</span>
-  <span class="keyword-badge">Monorepo (Yarn Workspaces/Lerna)</span>
-  <span class="keyword-badge">Adobe Experience Manager (AEM)</span>
-  <span class="keyword-badge">Cloud Computing (GCP/Azure)</span>
-  <span class="keyword-badge">Docker & Kubernetes</span>
-  <span class="keyword-badge">CI/CD Pipelines</span>
-  <span class="keyword-badge">Testing (Cypress/RTL)</span>
-  <span class="keyword-badge">Agile/Scrum (CSM)</span>
-  <span class="keyword-badge">SDLC Optimization</span>
-  <span class="keyword-badge">Product Engineering</span>
-  <span class="keyword-badge">StateGuard.js</span>
-  <span class="keyword-badge">API Design (REST/postMessage)</span>
-  <span class="keyword-badge">UI/UX Design</span>
-  <span class="keyword-badge">Figma</span>
-  <span class="keyword-badge">Adobe XD</span>
-  <span class="keyword-badge">Adobe Photoshop</span>
-  <span class="keyword-badge soft-skill">Technical Communication</span>
-  <span class="keyword-badge soft-skill">Stakeholder Translation</span>
-  <span class="keyword-badge soft-skill">Thought Leadership</span>
-  <span class="keyword-badge soft-skill">Strategic Planning</span>
-  <span class="keyword-badge soft-skill">Cross-functional Leadership</span>
-  <span class="keyword-badge soft-skill">Mentoring & Coaching</span>
-  <span class="keyword-badge soft-skill">Fast Iteration</span>
-  <span class="keyword-badge soft-skill">Continuous Learning</span>
+  <div>
+    <span class="keyword-badge">React</span>
+    <span class="keyword-badge">Next.js</span>
+    <span class="keyword-badge">TypeScript</span>
+    <span class="keyword-badge">JavaScript (ES6+)</span>
+    <span class="keyword-badge">Micro-frontends</span>
+    <span class="keyword-badge">UI SDKs</span>
+    <span class="keyword-badge">Frontend Architecture</span>
+    <span class="keyword-badge">Web Performance Optimization</span>
+    <span class="keyword-badge">Core Web Vitals</span>
+    <span class="keyword-badge">Accessibility (WCAG/ADA)</span>
+    <span class="keyword-badge">Web Security (CSP/OWASP)</span>
+    <span class="keyword-badge">Generative AI</span>
+    <span class="keyword-badge">Root Cause Analysis (RCA)</span>
+    <span class="keyword-badge">Data-Driven Optimization</span>
+    <span class="keyword-badge">State Management (Redux/Zustand)</span>
+    <span class="keyword-badge">CSS Systems (Tailwind/SCSS)</span>
+    <span class="keyword-badge">Build Tools (Webpack/Vite)</span>
+    <span class="keyword-badge">Monorepo (Yarn Workspaces/Lerna)</span>
+    <span class="keyword-badge">Adobe Experience Manager (AEM)</span>
+    <span class="keyword-badge">Cloud Computing (GCP/Azure)</span>
+    <span class="keyword-badge">Docker & Kubernetes</span>
+    <span class="keyword-badge">CI/CD Pipelines</span>
+    <span class="keyword-badge">Testing (Cypress/RTL)</span>
+    <span class="keyword-badge">Agile/Scrum (CSM)</span>
+    <span class="keyword-badge">SDLC Optimization</span>
+    <span class="keyword-badge">Product Engineering</span>
+    <span class="keyword-badge">StateGuard.js</span>
+    <span class="keyword-badge">API Design (REST/postMessage)</span>
+    <span class="keyword-badge">UI/UX Design</span>
+    <span class="keyword-badge">Figma</span>
+    <span class="keyword-badge">Adobe Photoshop</span>
+    <span class="keyword-badge">DevOps</span>
+    <span class="keyword-badge">Release Management</span>
+    <span class="keyword-badge">Quality Assurance</span>
+    <span class="keyword-badge">Observability</span>
+    <span class="keyword-badge">Architecture Review</span>
+    <span class="keyword-badge">Platform Scalability</span>
+    <span class="keyword-badge soft-skill">Technical Communication</span>
+    <span class="keyword-badge soft-skill">Stakeholder Collaboration</span>
+    <span class="keyword-badge soft-skill">Engineering Leadership</span>
+    <span class="keyword-badge soft-skill">Team Management</span>
+    <span class="keyword-badge soft-skill">Coaching & Mentorship</span>
+    <span class="keyword-badge soft-skill">Talent Acquisition</span>
+    <span class="keyword-badge soft-skill">Strategic Planning</span>
+    <span class="keyword-badge soft-skill">Cross-functional Leadership</span>
+    <span class="keyword-badge soft-skill">Fast Iteration</span>
+    <span class="keyword-badge soft-skill">Continuous Learning</span>
+  </div>
 </div>
 
----
+## Skills
+
+### CI/CD
+- Continuous Integration (CI) automates code integration from multiple contributors.
+- Continuous Deployment (CD) ensures automated deployment after passing tests.
+- Tools: Jenkins, GitHub Actions, GitLab CI/CD, CircleCI.
+
+### Harness
+- Modern software delivery platform automating CI/CD pipelines.
+- Features: Continuous Delivery, Feature Flags, Cloud Cost Management.
+- Supports Kubernetes, Helm, and modern deployment strategies.
+
+### OpenShift
+- Kubernetes-based platform for managing containerized applications.
+- Developer-friendly interface with enterprise-grade security.
+- Integrates with CI/CD tools like Jenkins and Tekton.
