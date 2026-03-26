@@ -185,7 +185,11 @@ tags: [UI Developer, Frontend Technologies, UI/UX Design, Scrum Master, Agile De
 
 ## PROFESSIONAL SUMMARY
 
-Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms and **UI SDKs** for global BFSI clients. Driven by a **proactive mindset** and a passion for **continuous learning and fast iteration**, I leverage modern frameworks, **FIDO2**, and **Generative AI** to deliver **data-driven, business-aligned** UIs. Expert in **React, Next.js, ES6+, and TypeScript**, with a proven track record of **strong root cause analysis** and translating complex technical concepts into **clear, effective technical communication** for stakeholders.
+Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms for global BFS clients. Driven by a **proactive mindset** and a passion for **continuous learning and fast iteration**, I leverage modern frameworks, and **Generative AI** to deliver **data-driven, business-aligned** UIs. Expert in **React, Next.js, ES6+, and TypeScript**, with a proven track record of **strong root cause analysis** and translating complex technical concepts into **clear, effective technical communication** for stakeholders.
+
+• **Responsible for the analysis, design, development and delivery of software solutions** across enterprise-scale frontend architectures, ensuring scalable and maintainable codebases that meet business objectives and technical requirements.
+
+• **Defines requirements for new applications and customizations, adhering to standards, processes and best practices** while establishing comprehensive technical specifications, architectural guidelines, and development workflows that align with industry standards and organizational governance frameworks.
 
 ## TEAM LEADERSHIP & DELIVERY
 
