@@ -229,25 +229,43 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 
 ## PROFESSIONAL EXPERIENCE
 
-**CITICORP SERVICES INDIA PVT. LTD.** | Pune, India
-*Assistant Vice President – Senior Frontend Architect* | **May 2013 – Present**
+**CITICORP SERVICES INDIA PVT. LTD.** | Pune, India  
+*Assistant Vice President – Senior Frontend Architect* | **May 2013 – Present**  
+- **Led cross-functional engineering initiatives** by spearheading the migration of legacy BFSI platforms to modern Micro-frontend architectures, ensuring seamless transition while maintaining business continuity.
+- **Architected and delivered enterprise-scale solutions** by designing and building **UI, API, and backend and iframe-based integrations**, enabling seamless experiences across multiple platforms and reducing integration complexity by 40%.
+- **Drove technical excellence and performance optimization** by delivering high-performance UI solutions using **React.js, Next.js (ES6+), and TypeScript**, resulting in 50% improvement in application load times and enhanced user experience.
+- **Facilitated strategic alignment and stakeholder collaboration** by partnering with UX, Backend, and Product managers to align deliverables with business objectives, ensuring on-time delivery of critical product features.
+- **Fostered engineering culture and knowledge transfer** by providing technical guidance and fostering a culture of continuous learning, conducting regular knowledge-sharing sessions and establishing best practices documentation.
+- **Managed engineering productivity and quality benchmarks** by implementing code review processes, automated testing frameworks, and performance monitoring, resulting in 25% reduction in production incidents.
+- **Optimized development workflows and resource allocation** by establishing annual objectives and development plans with continuous review cycles, ensuring team alignment with organizational goals and efficient resource utilization.
+- **Enhanced development velocity through AI-driven tools** by integrating **Devin AI, GitHub Copilot** into development workflows, accelerating code generation, automated testing, and documentation processes, resulting in 35% faster feature delivery and improved code quality.
+  
+**SAPIENT** | Bangalore, India  
+*Senior Interactive Developer* | **Mar 2013 – May 2013**  
+- Developed high-performance responsive interfaces for retail clients using HTML5 and AEM (Adobe CQ).
 
-* **Architectural Leadership:** Spearheaded the migration of legacy BFSI platforms to modern Micro-frontend architectures. Led the design and build of **UI SDKs, portals, and iframe-based integrations**, enabling seamless experiences across multiple platforms.
-* **Analysis & Documentation:** Conducted comprehensive analysis of design requirements to architect robust, scalable front-end solutions. Authored extensive **technical documentation for SDKs and portals** to ensure seamless adoption.
-* **Engineering & Development:** Actively delivering high-performance UI solutions using **React.js, Next.js (ES6+), and TypeScript**. Implemented secure cross-window communication and managed complex state transitions using Redux and specialized utilities.
-* **Agile Champion & Quality:** Driven efficiency and continuous improvement in UI delivery processes through Agile methodologies, focusing on **fast iteration and data-driven optimization**. Expert in **root cause analysis (RCA)** during architectural assessments and production issue triaging.
-* **Strategic Collaboration:** Partnered with UX, Backend, and Product managers to align deliverables with business objectives. Excelled in **clear and effective technical communication**, translating complex architectures for stakeholders to ensure project transparency.
-* **Mentorship & AI Integration:** Provided technical guidance and fostered a culture of continuous learning. Hands-on experience with **Generative AI tools and workflows** to enhance developer productivity (LLM-driven code generation, prompt engineering) and user experience.
+**COGNIZANT TECHNOLOGY SOLUTIONS** | Hyderabad, India  
+*Senior Consultant – CRM UI* | **December 2010 - February 2013 (2 years 3 months)**  
+- Engineered enterprise mobile CRM solutions with Sibel CRM support for Chrome browsers and mobile devices.
+- Developed Oracle CRM API SOAP-based solutions.
+- Conducted usability testing, competitive analysis, and heuristic evaluations.
 
-**SAPIENT** | Bangalore, India
-*Senior Interactive Developer* | **Mar 2013 – May 2013**
+**IMPETUS INFOTECH INDIA PVT. LTD.** | India  
+*Module Lead UI Developer* | **June 2007 - December 2010 (3 years 7 months)**  
+- Visualized concepts and implementations for enterprise applications.
+- Conducted usability studies, competitive analysis, and heuristic evaluations.
+- Collaborated with organizational leads to drive discussions and decisions.
 
-* Developed high-performance responsive interfaces for retail clients using HTML5 and AEM (Adobe CQ).
+**GATESIX TECHNOLOGIES INDIA PVT. LTD.** | India  
+*Lead Web Specialist* | **August 2004 - June 2007 (2 years 11 months)**  
+- Set strategies for design, development, and SEO as well as W3C standards for web applications.
+- Designed UI and conceptualized application flows.
+- Conducted R&D on new technologies and their implementation.
 
-**COGNIZANT TECHNOLOGY SOLUTIONS** | Hyderabad, India
-*Senior Consultant – CRM UI* | **2010 – 2013**
-
-* Engineered enterprise mobile CRM solutions with Sibel CRM support for chrome browsers and mobile supports.
+**PINNACLE TECHNOSYS** | India  
+*Sr. Web Designer* | **May 2003 - July 2004 (1 year 3 months)**  
+- Designed and developed web applications adhering to W3C standards.
+- Conducted R&D on new technologies and implemented innovative solutions.
 
 
 
