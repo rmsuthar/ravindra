@@ -238,8 +238,13 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 - **Fostered engineering culture and knowledge transfer** by providing technical guidance and fostering a culture of continuous learning, conducting regular knowledge-sharing sessions and establishing best practices documentation.
 - **Managed engineering productivity and quality benchmarks** by implementing code review processes, automated testing frameworks, and performance monitoring, resulting in 25% reduction in production incidents.
 - **Optimized development workflows and resource allocation** by establishing annual objectives and development plans with continuous review cycles, ensuring team alignment with organizational goals and efficient resource utilization.
-- **Enhanced development velocity through AI-driven tools** by integrating **Devin AI, GitHub Copilot** into development workflows, accelerating code generation, automated testing, and documentation processes, resulting in 35% faster feature delivery and improved code quality.
-  
+- **Led comprehensive VA Section 508 and ADA compliance initiatives** by establishing enterprise-wide accessibility standards and remediation processes, ensuring all frontend applications meet WCAG 2.1/2.2 AA standards and federal accessibility requirements.
+- **Architected automated accessibility testing frameworks** using axe-core, and Lighthouse CI to identify and prevent accessibility violations during development cycles, reducing post-deployment remediation costs by 60%.
+- **Managed End of Vendor Support (EOVS) and End of Life (EOL) product transitions** by developing strategic migration roadmaps for legacy systems, coordinating cross-functional teams to ensure seamless transitions while maintaining business continuity and compliance standards.
+- **Delivered VA-compliant digital experiences** by collaborating with accessibility specialists and conducting regular audits using screen readers (NVDA), keyboard navigation testing, and color contrast validation, achieving 100% compliance across all customer-facing applications.
+- **Established accessibility-first development culture** by creating comprehensive training programs, accessibility checklists, and code review standards that embed compliance considerations into every stage of the development lifecycle.
+- **Coordinated vendor sunset and technology refresh initiatives** by managing stakeholder communications, budget planning, and technical assessments for EOVS scenarios, ensuring zero business disruption during critical system transitions.  
+
 **SAPIENT** | Bangalore, India  
 *Senior Interactive Developer* | **Mar 2013 – May 2013**  
 - Developed high-performance responsive interfaces for retail clients using HTML5 and AEM (Adobe CQ).
