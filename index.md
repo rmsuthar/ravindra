@@ -1,5 +1,5 @@
 ---
-title: Ravindrakumar Suthar
+title: Ravindrakumar M. Suthar
 description: Senior UI Architect | Agile Scrum Master | Frontend Performance Expert
 tags: [UI Developer, Frontend Technologies, UI/UX Design, Scrum Master, Agile Development, Leadership, Team Management]
 ---
