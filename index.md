@@ -214,7 +214,7 @@ Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ y
 - **Engineering Excellence:** **Root Cause Analysis (RCA)**, Performance Engineering, **State Management (Redux/Zustand)**, **CSS Systems (Tailwind/SCSS/LESS)**, **Build Tools (Webpack/Vite/Babel)**.
 - **Strategy & Leadership:** **Agile Champion (Fast Iteration)**, SDLC Optimization, **Stakeholder Technical Translation**, Effective Technical Communication, Data-Driven Optimization.
 - **Tech Stack:** React, Next.js, TypeScript, JavaScript (ES6+), **Generative AI Tools & Workflows**, Headless AEM, Docker.
-- **AI Tools:** Devin AI, Copilot, Antigravity, Claude, OpenAI, LangChain.
+- **AI Tools:** Devin AI (GenAI), Copilot, Antigravity, Claude, OpenAI, LangChain.
 - **UI/UX Design:** Figma, Adobe XD, Adobe Photoshop.
 
 ## Key Achievements
@@ -329,6 +329,7 @@ more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/t
     <span class="keyword-badge">UI/UX Design</span>
     <span class="keyword-badge">Figma</span>
     <span class="keyword-badge">Adobe Photoshop</span>
+    <span class="keyword-badge">Devin AI</span>
     <span class="keyword-badge">DevOps</span>
     <span class="keyword-badge">Release Management</span>
     <span class="keyword-badge">Quality Assurance</span>
