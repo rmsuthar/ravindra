@@ -9,23 +9,23 @@ tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHu
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg:           #0d1117;
-    --bg-card:      #161b22;
-    --bg-card-alt:  #1c2230;
-    --bg-kpi:       #1a2540;
-    --border:       #30363d;
-    --border-accent:#1f6feb;
-    --blue:         #58a6ff;
-    --blue-dim:     #388bfd;
-    --blue-glow:    rgba(88,166,255,0.15);
-    --green:        #3fb950;
-    --purple:       #bc8cff;
-    --orange:       #e3b341;
-    --text:         #e6edf3;
-    --text-muted:   #8b949e;
-    --text-dim:     #6e7681;
+    --bg:           #f6f8fa;
+    --bg-card:      #ffffff;
+    --bg-card-alt:  #f0f4f8;
+    --bg-kpi:       #eaf1fb;
+    --border:       #d0d7de;
+    --border-accent:#0969da;
+    --blue:         #0969da;
+    --blue-dim:     #1a7fd4;
+    --blue-glow:    rgba(9,105,218,0.10);
+    --green:        #1a7f37;
+    --purple:       #6e40c9;
+    --orange:       #b45309;
+    --text:         #1c2128;
+    --text-muted:   #4b5563;
+    --text-dim:     #6e7781;
     --radius:       10px;
-    --shadow:       0 4px 24px rgba(0,0,0,0.5);
+    --shadow:       0 2px 12px rgba(0,0,0,0.08);
   }
 
   html { scroll-behavior: smooth; }
@@ -129,7 +129,7 @@ tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHu
     text-align: center;
     transition: background 0.2s;
   }
-  .kpi-cell:hover { background: #1f2d4a; }
+  .kpi-cell:hover { background: #d6e8fb; }
   .kpi-value {
     font-size: 2rem;
     font-weight: 800;
