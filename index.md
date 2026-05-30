@@ -1,351 +1,676 @@
 ---
 title: Ravindrakumar M. Suthar
-description: Senior UI Architect | Agile Scrum Master | Frontend Performance Expert
-tags: [UI Developer, Frontend Technologies, UI/UX Design, Scrum Master, Agile Development, Leadership, Team Management]
+description: Senior Frontend Architect | Engineering Leader | AI-Augmented Development | Accessibility & Security Specialist
+tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHub Copilot, Devin AI, GitHub Actions, Agile, Scrum Master, Engineering Leadership, WCAG, ADA, BFSI]
 ---
 
 <style>
+  /* ── RESET & BASE ──────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
   :root {
-    --primary: #0066cc;
-    --primary-hover: #0052a3;
-    --bg-section: #f8fafc;
-    --text-main: #2d3748;
-    --badge-bg: #fff4e6;
-    --badge-text: #663c00;
-    --badge-border: #ffe1b3;
-    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --bg:           #0d1117;
+    --bg-card:      #161b22;
+    --bg-card-alt:  #1c2230;
+    --bg-kpi:       #1a2540;
+    --border:       #30363d;
+    --border-accent:#1f6feb;
+    --blue:         #58a6ff;
+    --blue-dim:     #388bfd;
+    --blue-glow:    rgba(88,166,255,0.15);
+    --green:        #3fb950;
+    --purple:       #bc8cff;
+    --orange:       #e3b341;
+    --text:         #e6edf3;
+    --text-muted:   #8b949e;
+    --text-dim:     #6e7681;
+    --radius:       10px;
+    --shadow:       0 4px 24px rgba(0,0,0,0.5);
   }
 
-  @keyframes slideUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
+  html { scroll-behavior: smooth; }
 
   body {
-    line-height: 1.6;
-    color: var(--text-main);
-    background-color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    font-size: 15px;
   }
 
-  .markdown-body {
-    animation: fadeIn 0.8s ease-out;
-  }
+  /* ── HIDE DEFAULT TITLE ─────────────────────────── */
+  .markdown-body h1:first-child { display: none; }
 
+  /* ── ANIMATIONS ─────────────────────────────────── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes pulse-border {
+    0%, 100% { border-color: var(--border-accent); }
+    50%       { border-color: var(--blue); }
+  }
   .markdown-body > * {
-    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation: fadeUp 0.55s cubic-bezier(0.16,1,0.3,1) both;
+  }
+  .markdown-body > *:nth-child(1)  { animation-delay: 0.05s; }
+  .markdown-body > *:nth-child(2)  { animation-delay: 0.10s; }
+  .markdown-body > *:nth-child(3)  { animation-delay: 0.15s; }
+  .markdown-body > *:nth-child(4)  { animation-delay: 0.20s; }
+  .markdown-body > *:nth-child(n+5){ animation-delay: 0.25s; }
+
+  /* ── LAYOUT WRAPPER ─────────────────────────────── */
+  .markdown-body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
   }
 
-  /* Staggered item entrance */
-  .markdown-body > *:nth-child(1) { animation-delay: 0.1s; }
-  .markdown-body > *:nth-child(2) { animation-delay: 0.15s; }
-  .markdown-body > *:nth-child(3) { animation-delay: 0.2s; }
-  .markdown-body > *:nth-child(4) { animation-delay: 0.25s; }
-  .markdown-body > *:nth-child(5) { animation-delay: 0.3s; }
-  .markdown-body > *:nth-child(n+6) { animation-delay: 0.35s; }
+  /* ── HERO ───────────────────────────────────────── */
+  .hero {
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--blue);
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    padding: 2.4rem 2rem 1.8rem;
+    margin-bottom: 1.8rem;
+    box-shadow: var(--shadow);
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--text);
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 0 0.3rem !important;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+  .hero h1 span { color: var(--blue); }
+  .hero-tagline {
+    font-size: 1rem;
+    color: var(--blue);
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.01em;
+  }
+  .hero-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.4rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 1.4rem;
+  }
+  .hero-contact a {
+    color: var(--blue) !important;
+    text-decoration: none;
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    font-weight: 500;
+  }
+  .hero-contact a:hover { text-decoration: underline; }
 
+  /* ── KPI STRIP ──────────────────────────────────── */
+  .kpi-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 1.8rem;
+    box-shadow: var(--shadow);
+  }
+  .kpi-cell {
+    background: var(--bg-kpi);
+    padding: 1.2rem 0.8rem;
+    text-align: center;
+    transition: background 0.2s;
+  }
+  .kpi-cell:hover { background: #1f2d4a; }
+  .kpi-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--blue);
+    line-height: 1.1;
+    display: block;
+  }
+  .kpi-label {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  /* ── SECTION HEADINGS ───────────────────────────── */
   h2 {
-    background-color: var(--bg-section);
-    border-radius: 8px;
-    padding: 0.75rem 1.25rem;
-    margin-top: 2.5rem !important;
-    margin-bottom: 1.25rem !important;
-    border-left: 5px solid var(--primary);
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    transition: all 0.3s ease;
+    font-size: 0.72rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.12em !important;
+    color: var(--blue) !important;
+    border: none !important;
+    border-bottom: 1px solid var(--border) !important;
+    padding: 0 0 0.5rem !important;
+    margin: 2.2rem 0 1.1rem !important;
+    background: none !important;
+    border-radius: 0 !important;
+  }
+  h2:hover { transform: none !important; background: none !important; }
+
+  h3 {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: var(--text) !important;
+    margin: 1.4rem 0 0.15rem !important;
+    border: none !important;
   }
 
-  h2:hover {
-    transform: translateX(8px);
-    background-color: #edf2f7;
-  }
-
-  .markdown-body h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #1a202c;
-    border-bottom: none;
+  /* ── SUMMARY CARD ───────────────────────────────── */
+  .summary-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--blue);
+    border-radius: var(--radius);
+    padding: 1.2rem 1.4rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.75;
     margin-bottom: 0.5rem;
   }
+  .summary-card strong { color: var(--text); font-weight: 600; }
 
-  .markdown-body h1:first-child:not(.show-title) {
-    display: none;
-  }
-
-  p strong {
-    color: #1a202c;
-    font-weight: 600;
-  }
-
-  em {
-    background-color: #fffbe6;
-    padding: 0.1rem 0.3rem;
-    border-radius: 4px;
-    font-style: normal;
-    font-weight: 500;
-  }
-
-  a:not(.anchorjs-link) {
-    color: var(--primary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: all 0.25s ease;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-weight: 500;
-  }
-
-  a:not(.anchorjs-link):hover {
-    background-color: var(--primary);
-    color: white !important;
-    border-bottom-color: var(--primary);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 102, 204, 0.2);
-  }
-
-  .keyword-badge {
-    display: inline-block;
-    background: #f1f5f9;
-    color: #475569;
-    padding: 6px 14px;
-    border-radius: 6px;
-    font-size: 0.85rem;
-    margin-right: 8px;
-    margin-bottom: 0.8rem;
-    border: 1px solid #e2e8f0;
-    transition: all 0.2s ease;
-    cursor: default;
-    font-weight: 500;
-  }
-
-  .keyword-badge:hover {
-    background: #e2e8f0;
-    color: #1e293b;
-    border-color: #cbd5e1;
-    transform: translateY(-1px);
-  }
-
-  .keyword-badge.soft-skill {
-    background: #f0fdf4;
-    color: #166534;
-    border-color: #bbf7d0;
-  }
-
-  .keyword-badge.soft-skill:hover {
-    background: #dcfce7;
-    border-color: #86efac;
-  }
-
-  /* List Styling */
+  /* ── BULLET LISTS ───────────────────────────────── */
   ul {
-    list-style-type: none;
-    padding-left: 0 !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 0 0.4rem !important;
   }
-
   li {
     position: relative;
-    padding-left: 1.5rem;
-    margin-bottom: 0.5rem;
+    padding: 0.35rem 0 0.35rem 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.93rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s;
   }
-
   li::before {
-    content: "→";
+    content: "▸";
     position: absolute;
     left: 0;
-    color: var(--primary);
-    font-weight: bold;
-    opacity: 0.7;
+    color: var(--blue-dim);
+    font-size: 0.8rem;
+    top: 0.45rem;
+  }
+  li strong { color: var(--text); font-weight: 600; }
+
+  /* ── COMPETENCY TABLE ───────────────────────────── */
+  .comp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  .comp-table tr { border-bottom: 1px solid var(--border); }
+  .comp-table tr:last-child { border-bottom: none; }
+  .comp-table td {
+    padding: 0.6rem 0.8rem;
+    vertical-align: top;
+    border: none;
+    background: none !important;
+  }
+  .comp-table td:first-child {
+    font-weight: 700;
+    color: var(--text);
+    white-space: nowrap;
+    width: 160px;
+    padding-left: 0;
+  }
+  .comp-table td:last-child { color: var(--text-muted); }
+
+  /* ── AI TOOLS HIGHLIGHT ─────────────────────────── */
+  .ai-badge {
+    display: inline-block;
+    background: rgba(188,140,255,0.12);
+    color: var(--purple);
+    border: 1px solid rgba(188,140,255,0.3);
+    border-radius: 5px;
+    padding: 1px 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin: 1px 3px 1px 0;
+    vertical-align: middle;
+  }
+  .gh-badge {
+    display: inline-block;
+    background: rgba(63,185,80,0.12);
+    color: var(--green);
+    border: 1px solid rgba(63,185,80,0.3);
+    border-radius: 5px;
+    padding: 1px 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin: 1px 3px 1px 0;
+    vertical-align: middle;
+  }
+  .skill-badge {
+    display: inline-block;
+    background: var(--bg-card-alt);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 1px 8px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    margin: 2px 3px 2px 0;
+    transition: all 0.15s;
+    cursor: default;
+  }
+  .skill-badge:hover {
+    background: var(--blue-glow);
+    border-color: var(--blue-dim);
+    color: var(--blue);
+  }
+
+  /* ── JOB CARDS ──────────────────────────────────── */
+  .job-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .job-card:hover {
+    border-color: var(--border-accent);
+    box-shadow: 0 0 0 1px var(--border-accent), var(--shadow);
+  }
+  .job-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.6rem;
+  }
+  .job-company {
+    font-weight: 700;
+    color: var(--text);
+    font-size: 1rem;
+  }
+  .job-location {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+  }
+  .job-title-row {
+    font-size: 0.88rem;
+    color: var(--blue);
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+  }
+  .job-dates {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    font-weight: 400;
+    margin-left: 0.6rem;
+  }
+  .job-card li { font-size: 0.9rem; }
+
+  /* ── PROJECT CARDS ──────────────────────────────── */
+  .project-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.3rem;
+    margin-bottom: 0.9rem;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .project-card:hover {
+    border-color: var(--blue-dim);
+    transform: translateY(-2px);
+  }
+  .project-name {
+    font-weight: 700;
+    color: var(--text);
+    font-size: 0.97rem;
+    margin-bottom: 0.3rem;
+  }
+  .project-name a {
+    color: var(--blue) !important;
+    text-decoration: none;
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+  }
+  .project-name a:hover { text-decoration: underline; }
+  .project-desc {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  /* ── ACHIEVEMENT GRID ───────────────────────────── */
+  .achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  .achievement-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.1rem;
+    transition: border-color 0.2s;
+  }
+  .achievement-card:hover { border-color: var(--blue-dim); }
+  .achievement-stat {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--blue);
+    line-height: 1.1;
+  }
+  .achievement-desc {
+    font-size: 0.83rem;
+    color: var(--text-muted);
+    margin-top: 0.3rem;
+    line-height: 1.5;
+  }
+  .achievement-desc strong { color: var(--text); }
+
+  /* ── CERT / EDU ─────────────────────────────────── */
+  .cert-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.91rem;
+  }
+  .cert-row:last-child { border-bottom: none; }
+  .cert-label { font-weight: 600; color: var(--text); flex: 1; }
+  .cert-meta { color: var(--text-dim); font-size: 0.82rem; white-space: nowrap; }
+
+  /* ── LINKS ──────────────────────────────────────── */
+  a:not(.anchorjs-link) {
+    color: var(--blue);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+    padding: 0;
+    background: none !important;
+    font-weight: 500;
+  }
+  a:not(.anchorjs-link):hover {
+    border-bottom-color: var(--blue);
+    background: none !important;
+    color: var(--blue) !important;
+    transform: none;
+    box-shadow: none;
+  }
+
+  /* ── FOOTER ─────────────────────────────────────── */
+  .resume-footer {
+    margin-top: 3rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+  .resume-footer a { font-size: 0.8rem; }
+
+  /* ── PRINT ──────────────────────────────────────── */
+  .print-btn {
+    display: inline-block;
+    background: var(--bg-card-alt);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    float: right;
+    margin-top: -0.3rem;
+    transition: all 0.2s;
+    text-decoration: none !important;
+  }
+  .print-btn:hover {
+    background: var(--blue-glow);
+    border-color: var(--blue-dim);
+    color: var(--blue) !important;
+  }
+
+  /* ── RESPONSIVE ─────────────────────────────────── */
+  @media (max-width: 640px) {
+    .kpi-strip { grid-template-columns: repeat(2, 1fr); }
+    .hero h1 { font-size: 1.6rem; }
+    .job-meta { flex-direction: column; }
+    .comp-table td:first-child { width: auto; white-space: normal; }
+    .achievement-grid { grid-template-columns: 1fr; }
   }
 
   @media print {
-    .print { display: none; }
-    .onlyprint { display: block; }
-    .markdown-body > * { animation: none; }
+    body { background: #fff; color: #111; }
+    .hero, .job-card, .project-card, .achievement-card { background: #fff; border-color: #ccc; }
+    .kpi-cell { background: #f0f4ff; }
+    .print-btn { display: none; }
+    h2 { color: #1A56A8 !important; }
   }
 </style>
 
-[Print this page](javascript:window.print()){: .print}
-
-# Ravindrakumar Suthar
-**Senior Frontend Architect | UI Engineering Leader | Accessibility & Security Specialist**
-
-**Mobile:** [+91 8380099988](tel:+918380099988) | **Email:** [ravindra.suthar@me.com](mailto:ravindra.suthar@me.com)
-
-- **LinkedIn:** [https://www.linkedin.com/in/ravindrasuthar/](https://www.linkedin.com/in/ravindrasuthar/)  
-- **Portfolio:** [https://rmsuthar.github.io/ravindra/](https://rmsuthar.github.io/ravindra/)
-- **Blog:** [https://rmsuthar.github.io/ravindra/blog](https://rmsuthar.github.io/ravindra/blog)
-
-
-## PROFESSIONAL SUMMARY
-
-Strategic **Product Engineering Leader** and **Frontend Architect** with **17+ years of experience** in building resilient, enterprise-scale web platforms for global BFS clients. Driven by a **proactive mindset** and a passion for **continuous learning and fast iteration**, I leverage modern frameworks, and **Generative AI** to deliver **data-driven, business-aligned** UIs. Expert in **React, Next.js, ES6+, and TypeScript**, with a proven track record of **strong root cause analysis** and translating complex technical concepts into **clear, effective technical communication** for stakeholders.
-
-• **Responsible for the analysis, design, development and delivery of software solutions** across enterprise-scale frontend architectures, ensuring scalable and maintainable codebases that meet business objectives and technical requirements.
-
-• **Defines requirements for new applications and customizations, adhering to standards, processes and best practices** while establishing comprehensive technical specifications, architectural guidelines, and development workflows that align with industry standards and organizational governance frameworks.
-
-## TEAM LEADERSHIP & DELIVERY
-
-- Formally supervised and coached 2+ engineering teams in building, enhancing, and supporting multiple internal and market-facing applications and services across Products, Platforms, and bundles.
-- Collaborated with business and product owners to design and deliver new services, enabling successful launches of new products and bundles.
-- Established annual objectives and team development plans, with continuous review and adaptation throughout the year.
-- Recruited and hired top talent, consistently improving team strength by selecting candidates stronger than at least half of role incumbents.
-- Drove team performance through regular 1:1s, deep people understanding, career development plans, and proactive attrition risk management.
-- Provided actionable feedback, in-the-moment coaching, and mentorship for staff across junior to senior levels.
-- Embodied and promoted Mastercard Way behaviors via recognition, coaching, and engagement strategies.
-- Managed budgets, forecasting, and cost allocation while meeting business needs and optimizing spend.
-- Delivered strategic leadership for applications, systems, and software development methodology improvements.
-- Benchmarked and improved engineering productivity, quality, and policy compliance in ownership areas.
-- Shared and acquired knowledge within Guilds/Programs to drive reuse of patterns, libraries, and practices, boosting team productivity.
-
-- Achieved quantified impact: reduced cross-team deployment cycle time by 30%, increased release quality with 25% fewer production incidents, and maintained attrition under 8% for managed engineering teams.
-
-
-## CORE COMPETENCIES
-
-- **Architecture:** Micro-frontends, **SDK Development (npm/Yarn Workspaces)**, System Design, **Reference Architecture (Poison Pill, Self-Healing)**, Design Patterns (MVC, DI).
-- **Engineering Excellence:** **Root Cause Analysis (RCA)**, Performance Engineering, **State Management (Redux/Zustand)**, **CSS Systems (Tailwind/SCSS/LESS)**, **Build Tools (Webpack/Vite/Babel)**.
-- **Strategy & Leadership:** **Agile Champion (Fast Iteration)**, SDLC Optimization, **Stakeholder Technical Translation**, Effective Technical Communication, Data-Driven Optimization.
-- **Tech Stack:** React, Next.js, TypeScript, JavaScript (ES6+), **Generative AI Tools & Workflows**, Headless AEM, Docker.
-- **AI Tools:** Devin AI (GenAI), Copilot, Antigravity, Claude, OpenAI, LangChain.
-- **UI/UX Design:** Figma, Adobe XD, Adobe Photoshop.
-
-## Key Achievements
-- Improved frontend performance by **up to 50%** and enhanced **operational stability** via performance engineering for varying demands.
-- Evangelized **Reference Architecture** and run principles (self-healing, auto-scaling) to ensure team adoption of engineering principles from the start.
-- Developed **WCAG 2.1/2.2 ADA compliant** applications with a **security-first** approach and advanced test setups.
-- Proactively identified hidden architectural patterns to improve **coding hygiene** and reduce technical debt.
-- Contributed to **engineering communities of practice**, exploring emerging technologies and fostering team diversity.
-- Built **StateGuard.js**, a utility for locking DOM attributes, demonstrating deep technical troubleshooting.
-
-
-
-## PROFESSIONAL EXPERIENCE
-
-**CITICORP SERVICES INDIA PVT. LTD.** | Pune, India  
-*Assistant Vice President* | **May 2013 – Present**  
-- **Led cross-functional engineering initiatives** by spearheading the migration of legacy BFSI platforms to modern Micro-frontend architectures, ensuring seamless transition while maintaining business continuity.
-- **Architected and delivered enterprise-scale solutions** by designing and building **UI, API, and backend and iframe-based integrations**, enabling seamless experiences across multiple platforms and reducing integration complexity by 40%.
-- **Drove technical excellence and performance optimization** by delivering high-performance UI solutions using **React.js, Next.js (ES6+), and TypeScript**, resulting in 50% improvement in application load times and enhanced user experience.
-- **Facilitated strategic alignment and stakeholder collaboration** by partnering with UX, Backend, and Product managers to align deliverables with business objectives, ensuring on-time delivery of critical product features.
-- **Fostered engineering culture and knowledge transfer** by providing technical guidance and fostering a culture of continuous learning, conducting regular knowledge-sharing sessions and establishing best practices documentation.
-- **Managed engineering productivity and quality benchmarks** by implementing code review processes, automated testing frameworks, and performance monitoring, resulting in 25% reduction in production incidents.
-- **Optimized development workflows and resource allocation** by establishing annual objectives and development plans with continuous review cycles, ensuring team alignment with organizational goals and efficient resource utilization.
-- **Led comprehensive VA Section 508 and ADA compliance initiatives** by establishing enterprise-wide accessibility standards and remediation processes, ensuring all frontend applications meet WCAG 2.1/2.2 AA standards and federal accessibility requirements.
-- **Architected automated accessibility testing frameworks** using axe-core, and Lighthouse CI to identify and prevent accessibility violations during development cycles, reducing post-deployment remediation costs by 60%.
-- **Managed End of Vendor Support (EOVS) and End of Life (EOL) product transitions** by developing strategic migration roadmaps for legacy systems, coordinating cross-functional teams to ensure seamless transitions while maintaining business continuity and compliance standards.
-- **Delivered VA-compliant digital experiences** by collaborating with accessibility specialists and conducting regular audits using screen readers (NVDA), keyboard navigation testing, and color contrast validation, achieving 100% compliance across all customer-facing applications.
-- **Established accessibility-first development culture** by creating comprehensive training programs, accessibility checklists, and code review standards that embed compliance considerations into every stage of the development lifecycle.
-- **Coordinated vendor sunset and technology refresh initiatives** by managing stakeholder communications, budget planning, and technical assessments for EOVS scenarios, ensuring zero business disruption during critical system transitions.  
-
-**SAPIENT** | Bangalore, India  
-*Senior Interactive Developer* | **Mar 2013 – May 2013**  
-- Developed high-performance responsive interfaces for retail clients using HTML5 and AEM (Adobe CQ).
-
-**COGNIZANT TECHNOLOGY SOLUTIONS** | Hyderabad, India  
-*Senior Consultant – CRM UI* | **December 2010 - February 2013 (2 years 3 months)**  
-- Engineered enterprise mobile CRM solutions with Sibel CRM support for Chrome browsers and mobile devices.
-- Developed Oracle CRM API SOAP-based solutions.
-- Conducted usability testing, competitive analysis, and heuristic evaluations.
-
-**IMPETUS INFOTECH INDIA PVT. LTD.** | India  
-*Module Lead UI Developer* | **June 2007 - December 2010 (3 years 7 months)**  
-- Visualized concepts and implementations for enterprise applications.
-- Conducted usability studies, competitive analysis, and heuristic evaluations.
-- Collaborated with organizational leads to drive discussions and decisions.
-
-**GATESIX TECHNOLOGIES INDIA PVT. LTD.** | India  
-*Lead Web Specialist* | **August 2004 - June 2007 (2 years 11 months)**  
-- Set strategies for design, development, and SEO as well as W3C standards for web applications.
-- Designed UI and conceptualized application flows.
-- Conducted R&D on new technologies and their implementation.
-
-**PINNACLE TECHNOSYS** | India  
-*Sr. Web Designer* | **May 2003 - July 2004 (1 year 3 months)**  
-- Designed and developed web applications adhering to W3C standards.
-- Conducted R&D on new technologies and implemented innovative solutions.
-
-
-
-## FEATURED TECHNICAL PROJECTS & INNOVATIONS
-
-* **CSP Headers Utility ([csp-headers.in - https://www.csp-headers.in](https://www.csp-headers.in)):** Created an AI-powered security tool (Google Gemini + Cloud Run) that automates the generation of security headers.
-* **StateGuard.js: ([stateguard.js - https://rmsuthar.github.io/StateGuard/](https://rmsuthar.github.io/StateGuard/)):** Developed a specialized JS utility to prevent DOM tampering via DevTools, enhancing client-side security and state integrity.
-* **JSON SVN ([json-svn - https://www.jsonsvn.in](https://www.jsonsvn.in)):** Designed an API-first configuration service providing Git-like versioning and smart deltas for enterprise JSON configs.
-
-more projects at [https://rmsuthar.github.io/tools](https://rmsuthar.github.io/tools)
-
-## EDUCATION & CERTIFICATIONS
-
-
-- Post Graduate Diploma in INFORMATION TECHNOLOGY **Sikkim Manipal University**
-  - 1999 - 2001
-- Higher Diploma Software Eng. (HDSE) **Aptech Computer Education**
-  - 1999 - 2001
-- Bachelor of Science, CHEMISTRY AND MATHEMATICS - **Gujarat University**
-  - 1996 – 1999
-
-* **Key Certifications:** Certified ScrumMaster (CSM), AWS Cloud Practitioner, Google Analytics, IBM Design Thinking.
-
-
-## ATS Keywords
-<div>
-  <div>
-    <span class="keyword-badge">React</span>
-    <span class="keyword-badge">Next.js</span>
-    <span class="keyword-badge">TypeScript</span>
-    <span class="keyword-badge">JavaScript (ES6+)</span>
-    <span class="keyword-badge">Micro-frontends</span>
-    <span class="keyword-badge">UI SDKs</span>
-    <span class="keyword-badge">Frontend Architecture</span>
-    <span class="keyword-badge">Web Performance Optimization</span>
-    <span class="keyword-badge">Core Web Vitals</span>
-    <span class="keyword-badge">Accessibility (WCAG/ADA)</span>
-    <span class="keyword-badge">Web Security (CSP/OWASP)</span>
-    <span class="keyword-badge">Generative AI</span>
-    <span class="keyword-badge">Root Cause Analysis (RCA)</span>
-    <span class="keyword-badge">Data-Driven Optimization</span>
-    <span class="keyword-badge">State Management (Redux/Zustand)</span>
-    <span class="keyword-badge">CSS Systems (Tailwind/SCSS)</span>
-    <span class="keyword-badge">Build Tools (Webpack/Vite)</span>
-    <span class="keyword-badge">Monorepo (Yarn Workspaces/Lerna)</span>
-    <span class="keyword-badge">Adobe Experience Manager (AEM)</span>
-    <span class="keyword-badge">Cloud Computing (GCP/Azure)</span>
-    <span class="keyword-badge">Docker & Kubernetes</span>
-    <span class="keyword-badge">CI/CD Pipelines</span>
-    <span class="keyword-badge">Testing (Cypress/RTL)</span>
-    <span class="keyword-badge">Agile/Scrum (CSM)</span>
-    <span class="keyword-badge">SDLC Optimization</span>
-    <span class="keyword-badge">Product Engineering</span>
-    <span class="keyword-badge">StateGuard.js</span>
-    <span class="keyword-badge">API Design (REST/postMessage)</span>
-    <span class="keyword-badge">UI/UX Design</span>
-    <span class="keyword-badge">Figma</span>
-    <span class="keyword-badge">Adobe Photoshop</span>
-    <span class="keyword-badge">Devin AI</span>
-    <span class="keyword-badge">DevOps</span>
-    <span class="keyword-badge">Release Management</span>
-    <span class="keyword-badge">Quality Assurance</span>
-    <span class="keyword-badge">Observability</span>
-    <span class="keyword-badge">Architecture Review</span>
-    <span class="keyword-badge">Platform Scalability</span>
-    <span class="keyword-badge soft-skill">Technical Communication</span>
-    <span class="keyword-badge soft-skill">Stakeholder Collaboration</span>
-    <span class="keyword-badge soft-skill">Engineering Leadership</span>
-    <span class="keyword-badge soft-skill">Team Management</span>
-    <span class="keyword-badge soft-skill">Coaching & Mentorship</span>
-    <span class="keyword-badge soft-skill">Talent Acquisition</span>
-    <span class="keyword-badge soft-skill">Strategic Planning</span>
-    <span class="keyword-badge soft-skill">Cross-functional Leadership</span>
-    <span class="keyword-badge soft-skill">Fast Iteration</span>
-    <span class="keyword-badge soft-skill">Continuous Learning</span>
+<div class="hero">
+  <a class="print-btn" onclick="window.print(); return false;" href="#">⎙ Print</a>
+  <h1><span>Ravindrakumar</span> M. Suthar</h1>
+  <div class="hero-tagline">Senior Frontend Architect &nbsp;·&nbsp; Engineering Leader &nbsp;·&nbsp; AI-Augmented Development &nbsp;·&nbsp; Accessibility & Security Specialist</div>
+  <div class="hero-contact">
+    <span>📞 <a href="tel:+918380099988">+91 83800 99988</a></span>
+    <span>✉ <a href="mailto:ravindra.suthar@me.com">ravindra.suthar@me.com</a></span>
+    <span>🔗 <a href="https://www.linkedin.com/in/ravindrasuthar/" target="_blank">linkedin.com/in/ravindrasuthar</a></span>
+    <span>🌐 <a href="https://rmsuthar.github.io/ravindra/" target="_blank">rmsuthar.github.io/ravindra</a></span>
+    <span>🛠 <a href="https://rmsuthar.github.io/tools" target="_blank">Tools & Projects</a></span>
   </div>
 </div>
 
+<div class="kpi-strip">
+  <div class="kpi-cell"><span class="kpi-value">17+</span><span class="kpi-label">Years Enterprise Exp.</span></div>
+  <div class="kpi-cell"><span class="kpi-value">50%</span><span class="kpi-label">Perf. Gain Delivered</span></div>
+  <div class="kpi-cell"><span class="kpi-value">30%</span><span class="kpi-label">Faster Deploy Cycle</span></div>
+  <div class="kpi-cell"><span class="kpi-value">60%</span><span class="kpi-label">Less Remediation Cost</span></div>
+</div>
+
+## Professional Summary
+
+<div class="summary-card">
+Product Engineering Leader and Frontend Architect with <strong>17+ years</strong> designing resilient, enterprise-scale web platforms for global BFSI clients. Proven track record leading multi-team engineering organisations, driving <strong>Workday platform uploads, WCAG 2.1/2.2 accessibility compliance, and micro-frontend migrations</strong> — translating complex technical strategies into clear, executive-ready narratives. Expert in <strong>React, Next.js, TypeScript</strong>, and <strong>Generative AI workflows</strong> (Devin AI, GitHub Copilot), with a strong bias for data-driven decisions and fast iteration.
+</div>
+
+## Leadership & Delivery Impact
+
+- **Directed 2+ cross-functional engineering teams** across Products, Platforms, and bundles — delivering internal and market-facing applications end-to-end.
+- **Reduced deployment cycle time by 30%** through streamlined CI/CD practices and engineering workflow optimisation.
+- **Cut production incidents by 25%** by instituting automated testing frameworks, rigorous code-review standards, and performance monitoring dashboards.
+- **Maintained team attrition below 8%** via structured 1:1s, personalised career development plans, and proactive risk management.
+- **Recruited and onboarded top-tier talent**, consistently elevating team bar by selecting candidates stronger than the median incumbent.
+- **Managed budgets, forecasting, and cost allocation** while meeting business demands and continuously optimising spend.
+- **Championed engineering communities of practice (Guilds/Programs)** to drive pattern reuse, library standardisation, and knowledge transfer across squads.
+- **Facilitated Workday platform uploads and HRIS integrations**, ensuring seamless employee data workflows with zero business disruption.
+
+## Core Competencies
+
+<table class="comp-table">
+  <tr><td>Architecture</td><td>Micro-frontends, SDK Development (npm/Yarn Workspaces), System Design, Reference Architecture (Poison Pill, Self-Healing), Design Patterns (MVC, DI)</td></tr>
+  <tr><td>Engineering</td><td>Root Cause Analysis (RCA), Performance Engineering, State Management (Redux/Zustand), CSS Systems (Tailwind/SCSS/LESS), Build Tools (Webpack/Vite/Babel)</td></tr>
+  <tr><td>Leadership</td><td>Agile/Scrum (CSM), SDLC Optimisation, Stakeholder Translation, Data-Driven Optimisation, Budget Management, Talent Acquisition</td></tr>
+  <tr><td>Tech Stack</td><td>React, Next.js, TypeScript, JavaScript ES6+, Generative AI, Headless AEM, Docker, CI/CD Pipelines</td></tr>
+  <tr><td>AI & Tools</td><td><span class="ai-badge">Devin AI</span> <span class="ai-badge">GitHub Copilot</span> <span class="ai-badge">Claude</span> <span class="ai-badge">OpenAI</span> <span class="ai-badge">LangChain</span> <span class="ai-badge">Antigravity</span> &nbsp; Figma, Adobe XD, Adobe Photoshop</td></tr>
+  <tr><td>GitHub & DevOps</td><td><span class="gh-badge">GitHub Actions</span> <span class="gh-badge">Advanced Security</span> <span class="gh-badge">GitHub Projects</span> <span class="gh-badge">Dependabot</span> <span class="gh-badge">Code Scanning</span> &nbsp; Branch Protection, PR Workflows, GitHub Packages</td></tr>
+</table>
+
+## Key Achievements
+
+<div class="achievement-grid">
+  <div class="achievement-card">
+    <div class="achievement-stat">50%</div>
+    <div class="achievement-desc"><strong>Frontend performance gain</strong> via Core Web Vitals engineering, lazy loading & bundle splitting across high-traffic BFSI platforms.</div>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement-stat">100%</div>
+    <div class="achievement-desc"><strong>WCAG 2.1/2.2 AA compliance</strong> across all customer-facing apps — axe-core + Lighthouse CI pipelines + NVDA screen-reader audits.</div>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement-stat">60%</div>
+    <div class="achievement-desc"><strong>Less post-deployment remediation cost</strong> by embedding accessibility & security checks from day one of the dev lifecycle.</div>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement-stat">40%</div>
+    <div class="achievement-desc"><strong>Lower integration complexity</strong> through unified UI/API/iframe architecture patterns across multiple enterprise platforms.</div>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement-stat">~35%</div>
+    <div class="achievement-desc"><strong>Engineering effort saved</strong> by pioneering <strong>Devin AI</strong> as an autonomous coding agent for boilerplate, test scaffolding, and migrations.</div>
+  </div>
+  <div class="achievement-card">
+    <div class="achievement-stat">40%</div>
+    <div class="achievement-desc"><strong>Faster PR velocity</strong> by standardising <strong>GitHub Copilot</strong> across the squad — reducing documentation burden and context-switching.</div>
+  </div>
+</div>
+
+- **Established GitHub-native DevOps workflows** — GitHub Actions CI/CD, GitHub Advanced Security (SAST/dependency scanning), Dependabot auto-patching, and GitHub Projects Agile boards.
+- **Built StateGuard.js** — a specialised JS utility preventing DOM attribute tampering via DevTools, adopted for client-side integrity in BFSI applications.
+- **Evangelised Reference Architecture principles** (self-healing, auto-scaling, poison-pill patterns) across engineering squads, reducing systemic failures.
+
+## Professional Experience
+
+<div class="job-card">
+  <div class="job-meta">
+    <div>
+      <div class="job-company">Citicorp Services India Pvt. Ltd. <span class="job-location">— Pune, India</span></div>
+      <div class="job-title-row">Assistant Vice President — Frontend Architecture & Engineering Leadership <span class="job-dates">May 2013 – Present</span></div>
+    </div>
+  </div>
+  <ul>
+    <li><strong>Led legacy BFSI platform migration</strong> to Micro-frontend architectures, maintaining 100% business continuity throughout the multi-phase transition.</li>
+    <li><strong>Architected enterprise UI/API/iframe integrations</strong> across multiple platforms, cutting integration complexity by 40% and accelerating feature delivery.</li>
+    <li><strong>Delivered 50% faster application load times</strong> using React.js, Next.js, TypeScript, and performance engineering best practices.</li>
+    <li><strong>Spearheaded Workday platform data uploads</strong> and HRIS configuration — coordinating cross-team workflows and validating data integrity at scale.</li>
+    <li><strong>Championed Devin AI & GitHub Copilot adoption</strong> across engineering squads, reducing boilerplate effort by ~35% and setting the standard for AI-augmented development in the organisation.</li>
+    <li><strong>Architected GitHub-first DevOps practices</strong> — GitHub Actions pipelines, Advanced Security scanning, Dependabot auto-remediation, and GitHub Projects Agile boards replacing legacy toolchains.</li>
+    <li><strong>Established enterprise-wide Section 508 / ADA compliance programme</strong> — automated testing, accessibility checklists, training, and code-review gates across all squads.</li>
+    <li><strong>Managed End-of-Vendor-Support (EOVS/EOL) transitions</strong> with zero business disruption — strategic migration roadmaps and coordinated cross-functional stakeholders.</li>
+    <li><strong>Partnered with UX, Backend, and Product leaders</strong> to align technical deliverables with business objectives and ensure on-time shipping of critical features.</li>
+  </ul>
+</div>
+
+<div class="job-card">
+  <div class="job-meta">
+    <div>
+      <div class="job-company">Sapient <span class="job-location">— Bangalore, India</span></div>
+      <div class="job-title-row">Senior Interactive Developer <span class="job-dates">Mar 2013 – May 2013</span></div>
+    </div>
+  </div>
+  <ul>
+    <li><strong>Built high-performance responsive UIs</strong> for retail clients using HTML5 and Adobe Experience Manager (AEM / Adobe CQ).</li>
+  </ul>
+</div>
+
+<div class="job-card">
+  <div class="job-meta">
+    <div>
+      <div class="job-company">Cognizant Technology Solutions <span class="job-location">— Hyderabad, India</span></div>
+      <div class="job-title-row">Senior Consultant – CRM UI <span class="job-dates">Dec 2010 – Feb 2013</span></div>
+    </div>
+  </div>
+  <ul>
+    <li><strong>Engineered enterprise mobile CRM solutions</strong> with Siebel CRM, targeting Chrome and mobile — improving field-force productivity.</li>
+    <li><strong>Developed Oracle CRM API SOAP integrations</strong> and led usability testing, competitive analysis, and heuristic evaluations.</li>
+  </ul>
+</div>
+
+<div class="job-card">
+  <div class="job-meta">
+    <div>
+      <div class="job-company">Impetus Infotech India Pvt. Ltd. <span class="job-location">— India</span></div>
+      <div class="job-title-row">Module Lead – UI Developer <span class="job-dates">Jun 2007 – Dec 2010</span></div>
+    </div>
+  </div>
+  <ul>
+    <li><strong>Led UI development for enterprise applications</strong>, collaborating with senior leadership to drive product decisions and usability improvements.</li>
+  </ul>
+</div>
+
+<div class="job-card">
+  <div class="job-meta">
+    <div>
+      <div class="job-company">Gatesix Technologies India Pvt. Ltd. <span class="job-location">— India</span></div>
+      <div class="job-title-row">Lead Web Specialist <span class="job-dates">Aug 2004 – Jun 2007</span></div>
+    </div>
+  </div>
+  <ul>
+    <li><strong>Defined design, development, and SEO strategies</strong> and W3C standards, shaping front-end engineering culture from the ground up.</li>
+  </ul>
+</div>
+
+<div class="job-card">
+  <div class="job-meta">
+    <div>
+      <div class="job-company">Pinnacle Technosys <span class="job-location">— India</span></div>
+      <div class="job-title-row">Sr. Web Designer <span class="job-dates">May 2003 – Jul 2004</span></div>
+    </div>
+  </div>
+  <ul>
+    <li><strong>Designed and launched web applications</strong> to W3C standards while conducting R&D on emerging web technologies.</li>
+  </ul>
+</div>
+
+## Featured Projects & Innovations
+
+<div class="project-card">
+  <div class="project-name">🛡 <a href="https://www.csp-headers.in" target="_blank">CSP Headers Utility — csp-headers.in</a></div>
+  <div class="project-desc">AI-powered security tool (Google Gemini + Cloud Run) that automates generation of enterprise-grade Content Security Policy headers. Reduces manual security configuration and enforces OWASP best practices.</div>
+</div>
+
+<div class="project-card">
+  <div class="project-name">🔒 <a href="https://rmsuthar.github.io/StateGuard/" target="_blank">StateGuard.js</a></div>
+  <div class="project-desc">Specialised JS utility locking DOM attributes to prevent DevTools tampering — adopted for client-side state integrity in BFSI applications. Demonstrates deep browser security and runtime protection expertise.</div>
+</div>
+
+<div class="project-card">
+  <div class="project-name">📦 <a href="https://www.jsonsvn.in" target="_blank">JSON SVN — jsonsvn.in</a></div>
+  <div class="project-desc">API-first configuration service delivering Git-like versioning and smart deltas for enterprise JSON configs — enabling auditable, rollback-capable configuration management without a full VCS setup.</div>
+</div>
+
+<div style="margin-top:0.7rem; font-size:0.88rem; color:var(--text-muted);">
+  More projects at <a href="https://rmsuthar.github.io/tools" target="_blank">rmsuthar.github.io/tools</a>
+</div>
+
+## Education & Certifications
+
+<div class="cert-row"><span class="cert-label">Post Graduate Diploma in Information Technology</span><span class="cert-meta">Sikkim Manipal University &nbsp;·&nbsp; 1999–2001</span></div>
+<div class="cert-row"><span class="cert-label">Higher Diploma in Software Engineering (HDSE)</span><span class="cert-meta">Aptech Computer Education &nbsp;·&nbsp; 1999–2001</span></div>
+<div class="cert-row"><span class="cert-label">Bachelor of Science — Chemistry & Mathematics</span><span class="cert-meta">Gujarat University &nbsp;·&nbsp; 1996–1999</span></div>
+<div class="cert-row" style="border-bottom:none; padding-top:0.8rem;">
+  <span class="cert-label">
+    <span class="skill-badge">Certified ScrumMaster (CSM)</span>
+    <span class="skill-badge">AWS Cloud Practitioner</span>
+    <span class="skill-badge">Google Analytics</span>
+    <span class="skill-badge">IBM Design Thinking</span>
+  </span>
+</div>
+
+## ATS Keywords
+
+<div style="margin:0.5rem 0 1rem;">
+  <span class="skill-badge">React</span><span class="skill-badge">Next.js</span><span class="skill-badge">TypeScript</span><span class="skill-badge">JavaScript ES6+</span><span class="skill-badge">Micro-frontends</span><span class="skill-badge">UI SDKs</span><span class="skill-badge">Frontend Architecture</span><span class="skill-badge">Web Performance</span><span class="skill-badge">Core Web Vitals</span><span class="skill-badge">Accessibility (WCAG/ADA)</span><span class="skill-badge">Web Security (CSP/OWASP)</span><span class="skill-badge">Generative AI</span><span class="skill-badge">Devin AI</span><span class="skill-badge">GitHub Copilot</span><span class="skill-badge">GitHub Actions</span><span class="skill-badge">GitHub Advanced Security</span><span class="skill-badge">GitHub Projects</span><span class="skill-badge">Dependabot</span><span class="skill-badge">Root Cause Analysis</span><span class="skill-badge">Data-Driven Optimisation</span><span class="skill-badge">Redux / Zustand</span><span class="skill-badge">Tailwind / SCSS</span><span class="skill-badge">Webpack / Vite</span><span class="skill-badge">Monorepo (Yarn/Lerna)</span><span class="skill-badge">Adobe AEM</span><span class="skill-badge">Docker & Kubernetes</span><span class="skill-badge">CI/CD Pipelines</span><span class="skill-badge">Cypress / RTL</span><span class="skill-badge">Agile / Scrum (CSM)</span><span class="skill-badge">SDLC Optimisation</span><span class="skill-badge">Workday</span><span class="skill-badge">HRIS Integration</span><span class="skill-badge">StateGuard.js</span><span class="skill-badge">API Design (REST/postMessage)</span><span class="skill-badge">Figma</span><span class="skill-badge">DevOps</span><span class="skill-badge">Release Management</span><span class="skill-badge">Observability</span><span class="skill-badge">Engineering Leadership</span><span class="skill-badge">Team Management</span><span class="skill-badge">Coaching & Mentorship</span><span class="skill-badge">Talent Acquisition</span><span class="skill-badge">Cross-functional Leadership</span>
+</div>
+
+<div class="resume-footer">
+  © Ravindrakumar M. Suthar &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/ravindrasuthar/" target="_blank">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://rmsuthar.github.io/tools" target="_blank">Projects</a> &nbsp;·&nbsp;
+  <a href="https://rmsuthar.github.io/ravindra/blog" target="_blank">Blog</a>
+</div>
