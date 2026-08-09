@@ -357,15 +357,16 @@ tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHu
   .achievement-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 0.9rem;
-    margin: 0.5rem 0;
+    gap: 1.1rem;
+    margin: 0.75rem 0;
   }
   .achievement-card {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1rem 1.1rem;
+    padding: 1.4rem 1.4rem;
     transition: border-color 0.2s;
+    min-height: 170px;
   }
   .achievement-card:hover { border-color: var(--blue-dim); }
   .achievement-stat {
@@ -377,7 +378,7 @@ tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHu
   .achievement-desc {
     font-size: 0.83rem;
     color: var(--text-muted);
-    margin-top: 0.3rem;
+    margin-top: 0.6rem;
     line-height: 1.5;
   }
   .achievement-desc strong { color: var(--text); }
