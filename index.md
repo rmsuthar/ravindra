@@ -214,6 +214,7 @@ tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHu
     border-collapse: collapse;
     margin: 1rem 0;
     font-size: 0.95rem;
+    background: transparent;
   }
   .comp-table tr { border-bottom: 1px solid var(--border); }
   .comp-table tr:last-child { border-bottom: none; }
@@ -221,7 +222,7 @@ tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHu
     padding: 1rem 1rem;
     vertical-align: top;
     border: none;
-    background: none !important;
+    background: transparent !important;
   }
   .comp-table td:first-child {
     font-weight: 700;
