@@ -212,13 +212,13 @@ tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHu
   .comp-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 0.5rem 0;
-    font-size: 0.9rem;
+    margin: 1rem 0;
+    font-size: 0.95rem;
   }
   .comp-table tr { border-bottom: 1px solid var(--border); }
   .comp-table tr:last-child { border-bottom: none; }
   .comp-table td {
-    padding: 0.6rem 0.8rem;
+    padding: 1rem 1rem;
     vertical-align: top;
     border: none;
     background: none !important;
@@ -227,10 +227,13 @@ tags: [Frontend Architecture, React, Next.js, TypeScript, Micro-frontends, GitHu
     font-weight: 700;
     color: var(--text);
     white-space: nowrap;
-    width: 160px;
+    width: 180px;
     padding-left: 0;
   }
-  .comp-table td:last-child { color: var(--text-muted); }
+  .comp-table td:last-child {
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
 
   /* ── AI TOOLS HIGHLIGHT ─────────────────────────── */
   .ai-badge {
