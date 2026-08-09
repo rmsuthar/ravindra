@@ -630,18 +630,13 @@ Product Engineering Leader and Frontend Architect with <strong>17+ years</strong
 ## Featured Projects & Innovations
 
 <div class="project-card">
-  <div class="project-name">🛡 <a href="https://www.csp-headers.in" target="_blank">CSP Headers Utility — csp-headers.in</a></div>
-  <div class="project-desc">AI-powered security tool (Google Gemini + Cloud Run) that automates generation of enterprise-grade Content Security Policy headers. Reduces manual security configuration and enforces OWASP best practices.</div>
-</div>
-
-<div class="project-card">
-  <div class="project-name">🔒 <a href="https://rmsuthar.github.io/StateGuard/" target="_blank">StateGuard.js</a></div>
+  <div class="project-name">� <a href="https://rmsuthar.github.io/StateGuard/" target="_blank">StateGuard.js</a></div>
   <div class="project-desc">Specialised JS utility locking DOM attributes to prevent DevTools tampering — adopted for client-side state integrity in BFSI applications. Demonstrates deep browser security and runtime protection expertise.</div>
 </div>
 
 <div class="project-card">
-  <div class="project-name">📦 <a href="https://www.jsonsvn.in" target="_blank">JSON SVN — jsonsvn.in</a></div>
-  <div class="project-desc">API-first configuration service delivering Git-like versioning and smart deltas for enterprise JSON configs — enabling auditable, rollback-capable configuration management without a full VCS setup.</div>
+  <div class="project-name">🌍 <a href="https://gateway.lets.gen.in/" target="_blank">Global Edge Sandbox & Multi-Region LB Inspector</a></div>
+  <div class="project-desc">Built an edge-computing proxy platform on Cloudflare Workers that simulates web application access from 12 global PoP locations (US, Europe, Asia, Middle East, South America). Includes multi-region load balancer inspection, framebuster neutralization, biometric WebAuthn auth, and a WCAG AAA accessible theme system with automated cURL CLI generation.</div>
 </div>
 
 <div style="margin-top:0.7rem; font-size:0.88rem; color:var(--text-muted);">
